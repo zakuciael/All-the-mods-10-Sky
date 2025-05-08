@@ -52,11 +52,6 @@ ServerEvents.recipes(allthemods => {
         ]
     )
 
-// Remove all recipes where output has the Wool tag://
-
-allthemods.remove({ output: '#kubejs:olyremovedit'})
-allthemods.remove({ input: '#kubejs:olyremovedit'})
-
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
