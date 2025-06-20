@@ -151,7 +151,10 @@ ServerEvents.tags('item', allthemods => {
     'mysticalagriculture:spirited_crystal_seeds', 
     'mysticalagriculture:uraninite_seeds',
     'mysticalagriculture:nitro_crystal_seeds',
-    'exmachinis:netherite_upgrade'
+    'exmachinis:netherite_upgrade',
+    'geore:budding_tungsten',
+    'geore:budding_monazite',
+    'mekanismgenerators:gas_burning_generator'
  ])
 
 });

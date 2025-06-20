@@ -20,6 +20,22 @@ ServerEvents.tags('block', allthemods => {
     '#c:storage_blocks/water_essence'
   ])
 
+  allthemods.remove('c:relocation_not_supported', [
+    'geore:budding_diamond',
+    'geore:budding_gold',
+    'geore:budding_iron',
+    'geore:budding_copper',
+    'geore:budding_redstone',
+    'geore:budding_lapis',
+    'geore:budding_coal',
+    'geore:budding_quartz',
+    'geore:budding_ruby',
+    'geore:budding_emerald',
+    'geore:budding_sapphire',
+    'geore:budding_zinc',
+    'geore:budding_topaz'
+  ])
+
   //Entangled
   allthemods.add('entangled:invalid_targets',
       ['@ae2', '@advancedae', '@extendedae', '@megacells', '@appmek']
@@ -97,5 +113,5 @@ ServerEvents.tags('entity_type', allthemods => {
 
 });
 
-// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10 To The Sky.
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

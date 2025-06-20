@@ -13,7 +13,7 @@ ars_elemental:cascading_forest
 ars_elemental:flashing_forest
 ars_elemental:flourishing_forest
 ars_nouveau:archwood_forest
-hyperbox:hyperbox
+compactmachines:machine
 integrateddynamics:meneglin
 minecraft:badlands
 minecraft:bamboo_jungle
