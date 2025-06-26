@@ -48,6 +48,12 @@ ServerEvents.tags('item', allthemods => {
   allthemods.add('c:ingots/yellorium', 'alltheores:uranium_ingot' )
   allthemods.add('c:storage_blocks/yellorium', 'alltheores:uranium_block' )
    
+  // water buckets
+  allthemods.add('c:buckets/water', 'exdeorum:porcelain_water_bucket')
+
+  // lava buckets
+  allthemods.add('c:buckets/lava', 'exdeorum:porcelain_lava_bucket')       
+
   // Tiny Coal
   allthemods.add('atm10:tiny_coals', [
     'utilitarian:tiny_coal',
