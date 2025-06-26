@@ -26,6 +26,22 @@
       "west": [],
       "north": [],
       "east": []
+    },
+    "simple_life": {
+      "south": [],
+      "west": [
+        [ 23, 9, 17 ]
+      ],
+      "north": [],
+      "east": []
+    },
+    "witch_cottage": {
+      "south": [],
+      "west": [],
+      "north": [
+        [ 21, 10, 26 ]
+      ],
+      "east": []
     }
   },
   
@@ -49,31 +65,36 @@
   // A list of blocks which can be used to surround islands/caves.
   // You may also directly use these in the template config, or use a reference created here.
   "surroundingBlockReferences": {
-    "default": {}
+    "default": {
+      "margin": 1
+    }
   },
   
   // The list of templates being available. The first entry is the default template.
   "templateList": [
     {
-      "name": "simple life",
-      "file": "simple_life.snbt",
-      "spawns": "default",
-      "surroundingBlocks": "default",
-      "spreads": "default"
+      "name": "simple_life",
+      "file": "simple_life.nbt",
+      "spawns": {
+        "south": [],
+        "west": [
+          [ 23, 9, 17 ]
+        ],
+        "north": [],
+        "east": []
+      }
     },
     {
-      "name": "asteroid mishap",
-      "file": "asteroid_mishap.snbt",
-      "spawns": "default",
-      "surroundingBlocks": "default",
-      "spreads": "default"
-    },
-    {
-      "name": "witch cottage",
-      "file": "witch_cottage.snbt",
-      "spawns": "default",
-      "surroundingBlocks": "default",
-      "spreads": "default"
+      "name": "witch_cottage",
+      "file": "witch_cottage.nbt",
+      "spawns": {
+        "south": [],
+        "west": [],
+        "north": [
+          [ 21, 10, 26 ]
+        ],
+        "east": []
+      }
     }
   ]
 }

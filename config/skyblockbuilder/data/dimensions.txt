@@ -1,9 +1,9 @@
 minecraft:overworld
-allthemodium:the_beyond
 compactmachines:compact_world
+irons_spellbooks:pocket_dimension
 allthemodium:mining
-minecraft:the_nether
 allthemodium:the_other
 minecraft:the_end
-irons_spellbooks:pocket_dimension
+minecraft:the_nether
+allthemodium:the_beyond
 ae2:spatial_storage
