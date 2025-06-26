@@ -44,4 +44,5 @@ addCasting('allthecompressed:red_sand_1x', true, 900, 'c:molten_quartz', 1, 'geo
 addCasting('allthecompressed:sand_1x', true, 900, 'c:molten_ruby', 1, 'geore:ruby')
 addCasting('allthecompressed:sand_1x', true, 900, 'c:molten_sapphire', 1, 'geore:budding_sapphire')
 addCasting('allthecompressed:sand_1x', true, 900, 'c:molten_topaz', 1, 'geore:budding_topaz')
+addCasting('allthecompressed:sand_1x', true, 900, 'c:molten_amethyst', 1, 'minecraft:budding_amethyst')
 })
