@@ -154,7 +154,18 @@ ServerEvents.tags('item', allthemods => {
     'exmachinis:netherite_upgrade',
     'geore:budding_tungsten',
     'geore:budding_monazite',
-    'mekanismgenerators:gas_burning_generator'
+    'mekanismgenerators:gas_burning_generator',
+    'generatorgalore:copper_generator_8x', 
+    'generatorgalore:copper_generator', 
+    'generatorgalore:diamond_generator_8x', 
+    'generatorgalore:diamond_generator', 
+    'generatorgalore:emerald_generator_8x', 
+    'generatorgalore:emerald_generator', 
+    'generatorgalore:gold_generator_8x', 
+    'generatorgalore:gold_generator', 
+    'generatorgalore:obsidian_generator_8x', 
+    'generatorgalore:obsidian_generator',
+    'extendedcrafting:nether_star_block'
  ])
 
 });
@@ -162,6 +173,8 @@ ServerEvents.tags('item', allthemods => {
 ServerEvents.recipes(allthemods => {
 allthemods.remove({ output: '#kubejs:olyremovedit'})
 allthemods.remove({ input: '#kubejs:olyremovedit'})
+allthemods.remove({ output: /exdeorum:.*_compressed_sieve/})
+allthemods.remove({ output: /generatorgalore:.*_upgrade/})
 });
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.

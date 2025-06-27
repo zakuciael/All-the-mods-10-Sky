@@ -12,7 +12,8 @@ RecipeViewerEvents.removeEntries('item', allthemods =>{
   allthemods.remove('allthetweaks:greg_star_block')
   allthemods.remove(/geore:.*_bud/)
   allthemods.remove(/geore:.*_spyglass/)
-
+  allthemods.remove(/exdeorum:.*_compressed_sieve/)
+  allthemods.remove(/generatorgalore:.*_upgrade/)
   
   for(let i=1; i < 10; i++){
       allthemods.remove(`allthecompressed:greg_star_block_${i}x`)}
