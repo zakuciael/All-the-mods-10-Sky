@@ -93,7 +93,7 @@ ServerEvents.tags('item', allthemods => {
   allthemods.add('minecraft:bookshelf_books', 'ars_elemental:anima_caster_tome')
   allthemods.add('minecraft:bookshelf_books', 'ars_elemental:manipulation_caster_tome')
 
-  allthemods.remove('tombstone:seeds', 'mysticalagriculture:seeds')
+  allthemods.remove('tombstone:seeds', '#mysticalagriculture:seeds')
   allthemods.remove('c:seeds', '#mysticalagriculture:seeds')
 })
 
