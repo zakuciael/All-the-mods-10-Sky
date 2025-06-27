@@ -118,6 +118,18 @@ ServerEvents.recipes(event => {
         )
     }
 
+    [
+        { item: 'create:veridium', chance: 0.06 },
+        { item: 'create:crimsite', chance: 0.06  },
+        { item: 'create:asurine', chance: 0.06  },
+        { item: 'xycraft_world:kivi', chance: 0.04 }
+    ].forEach(entry => {
+        addSifting(Gravel, IronMesh, entry.item, 1, entry.chance)
+        addSifting(Gravel, GoldMesh, entry.item, 1, entry.chance + 0.01)
+        addSifting(Gravel, DiamondMesh, entry.item, 1, entry.chance + 0.02)
+        addSifting(Gravel, NetheriteMesh, entry.item, 1, entry.chance + 0.03)
+    })
+
 
 //Arcane Crystal sieve
 addSifting(Dust, IronMesh, 'forbidden_arcanus:arcane_crystal', 1, 0.05)

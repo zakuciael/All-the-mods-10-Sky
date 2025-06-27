@@ -5,6 +5,53 @@ const $DyeColor = Java.tryLoadClass('net.minecraft.world.item.DyeColor')
 
 ServerEvents.recipes(allthemods => {
 
+    /**
+     * @readonly
+     * @enum {string}
+     */
+    const Press = {
+        SILICON:      'ae2:silicon_press',
+        CALCULATION:  'ae2:calculation_processor_press',
+        ENGINEERING:  'ae2:engineering_processor_press',
+        LOGIC:        'ae2:logic_processor_press',
+        QUANTUM:      'advanced_ae:quantum_processor_press',
+    };
+
+    /**
+     * @param {{top?: string, middle?: string, bottom?: string}} slots
+     * @param {string} output
+     * @param {string} [customId]
+     */
+    function inscriber({ top, middle, bottom }, output, customId) {
+        const ingredients = {};
+        if (top)    ingredients.top    = Ingredient.of(top);
+        if (middle) ingredients.middle = Ingredient.of(middle);
+        if (bottom) ingredients.bottom = Ingredient.of(bottom);
+
+        const outName   = output.split(':')[1];
+        const pressName = top && Object.values(Press).includes(top)
+            ? top.split(':')[1]
+            : null;
+
+        const idPath = customId ? customId : pressName
+            ? `allthemods:inscriber/${pressName}/${outName}`
+            : `allthemods:inscriber/${outName}`;
+
+        allthemods.custom({
+            type: 'ae2:inscriber',
+            mode: 'inscribe',
+            ingredients: ingredients,
+            result: {
+                id: output
+            }
+        }).id(idPath);
+    }
+
+    inscriber({ top: "#c:dusts/sky_stone" , middle: '#c:silicon',             bottom: '#c:plates/iron'}, Press.SILICON);
+    inscriber({ top: "#c:dusts/sky_stone" , middle: '#c:ingots/gold',         bottom: '#c:plates/iron'}, Press.LOGIC);
+    inscriber({ top: "#c:dusts/sky_stone" , middle: '#c:gems/certus_quartz',  bottom: '#c:plates/iron'}, Press.CALCULATION);
+    inscriber({ top: "#c:dusts/sky_stone" , middle: '#c:gems/diamond',        bottom: '#c:plates/iron'}, Press.ENGINEERING);
+
     $DyeColor.values().map(dc => dc.getName()).forEach(color => {
         allthemods.shapeless(`4x ae2:${color}_covered_cable`,    [`ae2:${color}_covered_dense_cable`]).id(`allthemods:ae2/${color}_dense_covered_to_normal`);
         allthemods.shapeless(`4x ae2:${color}_smart_cable`,      [`ae2:${color}_smart_dense_cable`])  .id(`allthemods:ae2/${color}_smart_covered_to_normal`);

@@ -75,6 +75,14 @@ ItemEvents.modifyTooltips(allthemods => {
         Text.of("§cDisabled for Fake Player"),
         Text.of("§c(Blocks like Modular Routers, Clickers, etc)")
     ])
+
+    allthemods.add('create:limestone', [
+        Text.of('Make a Lava Source Block flow on top of Create Honey').gray()
+    ])
+
+    allthemods.add('create:scoria', [
+        Text.of('Make a Lava Source Block flow on top of Create Chocolate').gray()
+    ])
 })
 
 
