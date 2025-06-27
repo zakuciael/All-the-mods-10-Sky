@@ -95,6 +95,18 @@
         ],
         "east": []
       }
+    },
+    {
+      "name": "default",
+      "file": "default.nbt",
+      "spawns": {
+        "south": [
+          [ 6, 3, 5 ]
+        ],
+        "west": [],
+        "north": [],
+        "east": []
+      }
     }
   ]
 }
