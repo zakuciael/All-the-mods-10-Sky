@@ -95,6 +95,8 @@ ServerEvents.tags('item', allthemods => {
 
   allthemods.remove('tombstone:seeds', '#mysticalagriculture:seeds')
   allthemods.remove('c:seeds', '#mysticalagriculture:seeds')
+
+  allthemods.add('chisel_chipped_integration:gems/diamond', 'minecraft:diamond_block')
 })
 
 ServerEvents.tags('entity_type', allthemods => {
