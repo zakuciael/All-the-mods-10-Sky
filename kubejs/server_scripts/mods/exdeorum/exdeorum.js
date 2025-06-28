@@ -47,8 +47,11 @@ ServerEvents.recipes(allthemods => {
         allthemods.custom({
             type: 'exdeorum:sieve',
             ingredient: { item: input },
-            mesh: mesh,
-            result: result,
+            mesh: { item: mesh },
+            result: {
+                id: result,
+                count:  1,
+            },
             result_amount: {
                 type: 'minecraft:binomial',
                 n: amount || 1,
@@ -57,53 +60,64 @@ ServerEvents.recipes(allthemods => {
         }).id(`allthemods:exdeorum/sieve/${mesh.split(':')[1]}/${result.split(':')[1]}`);
     }
 
+    // sieving(Materials.Gravel, Meshes.NETHERITE, 'minecraft:bedrock', 1, 0.01)
+
     /**
      * @param {string} input
      * @param {string} result
-     * @param {number} [amount]
      */
-    function hammer(input, result, amount) {
+    function hammer(input, result) {
         allthemods.custom({
             type: 'exdeorum:hammer',
-            ingredient: [{ item: input }],
-            result: result,
-            result_amount: amount || 1.0
+            ingredient: [Ingredient.of(input).toJson()],
+            result: Item.of(result).toJson(),
+            result_amount: 1.0
         }).id(`allthemods:exdeorum/hammer/${result.split(':')[1]}`);
     }
 
-    /**
-     * @param {string} fluid
-     * @param {string} input
-     * @param {string} result
-     * @param {number} [fluidAmount]
-     */
-    function barrelMixin(fluid, input, result, fluidAmount) {
-        allthemods.custom({
-            type: 'exdeorum:barrel_mixing',
-            fluid: fluid,
-            fluid_amount: fluidAmount || 1000,
-            ingredient: Ingredient.of(input),
-            result: result
-        }).id(`allthemods:exdeorum/barrel_mixing/item/${fluid.split(':')[1]}/${result.split(':')[1]}`);
-    }
+    // hammer('minecraft:bedrock', 'minecraft:stone')
 
     /**
-     * @param {string}  baseFluid
-     * @param {string}  addFluid
-     * @param {boolean} consumes
-     * @param {string}  result
-     * @param {number}  [baseAmount]
+     * @param {{fluid: string, [amount]: number}} fluid
+     * @param {string} input
+     * @param {string} result
      */
-    function barrelFluidMixing(baseFluid, addFluid, consumes, result, baseAmount) {
+    function barrelMixin(fluid, input, result) {
+        allthemods.custom({
+            type: 'exdeorum:barrel_mixing',
+            fluid: {
+                fluid: fluid.fluid,
+                amount: fluid.amount || 1000
+            },
+            ingredient: Ingredient.of(input).toJson(),
+            result: Item.of(result).toJson(),
+        }).id(`allthemods:exdeorum/barrel_mixing/item/${fluid.fluid.split(':')[1]}/${result.split(':')[1]}`);
+    }
+
+    // barrelMixin({ fluid: 'minecraft:water', amount: 500 }, 'minecraft:bedrock', 'minecraft:stone')
+
+    /**
+     * @param {{fluid: string, [amount]: number}} baseFluid
+     * @param {string} addFluid
+     * @param {item: string} result
+     * @param {boolean} consumes
+     */
+    function barrelFluidMixing(baseFluid, addFluid, result, consumes) {
         allthemods.custom({
             type: 'exdeorum:barrel_fluid_mixing',
-            base_fluid: baseFluid,
-            base_fluid_amount: baseAmount || 1000,
-            additive_fluid: addFluid,
+            additive_fluid: {
+                fluid: addFluid
+            },
+            base_fluid: {
+                fluid: baseFluid.fluid,
+                amount: baseFluid.amount || 1000
+            },
             consumes_additive: consumes,
-            result: result
+            result: Item.of(result).toJson(),
         }).id(`allthemods:exdeorum/barrel_mixing/fluid/${addFluid.split(':')[1]}/${result.split(':')[1]}`);
     }
+
+    // barrelFluidMixing({fluid: 'minecraft:water', amount: 500}, 'minecraft:lava', 'minecraft:stone', true)
 
     /**
      * @param {string} block
@@ -119,16 +133,17 @@ ServerEvents.recipes(allthemods => {
 
     /**
      * @param {string} input
-     * @param {string} fluidName
-     * @param {number} amount
+     * @param {string} fluid
      */
-    function lavaCrucible(input, fluidName, amount) {
+    function lavaCrucible(input, fluid) {
         allthemods.custom({
             type: 'exdeorum:lava_crucible',
-            ingredient: Ingredient.of(input),
-            fluid: { FluidName: fluidName, Amount: amount }
-        }).id(`allthemods:exdeorum/lava_crucible/${fluidName}/${fluidName.split(':')[1]}`);
+            ingredient: Ingredient.of(input).toJson(),
+            fluid: Fluid.of(fluid).toJson(),
+        }).id(`allthemods:exdeorum/lava_crucible/${fluid.split(':')[1]}/${input.split(':')[1]}`);
     }
+
+    // lavaCrucible('minecraft:bedrock', '500x minecraft:water');
 
     // Xycraft Gems
     // addSifting(Dust, FlintMesh, 'xycraft_world:xychorium_gem_blue', 1, 0.04)
@@ -333,6 +348,15 @@ ServerEvents.recipes(allthemods => {
             sieving(Materials.Gravel, entry.mesh, item, entry.amount, entry.chance);
         })
     });
+
+    [
+        { mesh: Meshes.IRON,     amount: 1, chance: 0.08 },
+        { mesh: Meshes.GOLD,     amount: 1, chance: 0.08 },
+        { mesh: Meshes.DIAMOND,  amount: 1, chance: 0.11 },
+        { mesh: Meshes.NETHERITE,amount: 2, chance: 0.11 }
+    ].forEach(entry => {
+        sieving(Materials.Dirt, entry.mesh, 'minecraft:torchflower_seeds', entry.amount, entry.chance);
+    })
 
     sieving(Materials.Sand, Meshes.DIAMOND, 'minecraft:cactus', 1, 0.12)
 
