@@ -334,6 +334,8 @@ ServerEvents.recipes(allthemods => {
         })
     });
 
+    sieving(Materials.Sand, Meshes.DIAMOND, 'minecraft:cactus', 1, 0.12)
+
     // Crucible heating blocks
     // addHeatSource(`alltheores:uranium_block`, 20)
     // addHeatSource(`mekanism:superheating_element`, 60)
