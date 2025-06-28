@@ -99,6 +99,10 @@ ServerEvents.tags('item', allthemods => {
     allthemods.add('chisel_chipped_integration:gems/diamond', 'minecraft:diamond_block')
 })
 
+ServerEvents.tags('fluid', allthemods => {
+    allthemods.add('c:molten_emerald', 'productivemetalworks:molten_emerald')
+})
+
 ServerEvents.tags('entity_type', allthemods => {
 
     allthemods.add('c:bosses', [
