@@ -166,6 +166,7 @@ ServerEvents.tags('item', allthemods => {
         'generatorgalore:obsidian_generator_8x',
         'generatorgalore:obsidian_generator',
         'extendedcrafting:nether_star_block',
+        'extendedcrafting:handheld_table',
         'notenoughwands:acceleration_wand',
         /pickletweaks:.*_paxel/
     ])
