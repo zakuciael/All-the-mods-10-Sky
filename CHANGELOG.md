@@ -1,5 +1,78 @@
 ﻿# Changelog
 
+## Beta 3
+
+### Mods
+
+- Added:
+  - [Crafting on a Stick](https://www.curseforge.com/minecraft/mc-mods/crafting-on-a-stick)
+  - [Euphoria Patches](https://www.curseforge.com/minecraft/mc-mods/euphoria-patches)
+  - [Klee Slabs](https://www.curseforge.com/minecraft/mc-mods/kleeslabs)
+  - [Nolijium](https://www.curseforge.com/minecraft/mc-mods/nolijium)
+  - [Zume](https://www.curseforge.com/minecraft/mc-mods/zume)
+
+- Removed:
+  - [Mod Name Tooltip](https://www.curseforge.com/minecraft/mc-mods/mod-name-tooltip)
+  - [Productive Tree + Mekanism Compatibility](https://www.curseforge.com/minecraft/mc-mods/productive-tree-mekanism-compatibility)
+  - [Simple Discord Rich Presence](https://www.curseforge.com/minecraft/mc-mods/simple-discord-rich-presence)
+
+- Updated:
+  - Ars Elemental (0.7.4.1 -> 0.7.4.3)
+  - Ars Nouveau (5.9.2 -> 5.9.3)
+  - Immersive Engineering (12.4.0-192 -> 12.4.0-193)
+  - Integrated Crafting (1.2.2-331 -> 1.2.2-333)
+  - Integrated Terminals (1.6.14-522 -> 1.6.14-524)
+  - Iron's Spells 'n Spellbooks (3.12.3 -> 3.13.0)
+  - Modonomicon (1.114.2 -> 1.114.4)
+  - Occultism (1.180.0 -> 1.181.0)
+  - Productive Bees (13.7.2 -> 13.7.3)
+  - Productive Metalworks (1.9.4 -> 1.9.5)
+  - Silent Gear (4.0.23 -> 4.0.24)
+
+- DO NOT UPDATE:
+  - Iris Shaders (1.8.8)
+
+### Recipes
+
+- Added:
+  - ExDeorum Sieving:
+    - `minecraft:torchflower_seeds` via **Dirt** in any but **String** & **Flint**
+    - `minecraft:cactus` via **Sand** in **Diamond Meshes**
+
+- Removed:
+  - Crafting:
+    - All `pickletweaks` paxels: Duplicates with Mekanism
+    - `extendedcrafting:handheld_table`: Duplicate with Crafting on a Stick
+
+- Changed:
+  - Crafting:
+    - `crystalix:crystalix_wand`: Duplicate with Construction Sticks
+
+### Tags
+
+- Added: 
+  - `minecraft:diamond_block` to `#chisel_chipped_integration:gems/diamond`: Broken craft from block to diamond
+  - `productivemetalworks:molten_emerald` to `c:molten_emerald`: Missing tag
+
+### Configs
+
+- Better Compatibility Check:
+  - Proper versioning
+
+- Crash Assistant:
+  - Proper names in the crash message
+
+- Cucumber lib:
+  - `tagTooltips = false`: remove duplicate tag tooltips
+
+- FTB Essentials:
+  - Disable /rtp
+
+### Other
+
+- Added GitHub Issue Templates
+- Added Complementary Shaders
+
 ## Beta 2
 
 ### Mods

@@ -52,6 +52,18 @@ ServerEvents.recipes(allthemods => {
         ]
     )
 
+    allthemods.remove({ id: 'crystalix:crystalix_wand' })
+    allthemods.shaped(
+        Item.of('crystalix:crystalix_wand'),
+        [
+            '  D',
+            ' S ',
+        ], {
+            S: '#c:rods/wooden',
+            D: 'minecraft:diamond'
+        }
+    )
+
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
