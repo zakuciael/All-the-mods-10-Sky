@@ -172,7 +172,8 @@ ServerEvents.tags('item', allthemods => {
         'exdeorum:mechanical_sieve',
         'exdeorum:mechanical_hammer',
         /refinedstorage/,
-        /georenouveau:.*_dowsing_rod/
+        /georenouveau:.*_dowsing_rod/,
+        'actuallyadditions:crafter_on_a_stick'
     ])
 
 });
