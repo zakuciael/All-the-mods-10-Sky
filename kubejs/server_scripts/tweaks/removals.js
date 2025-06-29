@@ -171,7 +171,8 @@ ServerEvents.tags('item', allthemods => {
         /pickletweaks:.*_paxel/,
         'exdeorum:mechanical_sieve',
         'exdeorum:mechanical_hammer',
-        /refinedstorage/
+        /refinedstorage/,
+        /georenouveau:.*_dowsing_rod/
     ])
 
 });
