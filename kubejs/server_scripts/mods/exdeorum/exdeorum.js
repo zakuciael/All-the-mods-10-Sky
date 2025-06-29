@@ -1,242 +1,199 @@
-ServerEvents.recipes(event => {
-    //Inputs
-    let Dirt = 'minecraft:dirt'
-    let SoulSand = 'minecraft:soul_sand'
-    let RedSand = 'minecraft:red_sand'
-    let Gravel = 'minecraft:gravel'
-    let Sand = 'minecraft:sand'
-    let Dust = 'exdeorum:dust'
-    let Netherrack = 'exdeorum:crushed_netherrack'
-    let EndStone = 'exdeorum:crushed_end_stone'
-    let Deepslate = 'exdeorum:crushed_deepslate'
-    let Blackstone = 'exdeorum:crushed_blackstone'
-    let Moss = 'minecraft:moss_block'
+ServerEvents.recipes(allthemods => {
 
-    let StringMesh = 'exdeorum:string_mesh'
-    let FlintMesh = 'exdeorum:flint_mesh'
-    let IronMesh = 'exdeorum:iron_mesh'
-    let GoldMesh = 'exdeorum:golden_mesh'
-    let DiamondMesh = 'exdeorum:diamond_mesh'
-    let NetheriteMesh = 'exdeorum:netherite_mesh'
+    /**
+     * @readonly
+     * @enum {string}
+     */
+    const Materials = {
+        Dirt:           'minecraft:dirt',
+        SoulSand:       'minecraft:soul_sand',
+        RedSand:        'minecraft:red_sand',
+        Gravel:         'minecraft:gravel',
+        Sand:           'minecraft:sand',
+        Dust:           'exdeorum:dust',
+        Netherrack:     'exdeorum:crushed_netherrack',
+        EndStone:       'exdeorum:crushed_end_stone',
+        Deepslate:      'exdeorum:crushed_deepslate',
+        Blackstone:     'exdeorum:crushed_blackstone',
+        Moss:           'minecraft:moss_block'
+    };
 
-    // Removal of mesh recipes
-    event.remove( { id: 'exdeorum:flint_mesh' } )
-    event.remove( { id: 'exdeorum:iron_mesh' })
-    event.remove( { id: 'exdeorum:golden_mesh' })
-    event.remove( { id: 'exdeorum:diamond_mesh' })
+    /**
+     * @readonly
+     * @enum {string}
+     */
+    const Meshes = {
+        STRING:   'exdeorum:string_mesh',
+        FLINT:    'exdeorum:flint_mesh',
+        IRON:     'exdeorum:iron_mesh',
+        GOLD:     'exdeorum:golden_mesh',
+        DIAMOND:  'exdeorum:diamond_mesh',
+        NETHERITE:'exdeorum:netherite_mesh'
+    };
 
-    let addSifting = (input, mesh, output, amount, chance) => {
-        event.custom(
-            {
-                type: "exdeorum:sieve",
-                ingredient: {
-                    item: input
-                },
-                mesh: {
-                    item: mesh
-                },
-                result: {
-                    count: 1,
-                    id: output
-                },
-                result_amount: {
-                    type: "minecraft:binomial",
-                    n: amount,
-                    p: chance
-                }
-            }
-        )
-    }
-
-
-    let addHammer = (input, output) => {
-        event.custom(
-            {
-                type: 'exdeorum:hammer',
-                ingredient: [
-                    {
-                        item: input
-                    }
-                ],
-                result: output,
-                result_amount: 1.0
-            }
-        )
-    }
-
-    let addBarrelMixing = (fluid, input, output) => {
-        event.custom(
-            {
-                type: 'exdeorum:barrel_mixing',
-                fluid: fluid,
-                fluid_amount: 1000,
-                ingredient: {
-                    item: input
-                },
-                result: output
-            }
-        )
-    }
-
-    let addBarrelFluidMixing = (base, input, consume, output) => {
-        event.custom(
-            {
-                type: 'exdeorum:barrel_fluid_mixing',
-                additive_fluid: input,
-                base_fluid: base,
-                base_fluid_amount: 1000,
-                consumes_additive: consume,
-                result: output
-            }
-        )
-    }
-
-    let addHeatSource = (block, heat) => {
-        event.custom(
-            {
-                type: 'exdeorum:crucible_heat_source',
-                block_predicate: {
-                    block: block
-                },
-                heat_value: heat
-            }
-        )
-    }
-
-    let addHeatedCrucible = (input, fluid, amount) => {
-        event.custom(
-            {
-                type: 'exdeorum:lava_crucible',
-                fluid: {
-                    Amount: amount,
-                    FluidName: fluid
-                },
-                ingredient: {
-                    item: input
-                }
-            }
-        )
-    }
-
-    [
-        { item: 'create:veridium', chance: 0.06 },
-        { item: 'create:crimsite', chance: 0.06  },
-        { item: 'create:asurine', chance: 0.06  },
-        { item: 'xycraft_world:kivi', chance: 0.04 }
-    ].forEach(entry => {
-        addSifting(Gravel, IronMesh, entry.item, 1, entry.chance)
-        addSifting(Gravel, GoldMesh, entry.item, 1, entry.chance + 0.01)
-        addSifting(Gravel, DiamondMesh, entry.item, 1, entry.chance + 0.02)
-        addSifting(Gravel, NetheriteMesh, entry.item, 1, entry.chance + 0.03)
+    [Meshes.FLINT, Meshes.IRON, Meshes.GOLD, Meshes.DIAMOND].forEach(mesh => {
+        allthemods.remove({id: mesh});
     });
 
+    const sieving = (output, material, config) => {
+        config.forEach(entry => {
+            allthemods.recipes.exdeorum.sieve(Item.of(output), material, entry.mesh, {
+                "type": "minecraft:binomial",
+                "n": entry.amount || 1,
+                "p": entry.chance
+            });
+        });
+    };
+
+    // ===== Gravel =====
+
     [
-        { mesh: IronMesh,     amount: 1, chance: 0.08 },
-        { mesh: GoldMesh,     amount: 1, chance: 0.08 },
-        { mesh: DiamondMesh,  amount: 1, chance: 0.11 },
-        { mesh: NetheriteMesh,amount: 2, chance: 0.11 }
-    ].forEach(entry => {
-        addSifting(Dirt, entry.mesh, 'minecraft:torchflower_seeds', entry.amount, entry.chance);
-    })
-
-    addSifting(Sand, DiamondMesh, 'minecraft:cactus', 1, 0.12)
-
-
-//Arcane Crystal sieve
-    addSifting(Dust, IronMesh, 'forbidden_arcanus:arcane_crystal', 1, 0.05)
-    addSifting(Dust, DiamondMesh, 'forbidden_arcanus:arcane_crystal', 1, 0.06)
-    addSifting(Dust, NetheriteMesh, 'forbidden_arcanus:arcane_crystal', 1, 0.08)
-
-//xycraft from dust
-    addSifting(Dust, FlintMesh, 'xycraft_world:xychorium_gem_blue', 1, 0.04)
-    addSifting(Dust, FlintMesh, 'xycraft_world:xychorium_gem_red', 1, 0.04)
-    addSifting(Dust, FlintMesh, 'xycraft_world:xychorium_gem_green', 1, 0.04)
-    addSifting(Dust, FlintMesh, 'xycraft_world:xychorium_gem_light', 1, 0.04)
-    addSifting(Dust, FlintMesh, 'xycraft_world:xychorium_gem_dark', 1, 0.04)
-
-    addSifting(Dust, IronMesh, 'xycraft_world:xychorium_gem_blue', 1, 0.05)
-    addSifting(Dust, IronMesh, 'xycraft_world:xychorium_gem_red', 1, 0.05)
-    addSifting(Dust, IronMesh, 'xycraft_world:xychorium_gem_green', 1, 0.05)
-    addSifting(Dust, IronMesh, 'xycraft_world:xychorium_gem_light', 1, 0.05)
-    addSifting(Dust, IronMesh, 'xycraft_world:xychorium_gem_dark', 1, 0.05)
-
-    addSifting(Dust, DiamondMesh, 'xycraft_world:xychorium_gem_blue', 1, 0.06)
-    addSifting(Dust, DiamondMesh, 'xycraft_world:xychorium_gem_red', 1, 0.06)
-    addSifting(Dust, DiamondMesh, 'xycraft_world:xychorium_gem_green', 1, 0.06)
-    addSifting(Dust, DiamondMesh, 'xycraft_world:xychorium_gem_light', 1, 0.06)
-    addSifting(Dust, DiamondMesh, 'xycraft_world:xychorium_gem_dark', 1, 0.06)
-
-    addSifting(Dust, NetheriteMesh, 'xycraft_world:xychorium_gem_blue', 1, 0.08)
-    addSifting(Dust, NetheriteMesh, 'xycraft_world:xychorium_gem_red', 1, 0.08)
-    addSifting(Dust, NetheriteMesh, 'xycraft_world:xychorium_gem_green', 1, 0.08)
-    addSifting(Dust, NetheriteMesh, 'xycraft_world:xychorium_gem_light', 1, 0.08)
-    addSifting(Dust, NetheriteMesh, 'xycraft_world:xychorium_gem_dark', 1, 0.08)
-
-//Diamond adjustment
-    event.remove({output: 'minecraft:diamond', type: 'exdeorum:sieve', mod: 'exdeorum'});
-    addSifting(Gravel, IronMesh, 'minecraft:diamond', 1, 0.01)
-    addSifting(Gravel, GoldMesh, 'minecraft:diamond', 1, 0.04)
-    addSifting(Gravel, DiamondMesh, 'minecraft:diamond', 1, 0.06)
-    addSifting(Gravel, NetheriteMesh, 'minecraft:diamond', 2, 0.06)
-
-//Emerald Adjustment
-    event.remove({output: 'minecraft:emerald', type: 'exdeorum:sieve', mod: 'exdeorum'});
-    addSifting(Gravel, IronMesh, 'minecraft:emerald', 1, 0.01)
-    addSifting(Gravel, GoldMesh, 'minecraft:emerald', 1, 0.03)
-    addSifting(Gravel, DiamondMesh, 'minecraft:emerald', 1, 0.04)
-    addSifting(Gravel, NetheriteMesh, 'minecraft:emerald', 2, 0.05)
-
-//salt 'mekanism:salt'
-    addSifting(Dust, IronMesh, 'mekanism:salt', 1, 0.15)
-    addSifting(Dust, DiamondMesh, 'mekanism:salt', 1, 0.15)
-    addSifting(Dust, GoldMesh, 'mekanism:salt', 1, 0.15)
-    addSifting(Dust, NetheriteMesh, 'mekanism:salt', 2, 0.12)
-
-// misc missing ones
-    addSifting(SoulSand, IronMesh, 'mysticalagriculture:prosperity_shard', 1, 0.2)
-    addSifting(SoulSand, DiamondMesh, 'mysticalagriculture:prosperity_shard', 1, 0.2)
-    addSifting(SoulSand, GoldMesh, 'mysticalagriculture:prosperity_shard', 1, 0.2)
-    addSifting(SoulSand, NetheriteMesh, 'mysticalagriculture:prosperity_shard', 2, 0.18)
-    addSifting(Sand, IronMesh, 'mekanism:fluorite_gem', 1, 0.15)
-    addSifting(Sand, DiamondMesh, 'mekanism:fluorite_gem', 1, 0.15)
-    addSifting(Sand, GoldMesh, 'mekanism:fluorite_gem', 1, 0.15)
-    addSifting(Sand, NetheriteMesh, 'mekanism:fluorite_gem', 2, 0.12)
-    addSifting(Sand, IronMesh, 'actuallyadditions:black_quartz', 1, 0.10)
-    addSifting(Sand, DiamondMesh, 'actuallyadditions:black_quartz', 1, 0.11)
-    addSifting(Sand, GoldMesh, 'actuallyadditions:black_quartz', 1, 0.11)
-    addSifting(Sand, NetheriteMesh, 'actuallyadditions:black_quartz', 2, 0.11)
-    addSifting(Sand, DiamondMesh, 'powah:uraninite', 1, 0.05)
-    addSifting(Sand, NetheriteMesh, 'powah:uraninite', 2, 0.06)
-    addSifting(Moss, IronMesh, 'integrateddynamics:menril_sapling', 1, 0.1)
-    addSifting(Moss, GoldMesh, 'integrateddynamics:menril_sapling', 1, 0.1)
-    addSifting(Moss, DiamondMesh, 'integrateddynamics:menril_sapling', 1, 0.1)
-    addSifting(Moss, NetheriteMesh, 'integrateddynamics:menril_sapling', 1, 0.1)
-    addSifting(Moss, IronMesh, 'forbidden_arcanus:growing_edelwood', 1, 0.1)
-    addSifting(Moss, GoldMesh, 'forbidden_arcanus:growing_edelwood', 1, 0.1)
-    addSifting(Moss, DiamondMesh, 'forbidden_arcanus:growing_edelwood', 1, 0.1)
-    addSifting(Moss, NetheriteMesh, 'forbidden_arcanus:growing_edelwood', 1, 0.1)
-    addSifting(Blackstone, DiamondMesh, 'occultism:raw_iesnium', 1, 0.05)
-    addSifting(Blackstone, NetheriteMesh, 'occultism:raw_iesnium', 1, 0.05)
-    addSifting(SoulSand, DiamondMesh, 'mysticalagriculture:soulium_dust', 1, 0.05)
-    addSifting(SoulSand, NetheriteMesh, 'mysticalagriculture:soulium_dust', 1, 0.1)
-    addSifting(Moss, FlintMesh, 'ars_elemental:yellow_archwood_sapling', 1, 0.1)
-    addSifting(Moss, IronMesh, 'ars_elemental:yellow_archwood_sapling', 1, 0.1)
-    addSifting(Moss, GoldMesh, 'ars_elemental:yellow_archwood_sapling', 1, 0.1)
-    addSifting(Moss, DiamondMesh, 'ars_elemental:yellow_archwood_sapling', 1, 0.1)
-    addSifting(Moss, NetheriteMesh, 'ars_elemental:yellow_archwood_sapling', 1, 0.1)
+        'create:veridium',
+        'create:crimsite',
+        'create:asurine',
+        'xycraft_world:kivi'
+    ].forEach(ore => sieving(ore, Materials.Gravel, [
+        { mesh: Meshes.IRON, chance: 0.04 },
+        { mesh: Meshes.GOLD, chance: 0.06 },
+        { mesh: Meshes.DIAMOND, chance: 0.07 },
+        { mesh: Meshes.NETHERITE, chance: 0.08 }
+    ]));
 
 
-//Crucible heating blocks
-    addHeatSource(`alltheores:uranium_block`, 20)
-    addHeatSource(`mekanism:superheating_element`, 60)
+    allthemods.remove({output: 'minecraft:diamond', type: 'exdeorum:sieve', mod: 'exdeorum'});
+    allthemods.remove({output: 'minecraft:emerald', type: 'exdeorum:sieve', mod: 'exdeorum'});
 
-//    addHammer(Deepslate, 'minecraft:stick')
+    sieving('minecraft:diamond', Materials.Gravel, [
+        { mesh: Meshes.IRON, amount: 1, chance: 0.01 },
+        { mesh: Meshes.GOLD, amount: 1, chance: 0.04 },
+        { mesh: Meshes.DIAMOND, amount: 1, chance: 0.06 },
+        { mesh: Meshes.NETHERITE, amount: 2, chance: 0.06 }
+    ]);
 
-//    addBarrelMixing('minecraft:water', 'minecraft:dead_bush', 'minecraft:oak_sapling')
+    sieving('minecraft:emerald', Materials.Gravel, [
+        { mesh: Meshes.IRON, amount: 1, chance: 0.01 },
+        { mesh: Meshes.GOLD, amount: 1, chance: 0.03 },
+        { mesh: Meshes.DIAMOND, amount: 1, chance: 0.04 },
+        { mesh: Meshes.NETHERITE, amount: 2, chance: 0.05 }
+    ]);
 
-//    addBarrelFluidMixing('minecraft:water', 'minecraft:water', false, 'minecraft:stick')
+    // ===== Sand =====
 
-//    addHeatSource(Dust, 69)
+    sieving('minecraft:cactus', Materials.Sand, [
+        { mesh: Meshes.DIAMOND, amount: 1, chance: 0.12 }
+    ]);
 
-//    addHeatedCrucible('minecraft:stick', 'minecraft:milk', 50)
-})
+    sieving('mekanism:fluorite_gem', Materials.Sand, [
+        { mesh: Meshes.IRON, amount: 1, chance: 0.15 },
+        { mesh: Meshes.DIAMOND, amount: 1, chance: 0.15 },
+        { mesh: Meshes.GOLD, amount: 1, chance: 0.15 },
+        { mesh: Meshes.NETHERITE, amount: 2, chance: 0.12 }
+    ]);
+
+    sieving('actuallyadditions:black_quartz', Materials.Sand, [
+        { mesh: Meshes.IRON, amount: 1, chance: 0.10 },
+        { mesh: Meshes.DIAMOND, amount: 1, chance: 0.11 },
+        { mesh: Meshes.GOLD, amount: 1, chance: 0.11 },
+        { mesh: Meshes.NETHERITE, amount: 2, chance: 0.11 }
+    ]);
+
+    sieving('powah:uraninite', Materials.Sand, [
+        { mesh: Meshes.DIAMOND, amount: 1, chance: 0.05 },
+        { mesh: Meshes.NETHERITE, amount: 2, chance: 0.06 }
+    ]);
+
+    // ===== Dust =====
+
+    sieving('forbidden_arcanus:arcane_crystal', Materials.Dust, [
+        { mesh: Meshes.IRON, amount: 1, chance: 0.05 },
+        { mesh: Meshes.GOLD, amount: 1, chance: 0.05 },
+        { mesh: Meshes.DIAMOND, amount: 1, chance: 0.06 },
+        { mesh: Meshes.NETHERITE, amount: 1, chance: 0.08 }
+    ]);
+
+    sieving('alltheores:salt', Materials.Dust, [
+        { mesh: Meshes.IRON, amount: 1, chance: 0.15 },
+        { mesh: Meshes.DIAMOND, amount: 1, chance: 0.15 },
+        { mesh: Meshes.GOLD, amount: 1, chance: 0.15 },
+        { mesh: Meshes.NETHERITE, amount: 2, chance: 0.12 }
+    ]);
+
+    ['blue', 'red', 'green', 'light', 'dark'].forEach(color => {
+        sieving(`xycraft_world:xychorium_gem_${color}`, Materials.Dust, [
+            { mesh: Meshes.FLINT, chance: 0.04 },
+            { mesh: Meshes.IRON, chance: 0.05 },
+            { mesh: Meshes.DIAMOND, chance: 0.06 },
+            { mesh: Meshes.NETHERITE, chance: 0.08 }
+        ]);
+    });
+
+    // ===== Dirt =====
+
+    sieving('minecraft:torchflower_seeds', Materials.Dirt, [
+        { mesh: Meshes.IRON, amount: 1, chance: 0.08 },
+        { mesh: Meshes.GOLD, amount: 1, chance: 0.08 },
+        { mesh: Meshes.DIAMOND, amount: 1, chance: 0.11 },
+        { mesh: Meshes.NETHERITE, amount: 2, chance: 0.11 }
+    ]);
+
+    // ===== Moss =====
+
+    [
+        'integrateddynamics:menril_sapling',
+        'forbidden_arcanus:growing_edelwood',
+        'ars_elemental:yellow_archwood_sapling'
+    ].forEach(sapling => {
+        [Meshes.IRON, Meshes.GOLD, Meshes.DIAMOND].forEach(mesh => {
+            allthemods.recipes.exdeorum.sieve(Item.of(sapling), Materials.Moss, mesh, {
+                "type": "minecraft:binomial",
+                "n": 1,
+                "p": 0.1
+            });
+        });
+    });
+
+    // ===== Soul Sand =====
+
+    sieving('mysticalagriculture:prosperity_shard', Materials.SoulSand, [
+        { mesh: Meshes.IRON, amount: 1, chance: 0.20 },
+        { mesh: Meshes.DIAMOND, amount: 1, chance: 0.20 },
+        { mesh: Meshes.GOLD, amount: 1, chance: 0.20 },
+        { mesh: Meshes.NETHERITE, amount: 2, chance: 0.18 }
+    ]);
+
+    sieving('mysticalagriculture:soulium_dust', Materials.SoulSand, [
+        { mesh: Meshes.DIAMOND, amount: 1, chance: 0.05 },
+        { mesh: Meshes.NETHERITE, amount: 1, chance: 0.10 }
+    ]);
+
+    // ===== Blackstone =====
+
+    sieving('occultism:raw_iesnium', Materials.Blackstone, [
+        { mesh: Meshes.DIAMOND, chance: 0.05 },
+        { mesh: Meshes.NETHERITE, chance: 0.05 }
+    ]);
+
+    // Crucible heating blocks
+    allthemods.recipes.exdeorum.crucible_heat_source({ block_tag: '#c:storage_blocks/uranium' }, 20);
+    allthemods.recipes.exdeorum.crucible_heat_source({ block: 'mekanism:superheating_element' }, 60);
+
+    // Hammer
+    allthemods.remove({ type: 'exdeorum:hammer'})
+    for (let i = 1; i < 10; i++) {
+        allthemods.recipes.exdeorum.compressed_hammer(Item.of(`allthecompressed:gravel_${i}x`), 1, Ingredient.of(`allthecompressed:cobblestone_${i}x`))
+        allthemods.recipes.exdeorum.compressed_hammer(Item.of(`allthecompressed:gravel_${i}x`), 1, Ingredient.of(`allthecompressed:granite_${i}x`))
+        allthemods.recipes.exdeorum.compressed_hammer(Item.of(`allthecompressed:gravel_${i}x`), 1, Ingredient.of(`allthecompressed:andesite_${i}x`))
+        allthemods.recipes.exdeorum.compressed_hammer(Item.of(`allthecompressed:gravel_${i}x`), 1, Ingredient.of(`allthecompressed:diorite_${i}x`))
+        allthemods.recipes.exdeorum.compressed_hammer(Item.of(`allthecompressed:sand_${i}x`), 1, Ingredient.of(`allthecompressed:gravel_${i}x`))
+    }
+
+    for (let i = 1; i < 4; i++) {
+        allthemods.recipes.exdeorum.compressed_hammer(Item.of('exdeorum:crushed_blackstone'), Math.pow(9, i), Ingredient.of(`allthecompressed:blackstone_${i}x`))
+        allthemods.recipes.exdeorum.compressed_hammer(Item.of('exdeorum:crushed_deepslate'), Math.pow(9, i), Ingredient.of(`allthecompressed:deepslate_${i}x`))
+        allthemods.recipes.exdeorum.compressed_hammer(Item.of('exdeorum:crushed_deepslate'), Math.pow(9, i), Ingredient.of(`allthecompressed:cobbled_deepslate_${i}x`))
+        allthemods.recipes.exdeorum.compressed_hammer(Item.of('exdeorum:crushed_netherrack'), Math.pow(9, i), Ingredient.of(`allthecompressed:netherrack_${i}x`))
+        allthemods.recipes.exdeorum.compressed_hammer(Item.of('exdeorum:dust'), Math.pow(9, i), Ingredient.of(`allthecompressed:sand_${i}x`))
+        allthemods.recipes.exdeorum.compressed_hammer(Item.of('exdeorum:dust'), Math.pow(9, i), Ingredient.of(`allthecompressed:red_sand_${i}x`))
+        allthemods.recipes.exdeorum.compressed_hammer(Item.of('exdeorum:crushed_end_stone'), Math.pow(9, i), Ingredient.of(`allthecompressed:end_stone_${i}x`))
+    }
+});
