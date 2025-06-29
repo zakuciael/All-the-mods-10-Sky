@@ -21,22 +21,6 @@ ServerEvents.recipes(allthemods => {
         )
     });
 
-    // Dense Uraninite Ore Energizing Recipes
-    allthemods.remove({ id: 'powah:energizing/uraninite_from_ore' })
-    allthemods.custom({
-        "type": "powah:energizing",
-        "energy": 50000,
-        "ingredients": [
-             {
-                 "tag": "c:ores/uraninite_regular"
-             }
-         ],
-        "result": {
-            "count": 5,
-            "id": "powah:uraninite"
-        }
-    }).id('powah:energizing/uraninite_from_ore')
-
     allthemods.shapeless(
         Item.of('minecraft:potion[potion_contents={potion:"minecraft:water"}]', 1),
         [
