@@ -64,6 +64,20 @@ ServerEvents.recipes(allthemods => {
         }
     )
 
+    allthemods.remove({ id: 'minecraft:netherite_upgrade_smithing_template' })
+    allthemods.shaped(
+        Item.of('minecraft:netherite_upgrade_smithing_template'),
+        [
+            'DTD',
+            'DND',
+            'DDD'
+        ], {
+            D: '#c:gems/diamond',
+            N: '#c:ingots/netherite',
+            T: 'apotheosis:diamond_upgrade_smithing_template'
+        }
+    )
+
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
