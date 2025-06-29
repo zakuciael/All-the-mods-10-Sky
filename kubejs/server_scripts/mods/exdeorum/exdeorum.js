@@ -83,7 +83,7 @@ ServerEvents.recipes(allthemods => {
         { mesh: Meshes.DIAMOND, amount: 1, chance: 0.12 }
     ]);
 
-    sieving('mekanism:fluorite_gem', Materials.Sand, [
+    sieving('alltheores:fluorite', Materials.Sand, [
         { mesh: Meshes.IRON, amount: 1, chance: 0.15 },
         { mesh: Meshes.DIAMOND, amount: 1, chance: 0.15 },
         { mesh: Meshes.GOLD, amount: 1, chance: 0.15 },

@@ -17,7 +17,7 @@ ServerEvents.recipes(allthemods => {
         QUANTUM:      'advanced_ae:quantum_processor_press',
     };
 
-    let press = (input, output) => {
+    function press(input, output) {
         allthemods.recipes.ae2.inscriber(input, output, "press")
             .id(`allthemods:ae2/inscriber/${output.split(':')[1]}`);
     }
