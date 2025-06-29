@@ -41,7 +41,7 @@ ServerEvents.recipes(allthemods => {
                 "type": "minecraft:binomial",
                 "n": entry.amount || 1,
                 "p": entry.chance
-            });
+            }).id(`allthemods:exdeorum/${entry.mesh.split(':')[1]}/${material.split(':')[1]}/${output.split(':')[1]}`);
         });
     };
 
