@@ -178,7 +178,7 @@ ServerEvents.recipes(allthemods => {
     allthemods.recipes.exdeorum.crucible_heat_source({ block: 'mekanism:superheating_element' }, 60);
 
     // Hammer
-    allthemods.remove({ type: 'exdeorum:hammer'})
+    allthemods.remove({ type: 'exdeorum:compressed_hammer'})
     for (let i = 1; i < 10; i++) {
         allthemods.recipes.exdeorum.compressed_hammer(Item.of(`allthecompressed:gravel_${i}x`), 1, Ingredient.of(`allthecompressed:cobblestone_${i}x`))
         allthemods.recipes.exdeorum.compressed_hammer(Item.of(`allthecompressed:gravel_${i}x`), 1, Ingredient.of(`allthecompressed:granite_${i}x`))
