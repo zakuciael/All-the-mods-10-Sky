@@ -21,22 +21,6 @@ ServerEvents.recipes(allthemods => {
         )
     });
 
-    // Dense Uraninite Ore Energizing Recipes
-    allthemods.remove({ id: 'powah:energizing/uraninite_from_ore' })
-    allthemods.custom({
-        "type": "powah:energizing",
-        "energy": 50000,
-        "ingredients": [
-             {
-                 "tag": "c:ores/uraninite_regular"
-             }
-         ],
-        "result": {
-            "count": 5,
-            "id": "powah:uraninite"
-        }
-    }).id('powah:energizing/uraninite_from_ore')
-
     allthemods.shapeless(
         Item.of('minecraft:potion[potion_contents={potion:"minecraft:water"}]', 1),
         [
@@ -61,6 +45,20 @@ ServerEvents.recipes(allthemods => {
         ], {
             S: '#c:rods/wooden',
             D: 'minecraft:diamond'
+        }
+    )
+
+    allthemods.remove({ id: 'minecraft:netherite_upgrade_smithing_template' })
+    allthemods.shaped(
+        Item.of('minecraft:netherite_upgrade_smithing_template'),
+        [
+            'DTD',
+            'DND',
+            'DDD'
+        ], {
+            D: '#c:gems/diamond',
+            N: '#c:ingots/netherite',
+            T: 'apotheosis:diamond_upgrade_smithing_template'
         }
     )
 

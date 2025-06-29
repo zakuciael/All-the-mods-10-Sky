@@ -152,8 +152,8 @@ ServerEvents.tags('item', allthemods => {
         'mysticalagriculture:uraninite_seeds',
         'mysticalagriculture:nitro_crystal_seeds',
         'exmachinis:netherite_upgrade',
-        'geore:budding_tungsten',
-        'geore:budding_monazite',
+        /geore:.*tungsten.*/,
+        /geore:.*monazite.*/,
         'mekanismgenerators:gas_burning_generator',
         'generatorgalore:copper_generator_8x',
         'generatorgalore:copper_generator',
@@ -168,7 +168,12 @@ ServerEvents.tags('item', allthemods => {
         'extendedcrafting:nether_star_block',
         'extendedcrafting:handheld_table',
         'notenoughwands:acceleration_wand',
-        /pickletweaks:.*_paxel/
+        /pickletweaks:.*_paxel/,
+        'exdeorum:mechanical_sieve',
+        'exdeorum:mechanical_hammer',
+        /refinedstorage/,
+        /georenouveau:.*_dowsing_rod/,
+        'actuallyadditions:crafter_on_a_stick'
     ])
 
 });

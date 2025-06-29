@@ -1,5 +1,70 @@
 ﻿# Changelog
 
+## Beta 4
+
+### Mods
+
+- Added:
+  - [Crafting Tweaks](https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks)
+  - [Transfer Labels](https://www.curseforge.com/minecraft/mc-mods/transfer-labels)
+  - [Utility Vest](https://www.curseforge.com/minecraft/mc-mods/utility-vest)
+
+- Removed:
+  - [Snad](https://www.curseforge.com/minecraft/mc-mods/snad)
+  - [Ore Excavation](https://www.curseforge.com/minecraft/mc-mods/ore-excavation)
+
+- Updated:
+  - Ars Nouveau (5.9.2 -> 5.9.4)
+  - Corail Tombstone (9.3.4 -> 9.4.0)
+  - Functional Storage: (1.4.3 -> 1.5.0)
+  - Geores (6.0.8 -> 6.0.9)
+  - Kotlin for Forge: (5.8.0 -> 5.9.0)
+
+- DO NOT UPDATE:
+  - Iris Shaders (1.8.8)
+
+### Recipes
+
+- Added:
+  - Crafting:
+    - `minecraft:netherite_upgrade_smithing_template`
+  - Compressed Hammering:
+    - 1-9x Compressed -> 1-9x Compressed (Gravel, Sand)
+    - 1-3x Compressed -> 9/81/729 Blocks (Blackstone, Deepslate, Netherrack, Sand, End Stone)
+  - Functional Storage Compression:
+    - Pebbles to full blocks
+    - Ore Chunks to Ore Blocks
+  - Powah:
+    - Bulk ae2 certus charging
+
+- Removed:
+  - Crafting:
+    - `actuallyadditions:crafter_on_a_stick`: duplicate with Crafting on a Stick
+  - Sieving:
+    - All the Pebbles
+
+### Config
+
+- Squat Grow:
+  - Block the following:
+    - `minecraft:grass_block`
+    - `minecraft:grass`
+    - `minecraft:short_grass`
+    - `minecraft:tall_grass`
+    - `minecraft:netherrack`
+    - `minecraft:warped_nylium`
+    - `minecraft:crimson_nylium`
+    - `minecraft:sunflower`
+    - `minecraft:rose_bush`
+    - `minecraft:pink_petals`
+    - `#chipped:moss_block`
+    - `#c:budding_blocks`
+
+### Other
+- Made Refined Storage inaccessible for now
+- Lots of work with recipe schemas
+- Hide some more items from JEI to reduce duplicates or prevent confusion about unobtainable items
+
 ## Beta 3
 
 ### Mods
