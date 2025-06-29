@@ -1,7 +1,6 @@
 
 ServerEvents.recipes((event) => {
 
-  //Gold from gravel
     event.remove({
       input: 'minecraft:gravel',
       sieve_mesh: 'exdeorum:netherite_mesh',
@@ -10,7 +9,6 @@ ServerEvents.recipes((event) => {
       output: 'minecraft:raw_gold'
     });
 
-  //Gold nuggets  
     event.remove({
       type: 'exdeorum:sieve',
       mod: 'exdeorum',
@@ -57,4 +55,11 @@ ServerEvents.recipes((event) => {
       mod: 'exdeorum',
       output: 'exdeorum:deepslate_pebble'
     });
-  });
+
+    event.remove({
+        input: 'exdeorum:crushed_deepslate',
+        type: 'exdeorum:sieve',
+        mod: 'exdeorum',
+        output: 'exdeorum:deepslate_pebble'
+    });
+});
