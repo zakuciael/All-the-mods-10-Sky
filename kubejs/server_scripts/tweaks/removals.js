@@ -168,7 +168,10 @@ ServerEvents.tags('item', allthemods => {
         'extendedcrafting:nether_star_block',
         'extendedcrafting:handheld_table',
         'notenoughwands:acceleration_wand',
-        /pickletweaks:.*_paxel/
+        /pickletweaks:.*_paxel/,
+        'exdeorum:mechanical_sieve',
+        'exdeorum:mechanical_hammer',
+        /refinedstorage/
     ])
 
 });
