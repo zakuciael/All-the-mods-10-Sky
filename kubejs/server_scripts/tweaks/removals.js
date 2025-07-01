@@ -171,7 +171,6 @@ ServerEvents.tags('item', allthemods => {
         /pickletweaks:.*_paxel/,
         'exdeorum:mechanical_sieve',
         'exdeorum:mechanical_hammer',
-        /refinedstorage/,
         /georenouveau:.*_dowsing_rod/,
         'actuallyadditions:crafter_on_a_stick'
     ])
@@ -183,6 +182,7 @@ ServerEvents.recipes(allthemods => {
     allthemods.remove({ input: '#kubejs:olyremovedit'})
     allthemods.remove({ output: /exdeorum:.*_compressed_sieve/})
     allthemods.remove({ output: /generatorgalore:.*_upgrade/})
+    allthemods.remove({ output: /refinedstorage:/ })
 });
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
