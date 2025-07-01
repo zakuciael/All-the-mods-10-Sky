@@ -62,6 +62,8 @@ ServerEvents.recipes(allthemods => {
         }
     )
 
+    allthemods.smelting(Item.of('mysticalagriculture:soulstone'), Item.of('mysticalagriculture:soulium_dust'), 0.1)
+
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
