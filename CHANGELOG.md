@@ -1,5 +1,68 @@
 ﻿# Changelog
 
+## Beta 5
+
+### Mods
+
+- Added:
+  - [Apple Skin](https://www.curseforge.com/minecraft/mc-mods/appleskin) 
+  - [Applied Flux](https://www.curseforge.com/minecraft/mc-mods/applied-flux) 
+  - [Applied Mekanistics](https://www.curseforge.com/minecraft/mc-mods/applied-mekanistics)
+  - [Camol](https://www.curseforge.com/minecraft/mc-mods/camol)
+  - [Dark Mode Everywhere](https://www.curseforge.com/minecraft/mc-mods/dark-mode-everywhere)
+  - [Extreme sound muffler](https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler)
+  - [Little Big Redstone](https://www.curseforge.com/minecraft/mc-mods/little-big-redstone)
+  - [Load My F***ing Tags](https://www.curseforge.com/minecraft/mc-mods/lmft)
+  - [Lootr](https://www.curseforge.com/minecraft/mc-mods/lootr)
+
+- Removed:
+  - [Showcase Item](https://www.curseforge.com/minecraft/mc-mods/showcase-item)
+
+- Updated
+  - Bookshelf (21.1.65 -> 21.1.66)
+  - Crash Assistant (1.9.6 -> 1.9.7)
+  - Crystalix (1.4.0 -> 1.5.0)
+  - Cucumber Library (8.0.12 -> 8.0.13)
+  - Extended Crafting (7.0.5 -> 7.0.6)
+  - FTB Library (2101.1.1.15 -> 2101.1.16)
+  - Mystical Agriculture (8.0.17 -> 8.0.18)
+  - Productive Bees (13.7.3 -> 13.7.4)
+  - Productive Metalworks (1.9.5 -> 1.9.6)
+  - Sophisticated Storage (1.4.40.1181 -> 1.4.41.1186)
+
+### Recipes
+
+- Added:
+  - Crafting:
+    - All compact machines
+  - Smelting:
+    - `mysticalagriculture:soulstone`
+
+### Tags
+
+- Added:
+  - `@exmachinis` to `#allthemods:tick_acceleration_blacklist`
+  - `#allthemods:tick_acceleration_blacklist` to `#justdirethings:tick_speed_deny`
+  - `#allthemods:tick_acceleration_blacklist` to `#tiab:un_acceleratable`
+
+### Config
+
+- Load My F***ing Tags:
+  - Disable in-game error message
+
+- Extreme Reactors
+  - General:
+    - `fuelUsageMultiplier = 1.0 -> 0.8`
+    - `powerProductionMultiplier = 1.0 -> 3.0`
+  - Reactor:
+    - `reactorPowerProductionMultiplier = 1.0 -> 2.0`
+  - Turbine:
+    - `turbineAeroDragMultiplier = 1.0 -> 0.8`
+    - `turbineCoilDragMultiplier = 1.0 -> 1.2`
+    - `turbineFluidPerBladeMultiplier = 1.0 -> 1.5`
+    - `turbineMassDragMultiplier = 1.0 -> 1.2`
+    - `turbinePowerProductionMultiplier = 1.0 -> 4.0`
+
 ## Beta 4
 
 ### Mods
