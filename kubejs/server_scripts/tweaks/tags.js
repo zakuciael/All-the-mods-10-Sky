@@ -8,18 +8,6 @@ ServerEvents.tags('block', allthemods => {
     // Extreme Reactors
     allthemods.add('c:storage_blocks/yellorium', 'alltheores:uranium_block' )
 
-    // Essence Blocks
-    allthemods.add('c:storage_blocks/air_essence', 'kubejs:air_essence_block')
-    allthemods.add('c:storage_blocks/earth_essence', 'kubejs:earth_essence_block')
-    allthemods.add('c:storage_blocks/fire_essence', 'kubejs:fire_essence_block')
-    allthemods.add('c:storage_blocks/water_essence', 'kubejs:water_essence_block')
-    allthemods.add('c:storage_blocks', [
-        '#c:storage_blocks/air_essence',
-        '#c:storage_blocks/earth_essence',
-        '#c:storage_blocks/fire_essence',
-        '#c:storage_blocks/water_essence'
-    ])
-
     allthemods.remove('c:relocation_not_supported', [
         'geore:budding_diamond',
         'geore:budding_gold',
@@ -41,6 +29,13 @@ ServerEvents.tags('block', allthemods => {
         ['@ae2', '@advancedae', '@extendedae', '@megacells', '@appmek']
     )
 
+    allthemods.add('allthemods:tick_acceleration_blacklist', [
+        '@exmachinis',
+    ])
+
+    allthemods.add('justdirethings:tick_speed_deny', '#allthemods:tick_acceleration_blacklist')
+    allthemods.add('tiab:un_acceleratable', '#allthemods:tick_acceleration_blacklist')
+    //allthemods.add('industrialforegoingsouls:cant_accelerate', '#allthemods:tick_acceleration_blacklist')
 })
 
 ServerEvents.tags('item', allthemods => {
@@ -72,17 +67,6 @@ ServerEvents.tags('item', allthemods => {
         '#c:dusts/unobtainium_allthemodium_alloy',
         '#c:dusts/unobtainium_vibranium_alloy',
         '#c:dusts/vibranium_allthemodium_alloy',
-    ])
-    // Essence Blocks
-    allthemods.add('c:storage_blocks/air_essence', 'kubejs:air_essence_block')
-    allthemods.add('c:storage_blocks/earth_essence', 'kubejs:earth_essence_block')
-    allthemods.add('c:storage_blocks/fire_essence', 'kubejs:fire_essence_block')
-    allthemods.add('c:storage_blocks/water_essence', 'kubejs:water_essence_block')
-    allthemods.add('c:storage_blocks', [
-        '#c:storage_blocks/air_essence',
-        '#c:storage_blocks/earth_essence',
-        '#c:storage_blocks/fire_essence',
-        '#c:storage_blocks/water_essence'
     ])
 
     // Ars Elemental Books
