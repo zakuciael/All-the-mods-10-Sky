@@ -136,6 +136,20 @@ ServerEvents.recipes(allthemods => {
         { mesh: Meshes.NETHERITE, amount: 2, chance: 0.11 }
     ]);
 
+    [
+        'actuallyadditions:canola_seeds',
+        'actuallyadditions:coffee_beans',
+        'actuallyadditions:flax_seeds'
+    ].forEach(seed => {
+        sieving(seed, Materials.Dirt, [
+            { mesh: Meshes.FLINT,     amount: 1, chance: 0.06 },
+            { mesh: Meshes.IRON,      amount: 1, chance: 0.08 },
+            { mesh: Meshes.GOLD,      amount: 1, chance: 0.08 },
+            { mesh: Meshes.DIAMOND,   amount: 1, chance: 0.11 },
+            { mesh: Meshes.NETHERITE, amount: 2, chance: 0.11 }
+        ])
+    });
+
     // ===== Moss =====
 
     [
@@ -143,13 +157,12 @@ ServerEvents.recipes(allthemods => {
         'forbidden_arcanus:growing_edelwood',
         'ars_elemental:yellow_archwood_sapling'
     ].forEach(sapling => {
-        [Meshes.IRON, Meshes.GOLD, Meshes.DIAMOND].forEach(mesh => {
-            allthemods.recipes.exdeorum.sieve(Item.of(sapling), Materials.Moss, mesh, {
-                "type": "minecraft:binomial",
-                "n": 1,
-                "p": 0.1
-            });
-        });
+        sieving(sapling, Materials.Moss, [
+            { mesh: Meshes.IRON,      chance: 0.01 },
+            { mesh: Meshes.GOLD,      chance: 0.02 },
+            { mesh: Meshes.DIAMOND,   chance: 0.03 },
+            { mesh: Meshes.NETHERITE, chance: 0.04 }
+        ])
     });
 
     // ===== Soul Sand =====
