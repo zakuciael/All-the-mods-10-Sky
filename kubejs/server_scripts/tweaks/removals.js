@@ -172,7 +172,8 @@ ServerEvents.tags('item', allthemods => {
         'exdeorum:mechanical_sieve',
         'exdeorum:mechanical_hammer',
         /georenouveau:.*_dowsing_rod/,
-        'actuallyadditions:crafter_on_a_stick'
+        'actuallyadditions:crafter_on_a_stick',
+        'allthemodium:teleport_pad'
     ])
 
 });
@@ -184,6 +185,24 @@ ServerEvents.recipes(allthemods => {
     allthemods.remove({ output: /generatorgalore:.*_upgrade/})
     allthemods.remove({ output: /refinedstorage:/ })
 });
+
+ServerEvents.generateData('after_mods', allthemods => {
+    [
+        'occultism:recipe/miner/eldritch/raw_allthemodium',
+        'occultism:recipe/miner/eldritch/raw_vibranium',
+        'occultism:recipe/miner/eldritch/raw_unobtainium'
+    ].forEach(id => {
+        allthemods.json(`${id}.json`,
+            {
+                "neoforge:conditions": [
+                    {
+                        "type": "neoforge:false"
+                    }
+                ]
+            }
+        )
+    })
+})
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
