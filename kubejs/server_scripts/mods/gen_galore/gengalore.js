@@ -37,13 +37,13 @@ ServerEvents.recipes(allthemods => {
     // magmatic generator
     allthemods.shaped('generatorgalore:magmatic_generator', [
         'AAA',
-        'ABA',
-        'DCD'
+        'DBD',
+        'ACA'
     ], {
         A: 'minecraft:gold_ingot',
         B: 'minecraft:furnace',
         C: 'minecraft:redstone_block',
-        D: 'minecraft:obsidian'
+        D: 'minecraft:glass'
     })
 
     // enchantment generator
@@ -69,4 +69,15 @@ ServerEvents.recipes(allthemods => {
         C: '#c:storage_blocks/charcoal',
         D: 'minecraft:obsidian'
     })
+
+    allthemods.replaceInput({ output: /generatorgalore:.*_generator_8x/ },
+     'minecraft:echo_shard', 
+     'alltheores:diamond_gear'
+    )
+
+    allthemods.replaceInput({ output: /generatorgalore:.*_generator_64x/ },
+     'minecraft:conduit', 
+     'alltheores:netherite_gear'
+    )
+
     })
