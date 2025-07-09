@@ -1,0 +1,7 @@
+{
+  "generationRate": 256,
+  "transferRate": 1024,
+  "consumptionRate": 1,
+  "previousTier": "obsidian",
+  "bufferCapacity": 500000
+}
