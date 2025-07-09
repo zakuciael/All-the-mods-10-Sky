@@ -127,6 +127,13 @@ ServerEvents.recipes(allthemods => {
         ]);
     });
 
+    sieving('alltheores:sulfur', Materials.Dust, [
+        { mesh: Meshes.IRON, amount: 1, chance: 0.15 },
+        { mesh: Meshes.DIAMOND, amount: 1, chance: 0.15 },
+        { mesh: Meshes.GOLD, amount: 1, chance: 0.15 },
+        { mesh: Meshes.NETHERITE, amount: 2, chance: 0.12 }
+    ]);
+
     // ===== Dirt =====
 
     sieving('minecraft:torchflower_seeds', Materials.Dirt, [
@@ -184,6 +191,11 @@ ServerEvents.recipes(allthemods => {
     sieving('occultism:raw_iesnium', Materials.Blackstone, [
         { mesh: Meshes.DIAMOND, chance: 0.05 },
         { mesh: Meshes.NETHERITE, chance: 0.05 }
+    ]);
+
+    sieving('allthemodium:allthemodium_nugget', Materials.Blackstone, [
+        { mesh: Meshes.DIAMOND, chance: 0.01 },
+        { mesh: Meshes.NETHERITE, amount: 2, chance: 0.03 }
     ]);
 
     // Crucible heating blocks
