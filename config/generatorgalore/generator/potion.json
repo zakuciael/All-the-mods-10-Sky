@@ -1,6 +1,6 @@
 {
-  "generationRate": 8,
-  "transferRate": 512,
+  "generationRate": 16,
+  "transferRate": 1024,
   "consumptionRate": 1,
   "previousTier": "culinary",
   "bufferCapacity": 250000,

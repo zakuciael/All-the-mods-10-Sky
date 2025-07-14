@@ -1,6 +1,6 @@
 {
-  "generationRate": 160,
-  "transferRate": 4096,
+  "generationRate": 80,
+  "transferRate": 2048,
   "consumptionRate": 1,
   "previousTier": "obsidian",
   "bufferCapacity": 1000000,
