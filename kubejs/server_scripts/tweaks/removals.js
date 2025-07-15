@@ -1,10 +1,10 @@
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
-ServerEvents.tags('item', allthemods => {
+ServerEvents.recipes(allthemods => {
 
     //Complete removal, including JEI
-    allthemods.add('kubejs:olyremovedit', [
+const removals = [
         'mysticalagriculture:uraninite_essence',
         'mysticalagriculture:yellorium_essence',
         'mysticalagriculture:yellorium_essence',
@@ -174,16 +174,15 @@ ServerEvents.tags('item', allthemods => {
         /georenouveau:.*_dowsing_rod/,
         'actuallyadditions:crafter_on_a_stick',
         'allthemodium:teleport_pad'
-    ])
+    ]
 
-});
+removals.forEach(removals => {
+//            allthemods.remove({ input: removals });
+            allthemods.remove({ output: removals });
+    });
 
-ServerEvents.recipes(allthemods => {
-    allthemods.remove({ output: '#kubejs:olyremovedit'})
-    allthemods.remove({ input: '#kubejs:olyremovedit'})
     allthemods.remove({ output: /exdeorum:.*_compressed_sieve/})
     allthemods.remove({ output: /generatorgalore:.*_upgrade/})
-    allthemods.remove({ output: /refinedstorage:/ })
 });
 
 ServerEvents.generateData('after_mods', allthemods => {
