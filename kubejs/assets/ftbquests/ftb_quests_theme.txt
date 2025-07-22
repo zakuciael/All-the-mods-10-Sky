@@ -1,0 +1,2 @@
+[3B0302DB5E77C3A2]
+background: atm:textures/quest_assets/background.png
