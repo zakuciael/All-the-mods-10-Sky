@@ -42,6 +42,22 @@
         [ 21, 10, 26 ]
       ],
       "east": []
+    },
+    "Sanguine Sanctuary": {
+      "south": [],
+      "west": [],
+      "north": [],
+      "east": [
+        [ 25, 36, 51 ]
+      ]
+    },
+    "Steve's Staycation": {
+      "south": [],
+      "west": [],
+      "north": [],
+      "east": [
+        [ 18, 31, 50 ]
+      ]
     }
   },
   
@@ -106,6 +122,30 @@
         "west": [],
         "north": [],
         "east": []
+      }
+    },
+    {
+      "name": "sanguine sanctuary",
+      "file": "sanguine sanctuary.nbt",
+      "spawns": {
+        "south": [],
+        "west": [],
+        "north": [],
+        "east": [
+          [ 25, 36, 51 ]
+        ]
+      }
+    },
+    {
+      "name": "steve's staycation",
+      "file": "steve's staycation.nbt",
+      "spawns": {
+        "south": [],
+        "west": [],
+        "north": [],
+        "east": [
+          [ 18, 31, 50 ]
+        ]
       }
     }
   ]
