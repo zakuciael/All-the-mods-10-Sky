@@ -2,6 +2,11 @@ ServerEvents.recipes(allthemods => {
 
     // netherstar generator
     allthemods.remove({ id: `generatorgalore:generators/netherstar_generator`})
+    allthemods.remove({ id: `generatorgalore:generators/magmatic_generator`})
+    allthemods.remove({ id: `generatorgalore:generators/iron_generator`})
+    allthemods.remove({ id: `generatorgalore:generators/enchantment_generator`})
+    allthemods.remove({ id: `generatorgalore:generators/culinary_generator`})
+    allthemods.remove({ id: `generatorgalore:generators/ender_generator`})
     allthemods.shaped('generatorgalore:netherstar_generator', [
         'AAA',
         'ABA',
@@ -21,6 +26,17 @@ ServerEvents.recipes(allthemods => {
         A: '#c:crops',
         B: 'generatorgalore:iron_generator',
         C: 'minecraft:hay_block'
+    })
+
+    // ender generator
+    allthemods.shaped('generatorgalore:ender_generator', [
+        'AAA',
+        'ABA',
+        'ACA'
+    ], {
+        A: 'minecraft:ender_pearl',
+        B: `generatorgalore:iron_generator`,
+        C: 'minecraft:redstone_block'
     })
 
     // iron generator
