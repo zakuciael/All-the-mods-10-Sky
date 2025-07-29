@@ -502,6 +502,7 @@ oritech:resource_node_common
 oritech:resource_node_other
 oritech:resource_node_rare
 oritech:uranium_patch
+pneumaticcraft:oil_lake
 powah:dry_ice
 powah:uraninite_ore
 powah:uraninite_ore_dense
