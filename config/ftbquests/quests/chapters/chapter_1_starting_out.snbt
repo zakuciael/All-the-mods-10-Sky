@@ -807,25 +807,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["40A495FCD317A38D"]
-			id: "74D15276CA30D62F"
-			rewards: [{
-				count: 4
-				id: "20FBE8A874971F51"
-				item: {
-					count: 1
-					id: "minecraft:torch"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "7F1EEFBE68C82523"
-				type: "checkmark"
-			}]
-			x: -4.5d
-			y: 6.0d
-		}
-		{
 			id: "29F82373417B2006"
 			optional: true
 			rewards: [{
@@ -991,25 +972,6 @@
 			}]
 			x: -5.5d
 			y: -7.0d
-		}
-		{
-			dependencies: ["40A495FCD317A38D"]
-			id: "6CC58829AD442C66"
-			rewards: [{
-				count: 32
-				id: "2AAAF92DC3161068"
-				item: {
-					count: 1
-					id: "minecraft:cobblestone"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "0313C9C9B5D2BCE7"
-				type: "checkmark"
-			}]
-			x: -3.5d
-			y: 6.0d
 		}
 		{
 			dependencies: ["0C9B97D2048A1073"]

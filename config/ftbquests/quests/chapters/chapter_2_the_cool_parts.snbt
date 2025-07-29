@@ -1,0 +1,436 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_2_the_cool_parts"
+	group: "029264819125415F"
+	id: "28BCA5042050B140"
+	images: [
+		{
+			height: 1.0d
+			image: "generatorgalore:block/culinary_generator_top_on"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "generatorgalore:block/enchantment_generator_top_on"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "generatorgalore:block/netherstar_generator_top_on"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/generator/generator_galore.png"
+			rotation: 0.0d
+			width: 11.10126582278481d
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "generatorgalore:block/netherstar_generator_top_on"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "generatorgalore:block/culinary_generator_top_on"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 0.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "allthetweaks:atm_star"
+			}
+			id: "362DDA1A5694BE0F"
+			size: 1.5d
+			tasks: [{
+				id: "143335BE2C9533EB"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2DC53BE2A93C2A31"]
+			id: "61F265D9A5713A4D"
+			rewards: [
+				{
+					count: 2
+					id: "5C57EA9A84FBE46D"
+					item: {
+						count: 1
+						id: "minecraft:coal_block"
+					}
+					type: "item"
+				}
+				{
+					id: "2C217936B60081EC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "0EB013018E702B1B"
+				item: { count: 1, id: "generatorgalore:iron_generator" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2DC53BE2A93C2A31"]
+			hide_until_deps_visible: true
+			id: "552CA2ABE659A507"
+			rewards: [
+				{
+					count: 3
+					id: "7EDD1682F7E8AF7E"
+					item: {
+						count: 1
+						id: "minecraft:lava_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "19BB1B3645E0AEF3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "47F0D4C2445694CF"
+				item: { count: 1, id: "generatorgalore:magmatic_generator" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2DC53BE2A93C2A31"]
+			hide_until_deps_visible: true
+			id: "7CE86300AF8E9BCA"
+			rewards: [
+				{
+					count: 10
+					id: "59D897D18695FFF0"
+					item: {
+						count: 1
+						id: "minecraft:sculk"
+					}
+					type: "item"
+				}
+				{
+					id: "53A5D0F23E6795F0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "37641D5607F6D00A"
+				item: { components: { "ftbfiltersystem:filter": "or(item(generatorgalore:copper_generator_8x)item(generatorgalore:diamond_generator_8x)item(generatorgalore:emerald_generator_8x)item(generatorgalore:enchantment_generator_8x)item(generatorgalore:ender_generator_8x)item(generatorgalore:gold_generator_8x)item(generatorgalore:halitosis_generator_8x)item(generatorgalore:honey_generator_8x)item(generatorgalore:iron_generator_8x)item(generatorgalore:magmatic_generator_8x)item(generatorgalore:netherite_generator_8x)item(generatorgalore:netherstar_generator_8x)item(generatorgalore:obsidian_generator_8x)item(generatorgalore:potion_generator_8x))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7CE86300AF8E9BCA"]
+			hide_until_deps_visible: true
+			id: "72A287DCAEEFE49F"
+			rewards: [
+				{
+					count: 3
+					id: "52C6D6F0CA122630"
+					item: {
+						count: 1
+						id: "minecraft:heart_of_the_sea"
+					}
+					type: "item"
+				}
+				{
+					id: "0B829ACBC940EA33"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "31E6FDB712244B72"
+				item: { components: { "ftbfiltersystem:filter": "or(item(generatorgalore:culinary_generator_64x)item(generatorgalore:enchantment_generator_64x)item(generatorgalore:ender_generator_64x)item(generatorgalore:halitosis_generator_64x)item(generatorgalore:honey_generator_64x)item(generatorgalore:magmatic_generator_64x)item(generatorgalore:netherite_generator_64x)item(generatorgalore:netherstar_generator_64x)item(generatorgalore:potion_generator_64x))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1C73E60FC70408D4"]
+			hide_until_deps_visible: true
+			id: "68972BA647FDCF8F"
+			rewards: [
+				{
+					count: 3
+					id: "47A5B263CA06D9FF"
+					item: {
+						count: 1
+						id: "minecraft:honey_block"
+					}
+					type: "item"
+				}
+				{
+					id: "48C9FE7021DE61BE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "39307952E4735E09"
+				item: { count: 1, id: "generatorgalore:honey_generator" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["61F265D9A5713A4D"]
+			hide_until_deps_visible: true
+			id: "1C73E60FC70408D4"
+			rewards: [
+				{
+					count: 3
+					id: "355848A001554BDC"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "41B93C598FD2BBB5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "3760CF6628449FEA"
+				item: { count: 1, id: "generatorgalore:culinary_generator" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C73E60FC70408D4"]
+			hide_until_deps_visible: true
+			id: "7297391D026EE9A6"
+			rewards: [
+				{
+					count: 9
+					id: "32B38128B961D10B"
+					item: {
+						count: 1
+						id: "minecraft:glass_bottle"
+					}
+					type: "item"
+				}
+				{
+					count: 9
+					id: "7B0DEB7CEDC9CD13"
+					item: {
+						count: 1
+						id: "minecraft:blaze_powder"
+					}
+					type: "item"
+				}
+				{
+					id: "6A63B5740D7E02C5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "749FA5DA6A42E764"
+				item: { count: 1, id: "generatorgalore:potion_generator" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["61F265D9A5713A4D"]
+			hide_until_deps_visible: true
+			id: "69201157ECFBB426"
+			rewards: [
+				{
+					count: 16
+					id: "5BE5511978950717"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "7C61CDF56A10DC76"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "0E0857E2248D657E"
+				item: { count: 1, id: "generatorgalore:ender_generator" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["69201157ECFBB426"]
+			hide_until_deps_visible: true
+			id: "40DB6E3DE87F16EF"
+			rewards: [
+				{
+					count: 10
+					id: "218046278739D11D"
+					item: {
+						count: 1
+						id: "minecraft:dragon_breath"
+					}
+					type: "item"
+				}
+				{
+					id: "63A5FEE430E3A993"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "73CB2D4EE3ACEE1A"
+				item: { count: 1, id: "generatorgalore:halitosis_generator" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["07BEB974DF1E5AD3"]
+			hide_until_deps_visible: true
+			id: "1843C79133DFB024"
+			rewards: [
+				{
+					count: 2
+					id: "73709A450E84888B"
+					item: {
+						count: 1
+						id: "minecraft:wither_skeleton_skull"
+					}
+					type: "item"
+				}
+				{
+					id: "6B30CEFE52A2A153"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "2A5900E766CEB417"
+				item: { count: 1, id: "generatorgalore:netherstar_generator" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["61F265D9A5713A4D"]
+			id: "07BEB974DF1E5AD3"
+			rewards: [
+				{
+					count: 5
+					id: "5694BE118F5B1489"
+					item: {
+						count: 1
+						id: "minecraft:coal_block"
+					}
+					type: "item"
+				}
+				{
+					id: "411AC5DA2D1438C7"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "4F7772A5628CD409"
+				item: { count: 1, id: "generatorgalore:netherite_generator" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["61F265D9A5713A4D"]
+			hide_until_deps_visible: true
+			id: "6A1145678E80FB8E"
+			rewards: [
+				{
+					count: 9
+					id: "371F290F134C81B7"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "55684C973FE98D57"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+				{
+					id: "1B88E282A6E09335"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "24481F34C15FB282"
+				item: { count: 1, id: "generatorgalore:enchantment_generator" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			id: "2DC53BE2A93C2A31"
+			tasks: [{
+				id: "4380112712B3B789"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+	]
+}
