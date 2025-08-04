@@ -98,8 +98,13 @@ ServerEvents.recipes(allthemods => {
     ]);
 
     sieving('powah:uraninite', Materials.Sand, [
-        { mesh: Meshes.DIAMOND, amount: 1, chance: 0.05 },
-        { mesh: Meshes.NETHERITE, amount: 2, chance: 0.06 }
+        { mesh: Meshes.DIAMOND, amount: 1, chance: 0.07 },
+        { mesh: Meshes.NETHERITE, amount: 2, chance: 0.08 }
+    ]);
+
+    sieving('allthemodium:allthemodium_nugget', Materials.Sand, [
+        { mesh: Meshes.DIAMOND, chance: 0.01 },
+        { mesh: Meshes.NETHERITE, chance: 0.6 }
     ]);
 
     // ===== Dust =====
@@ -194,8 +199,15 @@ ServerEvents.recipes(allthemods => {
     ]);
 
     sieving('allthemodium:allthemodium_nugget', Materials.Blackstone, [
-        { mesh: Meshes.DIAMOND, chance: 0.01 },
-        { mesh: Meshes.NETHERITE, amount: 2, chance: 0.03 }
+        { mesh: Meshes.DIAMOND, chance: 0.04 },
+        { mesh: Meshes.NETHERITE, chance: 0.15 }
+    ]);
+
+    // ===== EndStone =====
+
+    sieving('draconicevolution:draconium_dust', Materials.EndStone, [
+        { mesh: Meshes.DIAMOND, chance: 0.03 },
+        { mesh: Meshes.NETHERITE, amount: 2, chance: 0.1 }
     ]);
 
     // Crucible heating blocks

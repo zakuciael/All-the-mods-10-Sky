@@ -173,6 +173,8 @@ const removals = [
         'exdeorum:mechanical_hammer',
         /georenouveau:.*_dowsing_rod/,
         'actuallyadditions:crafter_on_a_stick',
+        'mysticalagriculture:compressed_iron_seeds',
+        'mysticalagriculture:draconium_seeds',
         'allthemodium:teleport_pad'
     ]
 
