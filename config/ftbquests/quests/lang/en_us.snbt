@@ -3962,7 +3962,6 @@
 	]
 	quest.264BFB8C5F79616F.quest_desc: ["Placing a Snow Nest in a snowy biome will lure in a Sweat Bee."]
 	quest.264BFB8C5F79616F.quest_subtitle: "Lures the Sweat Bee in Cold Biomes"
-	quest.266127E7947CB3D4.quest_desc: ["All the beautiful Builds you see on this Quest Page are from people in the ATM Discord! \\n\\nDon't worry all have given consent to sharing their Builds and have been credited! \\n\\nIf you wish to share your Builds as well, check out the artwork-builds-showoff Channel in the Discord! \\n\\n(I can not assure that all Builds were made in ATM10 only that they were made by fellow Minecraft Players. Same ways that some might use Shaders, so if your Builds aren't exactly the same that could be why!)"]
 	quest.2664388EBA1E8F90.quest_subtitle: "&f8 &cAttack Damage"
 	quest.266AB725974E464C.quest_desc: [
 		"The &dAbyssal Sacrifice&r is an item used to summon the &5Leviathan&r. "
@@ -4679,7 +4678,7 @@
 	quest.2DB81CE6F647D08A.title: "Unobtainium-Allthemodium Alloy"
 	quest.2DC4446A644A4079.quest_desc: ["The &6Hazmat Suit&r is the only way of preventing &aRadiation&r from killing you. \\n\\nYou need to wear the entire set to prevent &aRadiation Poisoning&r! \\n\\n&aRadiation&r will kill other Mobs and Players near it, the Players can be saved with &6Hazmat Suits&r... but Mobs aren't so lucky!"]
 	quest.2DC4446A644A4079.title: "&6Hazmat Suit"
-	quest.2DC53BE2A93C2A31.quest_desc: ["Generators in this pack have been Boosted! Check for new values, and some cheaper 8/64x variants, with a streamlines 2 solid fuel types."]
+	quest.2DC53BE2A93C2A31.quest_desc: ["Generators in this pack have been Boosted! Check for new values, and some cheaper 8/64x variants, with a streamlined 2 solid fuel types."]
 	quest.2DC53BE2A93C2A31.title: "Generators, With a Twist!"
 	quest.2DC639C39AE90272.quest_subtitle: "Yellow Meranti + Rose Gum"
 	quest.2DD5F0693780B10A.quest_desc: ["Used with the Extruder MK2, blocks extruded will mimic the actual blocks. Redstone Blocks will emit Redstone, Glowstone will emit light, Grass will act transparent. But only with this Augment! \\nDoesn't work with Block Entities like Furnaces or Enrichment Chambers."]
