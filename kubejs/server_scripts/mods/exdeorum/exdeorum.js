@@ -104,7 +104,7 @@ ServerEvents.recipes(allthemods => {
 
     sieving('allthemodium:allthemodium_nugget', Materials.Sand, [
         { mesh: Meshes.DIAMOND, chance: 0.01 },
-        { mesh: Meshes.NETHERITE, chance: 0.6 }
+        { mesh: Meshes.NETHERITE, chance: 0.06 }
     ]);
 
     // ===== Dust =====
