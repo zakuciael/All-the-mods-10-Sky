@@ -5,6 +5,40 @@ ServerEvents.recipes(allthemods => {
 
     //Complete removal, including JEI
 const removals = [
+        'exmachinis:netherite_upgrade',
+        /geore:.*tungsten.*/,
+        /geore:.*monazite.*/,
+        'mekanismgenerators:gas_burning_generator',
+        'generatorgalore:copper_generator_8x',
+        'generatorgalore:copper_generator',
+        'generatorgalore:diamond_generator_8x',
+        'generatorgalore:diamond_generator',
+        'generatorgalore:emerald_generator_8x',
+        'generatorgalore:emerald_generator',
+        'generatorgalore:gold_generator_8x',
+        'generatorgalore:gold_generator',
+        'generatorgalore:obsidian_generator_8x',
+        'generatorgalore:obsidian_generator',
+        'extendedcrafting:nether_star_block',
+        'extendedcrafting:handheld_table',
+        'notenoughwands:acceleration_wand',
+        /pickletweaks:.*_paxel/,
+        'exdeorum:mechanical_sieve',
+        'exdeorum:mechanical_hammer',
+        /georenouveau:.*_dowsing_rod/,
+        'actuallyadditions:crafter_on_a_stick',
+        'mysticalagriculture:compressed_iron_seeds',
+        'mysticalagriculture:draconium_seeds',
+        'allthemodium:teleport_pad',
+        'ae2:network/blocks/spatial_anchor',
+        'mekanism:dimensional_stabilizer',
+        'mekanism:upgrade_anchor',
+        'railcraft:world_spike',
+        'railcraft:personal_world_spike',
+        'railcraft:world_spike_minecart'
+    ]
+
+const seedRemovals = [
         'mysticalagriculture:uraninite_essence',
         'mysticalagriculture:yellorium_essence',
         'mysticalagriculture:yellorium_essence',
@@ -150,36 +184,11 @@ const removals = [
         'mysticalagriculture:niotic_crystal_seeds',
         'mysticalagriculture:spirited_crystal_seeds',
         'mysticalagriculture:uraninite_seeds',
-        'mysticalagriculture:nitro_crystal_seeds',
-        'exmachinis:netherite_upgrade',
-        /geore:.*tungsten.*/,
-        /geore:.*monazite.*/,
-        'mekanismgenerators:gas_burning_generator',
-        'generatorgalore:copper_generator_8x',
-        'generatorgalore:copper_generator',
-        'generatorgalore:diamond_generator_8x',
-        'generatorgalore:diamond_generator',
-        'generatorgalore:emerald_generator_8x',
-        'generatorgalore:emerald_generator',
-        'generatorgalore:gold_generator_8x',
-        'generatorgalore:gold_generator',
-        'generatorgalore:obsidian_generator_8x',
-        'generatorgalore:obsidian_generator',
-        'extendedcrafting:nether_star_block',
-        'extendedcrafting:handheld_table',
-        'notenoughwands:acceleration_wand',
-        /pickletweaks:.*_paxel/,
-        'exdeorum:mechanical_sieve',
-        'exdeorum:mechanical_hammer',
-        /georenouveau:.*_dowsing_rod/,
-        'actuallyadditions:crafter_on_a_stick',
-        'mysticalagriculture:compressed_iron_seeds',
-        'mysticalagriculture:draconium_seeds',
-        'allthemodium:teleport_pad'
-    ]
+        'mysticalagriculture:nitro_crystal_seeds'
+]
 
 removals.forEach(removals => {
-//            allthemods.remove({ input: removals });
+            allthemods.remove({ input: seedRemovals });
             allthemods.remove({ output: removals });
     });
 
