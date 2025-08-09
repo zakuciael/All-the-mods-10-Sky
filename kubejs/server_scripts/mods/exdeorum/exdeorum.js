@@ -151,7 +151,9 @@ ServerEvents.recipes(allthemods => {
     [
         'actuallyadditions:canola_seeds',
         'actuallyadditions:coffee_beans',
-        'actuallyadditions:flax_seeds'
+        'actuallyadditions:flax_seeds',
+        'minecraft:rose_bush',
+        'minecraft:sunflower'
     ].forEach(seed => {
         sieving(seed, Materials.Dirt, [
             { mesh: Meshes.FLINT,     amount: 1, chance: 0.06 },
