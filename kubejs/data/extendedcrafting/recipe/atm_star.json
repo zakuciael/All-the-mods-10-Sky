@@ -8,8 +8,8 @@
     " BBMNOBB ",
     "  DBPBD  ",
     " BQDDDRB ",
-    "BSBB BBTB",
-    "AAA   AAA"
+    "BSB   BTB",
+    "AA     AA"
   ],
   "key": {
     "A": {
@@ -29,7 +29,7 @@
       "item": "allthemodium:vibranium_block"
     },
     "E": {
-      "item": "allthetweaks:withers_compass"
+      "item": "extendedcrafting:ultimate_singularity"
     },
     "F": {
       "items": "extendedcrafting:singularity",
@@ -42,7 +42,7 @@
       "item": "allthetweaks:philosophers_fuel"
     },
     "H": {
-      "item": "allthetweaks:dimensional_seed"
+      "item": "allthetweaks:withers_compass"
     },
     "I": {
       "item": "allthetweaks:pulsating_black_hole"
