@@ -194,6 +194,7 @@ removals.forEach(removals => {
 
     allthemods.remove({ output: /exdeorum:.*_compressed_sieve/})
     allthemods.remove({ output: /generatorgalore:.*_upgrade/})
+    allthemods.remove({ id: 'alltheores:alloysmelter/brass/ingot' })
 });
 
 ServerEvents.generateData('after_mods', allthemods => {
