@@ -62,6 +62,32 @@ ServerEvents.recipes(allthemods => {
         }
     )
 
+    allthemods.remove('bibliocraft:tape_reel')
+    allthemods.shaped(
+        Item.of('bibliocraft:tape_reel'),
+        [
+            'SSS',
+            'NYN',
+            'SSS'
+        ], {
+            S: '#c:strings',
+            N: '#c:nuggets/iron',
+            Y: '#c:dyes/yellow' 
+        }
+    )
+
+    allthemods.remove('rechiseled:chisel')
+    allthemods.shaped(
+        Item.of('rechiseled:chisel'),
+        [
+            '  S',
+            ' W '
+        ], {
+            S: '#c:ingots/steel',
+            W: '#c:rods/wooden'
+        }
+    )
+
     allthemods.smelting(Item.of('mysticalagriculture:soulstone'), Item.of('mysticalagriculture:soulium_dust'), 0.1)
 
 })
