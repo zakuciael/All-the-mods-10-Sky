@@ -102,6 +102,42 @@ ServerEvents.recipes(allthemods => {
             'N': 'minecraft:nautilus_shell',
         }
     )
+
+    allthemods.shaped(
+        Item.of('allthemodium:allthemodium_upgrade_smithing_template'), [
+            'ITI',
+            'IBI',
+            'III'
+        ], {
+            'I': '#c:ingots/netherite',
+            'T': 'minecraft:netherite_upgrade_smithing_template',
+            'B': '#c:storage_blocks/allthemodium'
+        }
+    )
+
+    allthemods.shaped(
+        Item.of('allthemodium:vibranium_upgrade_smithing_template'), [
+            'ITI',
+            'IBI',
+            'III'
+        ], {
+            'I': '#c:ingots/allthemodium',
+            'T': 'allthemodium:allthemodium_upgrade_smithing_template',
+            'B': '#c:storage_blocks/vibranium'
+        }
+    )
+
+    allthemods.shaped(
+        Item.of('allthemodium:unobtainium_upgrade_smithing_template'), [
+            'ITI',
+            'IAI',
+            'III'
+        ], {
+            'I': '#c:ingots/vibranium',
+            'T': 'allthemodium:vibranium_upgrade_smithing_template',
+            'B': '#c:storage_blocks/unobtainium'
+        }
+    )
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
