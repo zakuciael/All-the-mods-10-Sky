@@ -160,6 +160,17 @@ ServerEvents.recipes(allthemods => {
             N: '#c:nuggets/iron',
         }
     )
+
+    allthemods.remove({id: 'handcrafted:wood_plate'})
+    allthemods.shaped(
+        Item.of('handcrafted:wood_plate'),
+        [
+            'SSS',
+            ' S '
+        ], {
+            S: '#minecraft:wooden_slabs',
+        }
+    )
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
