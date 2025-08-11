@@ -69,6 +69,8 @@ ServerEvents.tags('item', allthemods => {
         '#c:dusts/vibranium_allthemodium_alloy',
     ])
 
+    allthemods.add('c:gems/benitoite','bigreactors:benitoite_crystal')
+    
     // Ars Elemental Books
     allthemods.add('minecraft:bookshelf_books', 'ars_elemental:air_caster_tome')
     allthemods.add('minecraft:bookshelf_books', 'ars_elemental:fire_caster_tome')
