@@ -429,19 +429,21 @@
 			id: "09C82CDDA800D8C9"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "794A9665B0D9CCF1"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1434B9579016D3A0"
-					type: "random"
-				}
-				{
 					id: "2D22E6C0EABD5BFF"
 					type: "xp"
 					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10C0959544642C37"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1311057506AD1557"
+					table_id: 4196188979167302596L
+					type: "random"
 				}
 			]
 			size: 1.5d

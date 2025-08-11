@@ -130,17 +130,14 @@
 					type: "item"
 				}
 				{
-					icon: {
-						id: "minecraft:stone_hoe"
-					}
-					id: "270877E392533EC4"
-					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
 					count: 2L
 					id: "254E23EDCFEB9781"
 					item: { count: 1, id: "minecraft:wheat" }
+					type: "item"
+				}
+				{
+					id: "3F3C58CB51246408"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:hoes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -977,8 +974,15 @@
 			dependencies: ["0C9B97D2048A1073"]
 			id: "784B0D83F0229A08"
 			rewards: [{
-				id: "3E3FC3C325D91ACB"
+				id: "3F0EABB685AABE9E"
 				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:fortune": 2
+							}
+						}
+					}
 					count: 1
 					id: "minecraft:enchanted_book"
 				}
