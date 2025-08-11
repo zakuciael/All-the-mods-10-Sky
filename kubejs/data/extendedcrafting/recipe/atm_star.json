@@ -6,7 +6,7 @@
     " BBDEDBB ",
     "AFGHIJKLA",
     " BBMNOBB ",
-    "  DBPBD  ",
+    "  DBBBD  ",
     " BQDDDRB ",
     "BSB   BTB",
     "AA     AA"
@@ -72,9 +72,6 @@
     },
     "O": {
       "item": "allthetweaks:improbable_probability_device"
-    },
-    "P": {
-      "item": "allthetweaks:allthecatalystium"
     },
     "Q": {
       "items": "extendedcrafting:singularity",
