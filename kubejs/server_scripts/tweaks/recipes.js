@@ -90,6 +90,115 @@ ServerEvents.recipes(allthemods => {
 
     allthemods.smelting(Item.of('mysticalagriculture:soulstone'), Item.of('mysticalagriculture:soulium_dust'), 0.1)
 
+    allthemods.shaped(
+        Item.of('minecraft:heart_of_the_sea'), [
+            'IDS',
+            'DND',
+            'SDI'
+        ], {
+            'I': 'minecraft:ink_sac',
+            'D': 'justdirethings:celestigem',
+            'S': 'minecraft:prismarine_shard',
+            'N': 'minecraft:nautilus_shell',
+        }
+    )
+
+    allthemods.shaped(
+        Item.of('allthemodium:allthemodium_upgrade_smithing_template'), [
+            'ITI',
+            'IBI',
+            'III'
+        ], {
+            'I': '#c:ingots/netherite',
+            'T': 'minecraft:netherite_upgrade_smithing_template',
+            'B': '#c:storage_blocks/allthemodium'
+        }
+    )
+
+    allthemods.shaped(
+        Item.of('allthemodium:vibranium_upgrade_smithing_template'), [
+            'ITI',
+            'IBI',
+            'III'
+        ], {
+            'I': '#c:ingots/allthemodium',
+            'T': 'allthemodium:allthemodium_upgrade_smithing_template',
+            'B': '#c:storage_blocks/vibranium'
+        }
+    )
+
+    allthemods.shaped(
+        Item.of('allthemodium:unobtainium_upgrade_smithing_template'), [
+            'ITI',
+            'IAI',
+            'III'
+        ], {
+            'I': '#c:ingots/vibranium',
+            'T': 'allthemodium:vibranium_upgrade_smithing_template',
+            'B': '#c:storage_blocks/unobtainium'
+        }
+    )
+    
+    allthemods.remove({id: 'minecraft:book'})
+    allthemods.shapeless(
+        Item.of('minecraft:book'),
+        [
+            '3x #c:paper',
+            '#c:leathers'
+        ]
+    ).id('minecraft:book')
+    
+    allthemods.remove({id: 'enderio:wood_gear'})
+    allthemods.shaped(
+        Item.of('enderio:wood_gear'),
+        [
+            ' S ',
+            'SNS',
+            ' S '
+        ], {
+            S: '#c:rods/wooden',
+            N: '#c:nuggets/iron',
+        }
+    )
+
+    allthemods.remove({id: 'handcrafted:wood_plate'})
+    allthemods.shaped(
+        Item.of('handcrafted:wood_plate'),
+        [
+            'SSS',
+            ' S '
+        ], {
+            S: '#minecraft:wooden_slabs',
+        }
+    )
+
+    allthemods.remove({id: 'handcrafted:hammer'})
+    allthemods.shaped(
+        Item.of('handcrafted:hammer'),
+        [
+            ' IS',
+            ' SI',
+            'S  '
+        ], {
+            S: '#c:rods/wooden',
+            I: '#c:ingots/iron',
+        }
+    )
+
+    allthemods.remove({id: 'mcwwindows:bamboo_shutter'})
+    allthemods.shaped(
+        Item.of('mcwwindows:bamboo_shutter'),
+        [
+            'BB',
+            'BB',
+            'BB'
+        ], {
+            B: 'minecraft:bamboo',
+        }
+    )
+
+    allthemods.remove({id: 'mysticalagriculture:watering_can'})
+    allthemods.remove({id: 'mysticalagriculture:diamond_scythe'})
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
