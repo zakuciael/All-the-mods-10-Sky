@@ -184,6 +184,18 @@ ServerEvents.recipes(allthemods => {
             I: '#c:ingots/iron',
         }
     )
+
+    allthemods.remove({id: 'mcwwindows:bamboo_shutter'})
+    allthemods.shaped(
+        Item.of('mcwwindows:bamboo_shutter'),
+        [
+            'BB',
+            'BB',
+            'BB'
+        ], {
+            B: 'minecraft:bamboo',
+        }
+    )
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
