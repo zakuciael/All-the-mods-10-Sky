@@ -208,8 +208,12 @@ ServerEvents.recipes(allthemods => {
     // ===== EndStone =====
 
     sieving('draconicevolution:draconium_dust', Materials.EndStone, [
-        { mesh: Meshes.DIAMOND, chance: 0.03 },
-        { mesh: Meshes.NETHERITE, amount: 2, chance: 0.1 }
+        { mesh: Meshes.DIAMOND, chance: 0.06 },
+        { mesh: Meshes.NETHERITE, amount: 2, chance: 0.09 }
+    ]);
+
+    sieving('minecraft:sculk', Materials.EndStone, [
+        { mesh: Meshes.NETHERITE, amount: 1, chance: 0.075 }
     ]);
 
     // Crucible heating blocks
