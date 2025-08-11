@@ -30,7 +30,7 @@ const removals = [
         'mysticalagriculture:compressed_iron_seeds',
         'mysticalagriculture:draconium_seeds',
         'allthemodium:teleport_pad',
-        'ae2:network/blocks/spatial_anchor',
+        'ae2:spatial_anchor',
         'mekanism:dimensional_stabilizer',
         'mekanism:upgrade_anchor',
         'railcraft:world_spike',
