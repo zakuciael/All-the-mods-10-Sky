@@ -171,6 +171,19 @@ ServerEvents.recipes(allthemods => {
             S: '#minecraft:wooden_slabs',
         }
     )
+
+    allthemods.remove({id: 'handcrafted:hammer'})
+    allthemods.shaped(
+        Item.of('handcrafted:hammer'),
+        [
+            ' IS',
+            ' SI',
+            'S  '
+        ], {
+            S: '#c:rods/wooden',
+            I: '#c:ingots/iron',
+        }
+    )
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
