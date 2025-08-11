@@ -196,6 +196,9 @@ ServerEvents.recipes(allthemods => {
             B: 'minecraft:bamboo',
         }
     )
+
+    allthemods.remove({id: 'mysticalagriculture:watering_can'})
+    allthemods.remove({id: 'mysticalagriculture:diamond_scythe'})
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
