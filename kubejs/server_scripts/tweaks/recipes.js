@@ -138,6 +138,15 @@ ServerEvents.recipes(allthemods => {
             'B': '#c:storage_blocks/unobtainium'
         }
     )
+    
+    allthemods.remove({id: 'minecraft:book'})
+    allthemods.shapeless(
+        Item.of('minecraft:book'),
+        [
+            '3x #c:paper',
+            '#c:leathers'
+        ]
+    ).id('minecraft:book')
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
