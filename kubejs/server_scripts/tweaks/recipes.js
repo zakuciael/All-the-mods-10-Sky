@@ -90,6 +90,18 @@ ServerEvents.recipes(allthemods => {
 
     allthemods.smelting(Item.of('mysticalagriculture:soulstone'), Item.of('mysticalagriculture:soulium_dust'), 0.1)
 
+    allthemods.shaped(
+        Item.of('minecraft:heart_of_the_sea'), [
+            'IDS',
+            'DND',
+            'SDI'
+        ], {
+            'I': 'minecraft:ink_sac',
+            'D': 'justdirethings:celestigem',
+            'S': 'minecraft:prismarine_shard',
+            'N': 'minecraft:nautilus_shell',
+        }
+    )
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
