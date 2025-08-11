@@ -147,6 +147,19 @@ ServerEvents.recipes(allthemods => {
             '#c:leathers'
         ]
     ).id('minecraft:book')
+    
+    allthemods.remove({id: 'enderio:wood_gear'})
+    allthemods.shaped(
+        Item.of('enderio:wood_gear'),
+        [
+            ' S ',
+            'SNS',
+            ' S '
+        ], {
+            S: '#c:rods/wooden',
+            N: '#c:nuggets/iron',
+        }
+    )
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
