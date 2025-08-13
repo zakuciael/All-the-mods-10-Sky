@@ -58,6 +58,14 @@
       "east": [
         [ 18, 31, 50 ]
       ]
+    },
+    "piggy": {
+      "south": [],
+      "west": [],
+      "north": [],
+      "east": [
+        [ 5, 14, 14 ]
+      ]
     }
   },
   
@@ -145,6 +153,18 @@
         "north": [],
         "east": [
           [ 18, 31, 50 ]
+        ]
+      }
+    },
+    {
+      "name": "piggy",
+      "file": "piggy.nbt",
+      "spawns": {
+        "south": [],
+        "west": [],
+        "north": [],
+        "east": [
+          [ 5, 14, 14 ]
         ]
       }
     }
