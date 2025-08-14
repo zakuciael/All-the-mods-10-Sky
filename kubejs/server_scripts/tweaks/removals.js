@@ -195,6 +195,9 @@ removals.forEach(removals => {
     allthemods.remove({ output: /exdeorum:.*_compressed_sieve/})
     allthemods.remove({ output: /generatorgalore:.*_upgrade/})
     allthemods.remove({ id: 'alltheores:alloysmelter/brass/ingot' })
+    allthemods.remove({ id: 'soulshards:vile_dust_from_soul_sand' })
+    allthemods.remove({ id: 'oritech:crafting/alloy/steel' })
+    allthemods.remove({ id: 'silentgear:graded_mat_test' })
 });
 
 ServerEvents.generateData('after_mods', allthemods => {
