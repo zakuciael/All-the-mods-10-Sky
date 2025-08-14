@@ -518,7 +518,7 @@
 		"Se você acabar não conseguindo usar mais, pode estar \"concluído\", considere usar isso em conjunto com o encantamento do Apotheosis para encantamentos absurdos."
 	]
 	quest.04C01A5FF3DAC326.quest_subtitle: "Considere isso sua porta de entrada para o Apotheosis"
-	quest.04D0543FE2820F64.quest_desc: ["Fio de Linho pode ser usado no lugar de Fio normal."]
+	quest.04D0543FE2820F64.quest_desc: ["Hora de cultivar um pouco de linha! Alguns destes permitem cultivá-la diretamente, enquanto outros oferecem uma alternativa que funciona nas receitas."]
 	quest.04D0543FE2820F64.quest_subtitle: "Quem precisa de Aranhas de qualquer maneira?"
 	quest.04D0543FE2820F64.title: "&fFio de Linho"
 	quest.04D9F6587EF8D9B7.quest_desc: ["O &9Frasco de Poção&r armazena até 100 poções. Você pode removê-las usando uma garrafa vazia ou um frasco de poção no frasco.\\n\\nWixies usarão esses frascos durante a Fabricação Automática de Poções."]
@@ -13025,6 +13025,9 @@
 	quest.7AD22973EDC05877.quest_desc: ["Adicione blocos de entrega de energia UV e uma estrela ATM, e BAM! Agora você tem o Módulo de Compressão Estelar."]
 	quest.7AD22973EDC05877.quest_subtitle: "Compressão Estelar"
 	quest.7AD4D212633DAEC8.quest_desc: ["Imbui uma Rajada de Mana com forças entrópicas, ou em termos simples, a transforma em uma bomba quando atinge algo que não pode receber Mana."]
+	quest.7AD6E01ED01E6F13.quest_desc: ["Estes são alguns dos dispositivos de transferência de itens e fluidos mais rápidos, fáceis de usar e versáteis que existem. Use Pedra Luminosa para aumentar as transferências para pilhas/baldes por tick, e diamantes para focar em uma quantidade específica de MB ou itens sendo enviados para o bloco especificado (pedra luminosa no translocador de saída, pepita de diamante no translocador de entrada)."]
+	quest.7AD6E01ED01E6F13.quest_subtitle: "De volta novamente..."
+	quest.7AD6E01ED01E6F13.title: "Adivinha quem voltou?"
 	quest.7AD83A26A52C0983.quest_desc: ["Esta essência especial é usada para fazer a &6Estrela ATM&r."]
 	quest.7AD83A26A52C0983.title: "Essência Criativa"
 	quest.7ADE214373DE135F.quest_subtitle: "Nível: &63"
@@ -13714,6 +13717,7 @@
 	task.16EF7FF802D5A2BB.title: "Blocos com Moldura"
 	task.1709A45C149125F1.title: "TodosOsDireitosReservados"
 	task.171FD27057746E80.title: "Mate 1 Wither"
+	task.172162127C8F6E4E.title: "Qualquer tapete de comerciante"
 	task.173044E1C1134A80.title: "Pedregulho"
 	task.173B725A839DEEAA.title: "Projéteis Comuns"
 	task.17B0E19125FCFA1A.title: "Favo Brilhante"
@@ -14265,6 +14269,7 @@
 	task.76F6BC2EC054BD3C.title: "Enxofres Alquímicos"
 	task.770B8B984F85AB73.title: "TodosOsDireitosReservados"
 	task.770DE94AE3FBD13E.title: "Água"
+	task.77187686AC2440DB.title: "Translocadores"
 	task.773B7F8C77B21B28.title: "Lã do Chipped"
 	task.773CA1FDC4CEFCEF.title: "TodosOsDireitosReservados"
 	task.775A7E11D20688CD.title: "Bobina de RF de Alto Fluxo"
