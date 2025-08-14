@@ -325,24 +325,11 @@
 		{
 			dependencies: ["1D2EF12FD7FDD217"]
 			id: "1697CC05D08B388D"
-			rewards: [
-				{
-					id: "634BD1679C226F35"
-					item: {
-						components: {
-							"ftbquests:missing_item": "pamhc2foodcore:friedchickenitem"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-				{
-					id: "551DA8AE385BDF12"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "551DA8AE385BDF12"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [
 				{
 					count: 10L
@@ -899,56 +886,29 @@
 		}
 		{
 			dependencies: ["72717D1135486D7F"]
-			id: "56550CD12C681B0F"
-			rewards: [
-				{
-					id: "5BAD03B93921DAE9"
-					item: {
-						count: 1
-						id: "silentgear:flax_string"
-					}
-					type: "item"
-				}
-				{
-					id: "0D8DEA2CB39DB998"
-					type: "xp"
-					xp: 10
-				}
-			]
-			tasks: [{
-				id: "39856D5B1340F958"
-				item: { count: 1, id: "silentgear:flax_seeds" }
-				type: "item"
-			}]
-			x: -5.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["56550CD12C681B0F"]
 			id: "04D0543FE2820F64"
 			rewards: [
-				{
-					count: 3
-					id: "62205F6BB445FAD2"
-					item: {
-						count: 1
-						id: "silentgear:flax_seeds"
-					}
-					type: "item"
-				}
 				{
 					id: "380633A1C13A3B2C"
 					type: "xp"
 					xp: 10
 				}
+				{
+					count: 8
+					id: "6B33D5C5A092EBFB"
+					item: {
+						count: 1
+						id: "minecraft:string"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
-				count: 3L
-				id: "6D9DE56C95427085"
-				item: { count: 1, id: "silentgear:flax_string" }
+				id: "3DA0D9582AEFCBCF"
+				item: { components: { "ftbfiltersystem:filter": "or(item(immersiveengineering:seed)item(supplementaries:flax_seeds)item(productivefarming:flax_seeds)item(silentgear:flax_seeds)item(actuallyadditions:flax_seeds))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -7.0d
+			x: -5.5d
 			y: -1.0d
 		}
 	]

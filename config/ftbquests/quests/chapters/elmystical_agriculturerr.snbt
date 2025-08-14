@@ -426,33 +426,6 @@
 			y: 7.625d
 		}
 		{
-			dependencies: ["67DBE6C59C0D9D1B"]
-			icon_scale: 1.2d
-			id: "219A5BDA5A01A420"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3BE11050F61B4BE8"
-					table_id: 8775109450478234580L
-					type: "random"
-				}
-				{
-					id: "23DA6BCAF1D94343"
-					type: "xp"
-					xp: 250
-				}
-			]
-			shape: "octagon"
-			size: 1.25d
-			tasks: [{
-				id: "47A184CF57387DC7"
-				item: { count: 1, id: "mysticalagriculture:master_infusion_crystal" }
-				type: "item"
-			}]
-			x: 32.5d
-			y: 0.125d
-		}
-		{
 			dependencies: ["37B297640F537383"]
 			id: "41DBE44D7AA0B623"
 			rewards: [
@@ -971,33 +944,6 @@
 			y: 1.125d
 		}
 		{
-			dependencies: ["1CC4F8570A7A99EB"]
-			icon_scale: 1.2d
-			id: "217DB12EA32E1724"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "350E7B5C5FA843A3"
-					table_id: 7164117781790429121L
-					type: "random"
-				}
-				{
-					id: "46BD9205AE5E6871"
-					type: "xp"
-					xp: 50
-				}
-			]
-			shape: "octagon"
-			size: 1.25d
-			tasks: [{
-				id: "0C282319C6EAC76E"
-				item: { count: 1, id: "mysticalagriculture:infusion_crystal" }
-				type: "item"
-			}]
-			x: 12.5d
-			y: 0.125d
-		}
-		{
 			dependencies: [
 				"7DFF18CFEB0B8DBE"
 				"0B37355262121DD5"
@@ -1344,7 +1290,7 @@
 			y: 1.125d
 		}
 		{
-			dependencies: ["217DB12EA32E1724"]
+			dependencies: ["1CC4F8570A7A99EB"]
 			id: "73350AD668200E99"
 			rewards: [
 				{

@@ -216,8 +216,8 @@
 				}
 			]
 			tasks: [{
-				id: "0D5203048B6E068C"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(the_bumblezone:bee_queen/dedicated_trade_tags/modded/utilitarian_trapped_soliciting_carpets)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "172162127C8F6E4E"
+				item: { components: { "ftbfiltersystem:filter": "or(item(utilitarian:white_soliciting_carpet)item(utilitarian:orange_soliciting_carpet)item(utilitarian:magenta_soliciting_carpet)item(utilitarian:light_blue_soliciting_carpet)item(utilitarian:yellow_soliciting_carpet)item(utilitarian:lime_soliciting_carpet)item(utilitarian:pink_soliciting_carpet)item(utilitarian:gray_soliciting_carpet)item(utilitarian:light_gray_soliciting_carpet)item(utilitarian:cyan_soliciting_carpet)item(utilitarian:purple_soliciting_carpet)item(utilitarian:blue_soliciting_carpet)item(utilitarian:brown_soliciting_carpet)item(utilitarian:green_soliciting_carpet)item(utilitarian:red_soliciting_carpet)item(utilitarian:black_soliciting_carpet))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 1.0d

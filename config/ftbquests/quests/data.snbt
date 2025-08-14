@@ -13,6 +13,7 @@
 		id: "minecraft:oak_sapling"
 	}]
 	emergency_items_cooldown: 60
+	fallback_locale: ""
 	grid_scale: 0.5d
 	hide_excluded_quests: false
 	lock_message: ""
@@ -24,5 +25,6 @@
 	pause_game: false
 	progression_mode: "linear"
 	show_lock_icons: true
+	verify_on_load: false
 	version: 13
 }

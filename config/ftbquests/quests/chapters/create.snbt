@@ -3013,28 +3013,14 @@
 		{
 			dependencies: ["3F663416E824720C"]
 			id: "39A7619B4C5592BE"
-			rewards: [
-				{
-					count: 3
-					id: "727528AFAC25F78B"
-					item: {
-						components: {
-							"ftbquests:missing_item": "the_bumblezone:honey_bucket"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+			rewards: [{
+				id: "6C3E1E23C4D1A9E1"
+				item: {
+					count: 1
+					id: "create:fluid_tank"
 				}
-				{
-					id: "6C3E1E23C4D1A9E1"
-					item: {
-						count: 1
-						id: "create:fluid_tank"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "59F4EFCCDB445D31"
 				item: { count: 1, id: "create:item_drain" }

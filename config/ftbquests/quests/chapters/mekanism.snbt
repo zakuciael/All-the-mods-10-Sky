@@ -3169,39 +3169,6 @@
 			y: 5.0d
 		}
 		{
-			id: "63F41475236F99D2"
-			rewards: [
-				{
-					id: "6957BC31AFBC4515"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:copper_backpack"
-					}
-					type: "item"
-				}
-				{
-					id: "0D12B9D563107C9C"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "5661977C70D996AF"
-					item: { count: 1, id: "mekanism:seismic_vibrator" }
-					type: "item"
-				}
-				{
-					id: "6521C465ECC5152F"
-					item: { count: 1, id: "mekanism:seismic_reader" }
-					type: "item"
-				}
-			]
-			x: 5.5d
-			y: -7.5d
-		}
-		{
 			dependencies: [
 				"081DC030A0546549"
 				"71869B1D81D6A7EF"
@@ -3576,8 +3543,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: -8.5d
+			x: 5.425000000000001d
+			y: -7.600000000000001d
 		}
 	]
 }

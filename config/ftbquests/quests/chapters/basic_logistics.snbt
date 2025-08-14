@@ -1009,5 +1009,16 @@
 			x: 3.0d
 			y: 5.0d
 		}
+		{
+			id: "7AD6E01ED01E6F13"
+			size: 2.0d
+			tasks: [{
+				id: "77187686AC2440DB"
+				item: { components: { "ftbfiltersystem:filter": "or(item(translocators:fluid_translocator)item(translocators:item_translocator))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
 	]
 }

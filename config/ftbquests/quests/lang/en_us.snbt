@@ -515,7 +515,7 @@
 		"If you end up not able to use anymore, it may be \"completed\", consider using this in tandem of Apotheosis enchanting for absurd enchants."
 	]
 	quest.04C01A5FF3DAC326.quest_subtitle: "Consider this your gateway to Apotheosis"
-	quest.04D0543FE2820F64.quest_desc: ["Flax String can be used in replace of normal String."]
+	quest.04D0543FE2820F64.quest_desc: ["Time to Grow some string! Some of these allow you to grow it directly, whilst others give you an alternative that works in recipes."]
 	quest.04D0543FE2820F64.quest_subtitle: "Who needs Spiders anyway?"
 	quest.04D0543FE2820F64.title: "Flax String"
 	quest.04D9F6587EF8D9B7.quest_desc: ["The &9Potion Jar&r stores up to 100 potions. You can remove them by using an empty bottle or a potion flask on the jar. \\n\\nWixies will use these jars during Potion Autocrafting."]
@@ -1542,9 +1542,6 @@
 	quest.0EBE20E44A7AEC7E.quest_subtitle: "Boots"
 	quest.0EBE20E44A7AEC7E.title: "&eHydraulic Propulsion &7Unit"
 	quest.0EC2053B191C55C6.quest_desc: ["Extracts latex from logs, runs faster when given power.\\n\\nCheck JEI for acceptable logs and Latex amounts. The best log to use is Acacia."]
-	quest.0ED11FCF6298CE85.quest_desc: ["&e&lIron's Spells&r &4Blood Armor&r!"]
-	quest.0ED11FCF6298CE85.quest_subtitle: "20"
-	quest.0ED11FCF6298CE85.title: "&4Cultist Outfit"
 	quest.0ED7B25DC1AA767B.quest_desc: ["Within the &9Twilight Forest&r, there are loot chests that can give you rare saplings.\\n\\nCollect them all!"]
 	quest.0ED7B25DC1AA767B.quest_subtitle: "Growing Trees"
 	quest.0ED7B25DC1AA767B.title: "&aThe Real Final Boss"
@@ -2768,8 +2765,6 @@
 		"{image:atm:textures/questpics/cataclysm/cataclysm_prison.png width:200 height:100 align:center}"
 	]
 	quest.1A8F438DB8508276.title: "&3Frosted Prison&r: Home of the &3&lMaledictus"
-	quest.1A96C595CBA42840.quest_desc: ["Kivi Seeds can be used to grow Kivi Essence which can be crafted in Kivi!"]
-	quest.1A96C595CBA42840.title: "Kivi Automation"
 	quest.1AA81C41431FD145.quest_desc: ["Pull..! Pull..! Pull..! \\n\\nThe Puller is the opposite of the Sender, it pulls items from Inventories into the Router's Buffer. \\n\\nThe Inventory has to be adjacent to the Router."]
 	quest.1AADF0A1B42AD511.quest_desc: ["Using all of the materials we've gathered so far, we can make the first piece of the &dRailgun&r needed for the &6Star&r!"]
 	quest.1AAF0B31B47AF23D.quest_desc: ["Individual ME devices can also be configured to respond to redstone signals. When upgraded with a &bRedstone Card&f, a device can be configured to do work only when powered with redstone or otherwise as needed.\\n\\nThis behavior can also apply to entire &osections&r of an ME network by using an &bME Toggle Bus&f. This allows a section of the network on the other side of the bus to come online only when the bus is powered by redstone, or to go offline if using an &einverted&f toggle bus."]
@@ -3373,9 +3368,6 @@
 	quest.2156C00E30424844.title: "&l&cFoundry&r &4Tanks"
 	quest.215AD616E6847E9A.quest_desc: ["Each &5Insanium Gemstone&r is 2 &5Insanium Essence&r. So each &5Gemstone Block&r is 18 &5Insanium Essence&r. \\n\\nThat means we can take our 9,216 &aInferium Essence&r for the &5Insanium Blocks&r and double it to get 18,432 &aInferium Essence&r for just the 4 &5Insanium Gemstone Blocks&r."]
 	quest.215AD616E6847E9A.title: "4 &5Insanium Gemstone Blocks"
-	quest.215C9C2B2240FAA1.quest_desc: ["&e&lIron's Spells&r &5Electric Armor&r!"]
-	quest.215C9C2B2240FAA1.quest_subtitle: "20"
-	quest.215C9C2B2240FAA1.title: "&5Electromancer Outfit"
 	quest.21624A6500545C42.quest_desc: [
 		"&3Crop Supports&r can be placed over your crops to make them grow faster."
 		""
@@ -3400,8 +3392,6 @@
 	quest.2171DC0B13C4BD43.quest_desc: ["&a&lRoots Classic&r may look small in JEI but I can promise you there's so much to it! \\n\\nRoots is all about using nature's gifts to make rituals.\\n\\nTrust me you'll find these items everywhere!"]
 	quest.2171DC0B13C4BD43.title: "&a&lRoots Classic"
 	quest.21770049843DD275.quest_subtitle: "Part 2 of 2"
-	quest.217DB12EA32E1724.quest_desc: ["The &bInfusion Crystal&r is need in order to \"tier up\" seeds. For example if you combine the crystal with 4 Inferium Essence you will get 1 Prudentium Essence.\\n\\nLater on you will be able to craft an Infusion Crystal that doesn't break."]
-	quest.217DB12EA32E1724.title: "&bInfusion Crystal"
 	quest.217DF3B66A07A8DE.quest_desc: [""]
 	quest.217DF3B66A07A8DE.quest_subtitle: "&oGarden of Eden in just a single Seed."
 	quest.217DF3B66A07A8DE.title: "&3&lDimensional &2Seed"
@@ -3415,8 +3405,6 @@
 	quest.219932CB19258C16.quest_desc: ["The third tier of storage component, providing &e16384&f bytes of storage."]
 	quest.219932CB19258C16.quest_subtitle: "x4^2"
 	quest.219932CB19258C16.title: "16k Storage Component"
-	quest.219A5BDA5A01A420.quest_desc: ["The &4Master Infusion Crystal&r works the same as the Infusion Crystal but it never breaks."]
-	quest.219A5BDA5A01A420.title: "&4Master Infusion Crystal"
 	quest.219AA017149C36E2.quest_desc: ["Trapped Trader Carpets will kill any Wandering Traders that spawn near it instantly!\\n\\nThese might be the best items in the entire pack."]
 	quest.219AA017149C36E2.quest_subtitle: "No more Annoying Traders!"
 	quest.21A0FD474FBB49F7.quest_desc: [
@@ -3772,9 +3760,6 @@
 	quest.2496226FAF4C22F3.quest_subtitle: "&f7.5&r &4Damage&r"
 	quest.249E5C6893387E15.quest_desc: ["These &cTracks&r are made for stopping the &5Locomotives&r and &7Carts&r. \\n\\nThe &cLocking Kit&r stops &7Carts&r and only starts them when given a redstone pulse. \\nThe &cBuffer Kit&r is for the end of your &6tracks&r, will stop them and not start. \\nThe &cGated Kit&r just deploys a Fence Gate connected with the &6track&r."]
 	quest.249E5C6893387E15.title: "&cTrack Kits&r for stopping &7Carts&r"
-	quest.24A7B2902E7430A1.quest_desc: ["&7Leather Armor&r just with a little Arcane sprinkled over it. \\n\\nGives boosts to Mana for Spells, just a little bit."]
-	quest.24A7B2902E7430A1.quest_subtitle: "15"
-	quest.24A7B2902E7430A1.title: "&9Wandering Magician Gear"
 	quest.24BA4B4EED0A9DBD.quest_desc: [
 		"Valid Upgrades:"
 		"- Mind Fog"
@@ -3813,9 +3798,6 @@
 	quest.24F3E90C14BFD1B4.title: "&7&lModern Industrialization"
 	quest.24FCFF18296ED907.quest_desc: ["To upgrade &9Deepshelves&r even farther, surprisingly we don't need &d&lInfusion&r! Instead we need more Crafting! \\n\\nFirst, is 5 &3Sculk Blocks&r and a &3Sculk Catalyst&r. Both can be found within the &9Deep Dark&r and will need &5Silk Touch&r to collect. \\n\\nLast is the &9Warden Tendril&r... this is a Drop from the &9&lWarden&r... Yes, you'll need to kill the &9&lWarden&r. \\n\\nOnce you have all that you can Craft one of the best &7Bookshelves&r! One that gives &a10 Eterna&r, &c15% Quanta&r, and &510% Arcana&r. \\n\\nAnd most importantly, gives us a max &aEterna&r of &a80&r! Almost to 100!"]
 	quest.24FCFF18296ED907.title: "&9Soul-Touched Sculkshelf"
-	quest.24FDA15A7ACDF021.quest_desc: ["&5Unobtainium Armor&r but with buffs to &e&lIron's Spells&r Spells!"]
-	quest.24FDA15A7ACDF021.quest_subtitle: "40"
-	quest.24FDA15A7ACDF021.title: "&5Unobtainium Mage Outfit"
 	quest.25080E3295B1DF01.quest_desc: ["The &5Unobtainium Furnace&r smelts items faster than any other Furnace in the pack!"]
 	quest.25080E3295B1DF01.title: "&5Unobtainium Furnace"
 	quest.251464B43353D4C6.quest_desc: ["Our beloved Garden Cloche! It is an automatic Farm, and with this Quest is simple to use! \\n\\nTo start it will need &cEnergy &6Input&r from either the Left, Right, or Top! \\n\\nIt will then need &9Water&r from Back Port, (try using a &9Sink&r). \\n\\nNext, we'll need to Input our Seeds, Farmland, and optional Fertilizer by the &eItem &6Input&r at the Bottom! \\n\\nIt will need the correct Farmland for the Seeds, you can check this all by Right Clicking the Cloche to see its GUI BTW! \\n\\nOnce it has all that, it will quickly grow and harvest your Crops and &6Output&r them on the Front of the Dome. \\n\\nLast notes: it will keep the original Seed and Farmland and won't use them up, Dirt will be made into Farmland, and the Fertilizers are Sulfur, Slag, Nitrate, and Industrial Fertilizer."]
@@ -3929,9 +3911,6 @@
 	quest.2607F3DC07049785.quest_desc: ["Why spend time sitting down and eating a nice Home-Cooked meal when you can just Eat and Drink quickly! \\n\\nWith this very stylish &6Hat&r, Eating and Drinking is much faster."]
 	quest.2607F3DC07049785.quest_subtitle: "Head"
 	quest.2607F3DC07049785.title: "&6Plastic Drinking Hat"
-	quest.260C7F3C1F51221D.quest_desc: ["&e&lIron's Spells&r &aEvocation Armor&r!"]
-	quest.260C7F3C1F51221D.quest_subtitle: "20"
-	quest.260C7F3C1F51221D.title: "&aArchevoker Outfit"
 	quest.260F9C98DC2E485B.quest_subtitle: "Tier: &b4"
 	quest.262036FE8E87F50A.quest_subtitle: "3x3 Mining"
 	quest.262AE37765B139BE.quest_desc: [
@@ -5524,9 +5503,6 @@
 	quest.361D5B42688D5C53.quest_subtitle: "Stocking up"
 	quest.361DFDB1E1352D6B.quest_desc: ["Find some Sugar Cane near some water."]
 	quest.361DFDB1E1352D6B.title: "Sugar Sugar"
-	quest.361EF9E4973E3522.quest_desc: ["&e&lIron's Spells&r &dEnder Armor&r!"]
-	quest.361EF9E4973E3522.quest_subtitle: "20"
-	quest.361EF9E4973E3522.title: "&dShadow-Walker Outfit"
 	quest.362DDA1A5694BE0F.quest_desc: [
 		"WORK IN PROGRESS:"
 		""
@@ -6222,9 +6198,6 @@
 	]
 	quest.3D59BC5C2F5A073C.quest_subtitle: "More Horsepower!"
 	quest.3D5F87F8E6B89C1B.quest_desc: ["The &7Furnator&r will burn items like coal and wood to produce FE."]
-	quest.3D72E3E53E7306FA.quest_desc: ["&e&lIron's Spells&r &cFire Armor&r!"]
-	quest.3D72E3E53E7306FA.quest_subtitle: "20"
-	quest.3D72E3E53E7306FA.title: "&cPyromancer Outfit"
 	quest.3D7480E4F9063E93.quest_subtitle: "Lumber + Sweat"
 	quest.3D7480E4F9063E93.title: "Rancher Bee"
 	quest.3D755073C56274BE.quest_desc: ["Drop a Lens Item infront of the Atomic Reconstructor and when it activates it'll transform into a Lens of &cC&eo&al&bo&3r&r. \\n\\nDrop a Lens of &cC&eo&al&bo&3r&r infront of it, and when it goes it will make a Lens of &cDetonation&r. \\n\\nKeep doing this until you get Lens of &3Certain Death&r."]
@@ -7714,9 +7687,6 @@
 	quest.4B552E9D05FF5415.title: "&l&9X&cy&aC&8r&aa&cf&9t&r &lWorld"
 	quest.4B62AF0405F68041.quest_desc: ["Adds a filter that allows you to tell the Backpack which items it should keep stocked. Shift right-clicking an inventory will refill it."]
 	quest.4B62AF0405F68041.quest_subtitle: "All Stocked up"
-	quest.4B65100885AE762D.quest_desc: ["&e&lIron's Spells&r &6Holy Armor&r!"]
-	quest.4B65100885AE762D.quest_subtitle: "20"
-	quest.4B65100885AE762D.title: "&6Priest Outfit"
 	quest.4B76FE0348DB0E45.quest_desc: ["The Quantum Bridge Card is an alternate method to get wireless interdimensional access to your Applied Energistics system. You will need a Quantum Bridge connected at your base and a Quantum Bridge Card in your terminal. These tunnels are then bound together with a Quantum Entangled Singularity to gain access wherever you go."]
 	quest.4B7D387CEFF9667E.quest_desc: ["Finally! &6&lCreate&r has been updated and it is definitely worth the wait! \\n\\n&6&lCreate&r is all about rotating and using Rotational Power... well for practically everything! Crafting, crushing, mixing, brewing, ETC. \\n\\nIf it has been so long that you don't remember how to use &6&lCreate&r, you can use &7&lModern Industrialization&r to Craft the &6&lATM Star&r."]
 	quest.4B7D387CEFF9667E.title: "&6&lCreate"
@@ -8040,9 +8010,6 @@
 	]
 	quest.4DBC3B4D38CC6152.title: "Crystallized Moth"
 	quest.4DCEC4B97E24B6F1.quest_subtitle: "&f17 &cAttack Damage"
-	quest.4DD66E31859EA593.quest_desc: ["&3Vibranium Armor&r but with buffs to &e&lIron's Spells&r Spells!"]
-	quest.4DD66E31859EA593.quest_subtitle: "32"
-	quest.4DD66E31859EA593.title: "&3Vibranium Mage Outfit"
 	quest.4DD7F3508B757EF0.quest_desc: ["Insert a block of ruby into your cutter to get nine ruby plates"]
 	quest.4DDFD3BAA86DC342.quest_desc: ["The UHPIC chip once the wafer is broken down into chips by a Cutting machine."]
 	quest.4DDFD3BAA86DC342.quest_subtitle: "Semi-Conductors are Fun!"
@@ -8733,9 +8700,6 @@
 	quest.53829B3E51936ACD.title: "Strong Sword"
 	quest.538821E23E39BE97.quest_desc: ["&2Augment&r: Fuel Efficiency is for all you Earth-Loving, Tree-Hugging, Captain Planet Embracing, Hippies. The Furnace consumes half of the amount of Fuel at the cost of half the time. Coal will not Smelt 8 items but rather 16!"]
 	quest.538821E23E39BE97.title: "&2Augment&r: Fuel Efficiency"
-	quest.5391385A75535EC8.quest_desc: ["&e&lIron's Spells&r &2Nature Armor&r!"]
-	quest.5391385A75535EC8.quest_subtitle: "20"
-	quest.5391385A75535EC8.title: "&2Plagued Outfit"
 	quest.539266A1C03C2EBA.quest_desc: [
 		"Souls is the 2nd Slot needed for the &6&lForge&r, also the smallest one: only needing 10 to fill it! \\n\\nEach Soul and Corrupt Soul will count as 1 Soul. While Enchanted Souls count as the whole 10!"
 		"{image:atm:textures/questpics/forbidden/forbidden_souls.png width:135 height:100 align:center}"
@@ -9039,8 +9003,6 @@
 	quest.562BD37539EE318E.title: "Tier: &cBlazing"
 	quest.565376084F05ED6E.quest_desc: ["The Dimension known for housing the piglins and blazes and wither skeletons, now houses 2 more bosses to fight!"]
 	quest.565376084F05ED6E.title: "&4Nether&r: Land of 2 bosses"
-	quest.56550CD12C681B0F.quest_desc: ["&2Flax Seeds&r can be found growing in fields of grass. Flax is great if you need a lot of String in the eraly game."]
-	quest.56550CD12C681B0F.quest_subtitle: "Flax on, Flax off"
 	quest.565703CBB06CEABF.quest_desc: ["I know why you all are here for, you're here for the &4&lMorgan Sword&r. \\n\\nOne of the powerful Swords of all the &6&lATM Modpacks&r. \\n\\nFollow these Quests and you'll become an unstoppable force!"]
 	quest.565703CBB06CEABF.title: "Getting &4&lMorgan"
 	quest.565EBD340595EAC4.quest_desc: ["This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks. \\n\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission. \\n\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode."]
@@ -9568,9 +9530,6 @@
 	quest.5B9F3F32AB28A83A.title: "The Thermo part of the &6&lThermoelectric Boiler"
 	quest.5B9F933ECD6B24FD.quest_desc: ["Allows you to jump higher than with Tier II."]
 	quest.5B9F933ECD6B24FD.quest_subtitle: "Max: 1"
-	quest.5BA84F6282D9CAF1.quest_desc: ["&6Allthemodium Armor&r but with buffs to &e&lIron's Spells&r Spells!"]
-	quest.5BA84F6282D9CAF1.quest_subtitle: "24"
-	quest.5BA84F6282D9CAF1.title: "&6Allthemodium Mage Outfit"
 	quest.5BA986D7928BF09F.quest_desc: ["The Piglich is a Boss added by &6&lAllthemodium&r. \\n\\nHas he 1000 Hearts and currently has no attacks but trust me when he does they will be devastating! \\n\\nWhen killed he'll drop his Heart which will be needed for Alloys and the ATM Star! \\n\\n(Look into ways of farming them like with HNN or EnderIO!)"]
 	quest.5BA986D7928BF09F.title: "Piglich Boss"
 	quest.5BB7648DC10E1E08.quest_desc: ["Has 27 more filter slots and is 6x faster than the regular Exporter. Also has the Stack Upgrade integrated."]
@@ -10487,8 +10446,6 @@
 	quest.63E4149FF75592C8.title: "Ore Processing Upgrade"
 	quest.63E4529AF8894018.quest_desc: ["&lModular Routers&r is a logistics mod. \\n\\nIt all starts with the Router! So make one! \\n\\nAlso the Buffer is the single item slot in the Router where items will come and go through. And it will need Redstone signal for most modules to work."]
 	quest.63E4529AF8894018.title: "&lModular Routers"
-	quest.63F41475236F99D2.quest_desc: ["\"Hey Kid, I got some X-Ray Hacks, you want some?\" \\n\\nThe &8Seismic Vibrator &fand &8Seismic Reader&r work together to tell us what Blocks are beneath us. \\n\\nThe &8Seismic Vibrator&r is a &5Machine&r. It will need &aEnergy&r and once supplied, it will \"&8Vibrate&r\" the Chunk it is placed. \\n\\nThe &8Seismic Reader&r is an &eItem&r and will also need &aEnergy&r! If it isn't in the same Chunk of a &8Vibrator&r it won't work. \\n\\nIf it is, it will open up. The Screen will allow us to see the different Blocks at each Y Level below the Block you are standing on. \\n\\nIt is definitely not perfect, but it sure is helpful! Even for just finding Caves!"]
-	quest.63F41475236F99D2.title: "Seismic Cheats"
 	quest.63F5314A1072FA05.quest_desc: [
 		"The &e&lSawmill&r works similar to the &7&lMetal Press&r, using &eConveyor Belts&r and needing extra Items. \\n\\nIt works in 2 stages, first it Strips the Logs. If it doesn't have a Sawblade within it, it will only Strip Logs. Second stage is cutting the Log into Planks, this needs a Sawblade. \\n\\nSawblades are Crafted with a ton of &8Steel&r. They have Durability and to insert them, Right Click the Slots near the Back of the Sawmill. If you wish to take them out, turn off the Sawmill with &4Redstone&r, then Shift Right Click where you inserted them. \\n\\nYou'll need to give it &cEnergy&r on the Top of the Back Side, and you can &9Input &eItems&r via the &eConveyor Belts&r. The &eItems&r will &6Output&r with those same &eBelts&r, but the Sawdust comes out of a Port in Front of the &e&lMachine&r."
 		"{@pagebreak}"
@@ -10610,9 +10567,6 @@
 	quest.652A14E17DDE97E6.title: "&dDragonskin Spell Book"
 	quest.652DBDD284873140.title: "Deorum Block"
 	quest.653260450BEDB6AB.quest_desc: ["Why have 2 Energy Hatches when just one will do? This energy hatch accepts 4 Amps of IV all on its own!"]
-	quest.654F5C84114A31A1.quest_desc: ["Very simple and cheap &e&lIron's Spells&r Armor, helpful for early game!"]
-	quest.654F5C84114A31A1.quest_subtitle: "20"
-	quest.654F5C84114A31A1.title: "&4Scarecrow Outfit"
 	quest.6552E301C370D203.quest_subtitle: "&f7 &cAttack Damage"
 	quest.657B3116A6419420.quest_subtitle: "Your own Handle!"
 	quest.657DB994B029F61C.quest_desc: [
@@ -10718,9 +10672,6 @@
 	quest.66A450CAC07232E1.quest_desc: ["&6Thermodynamic Conductors&r will move &6Heat&r. Yeah, some &5&lMekanism&r &5Machines&r use &6Heat&r! Like the &6&lThermal Evaporation Machine&r. \\n\\nMost of the &6Heaters&r will have set Sides for Outputting &6Heat&r! \\n\\nI'm not sure what these numbers mean but following the pattern: more expensive, more good!"]
 	quest.66A450CAC07232E1.quest_subtitle: "Heat"
 	quest.66A450CAC07232E1.title: "&6Thermodynamic Conductors"
-	quest.66B5A8D259E12BF5.quest_desc: ["Wait so you're telling me it has the same stats as &cNetherite&r? Plus Spell Boosts? And doesn't need Smithing Templates to craft? \\n\\nWhy would anyone want regular &cNetherite&r!"]
-	quest.66B5A8D259E12BF5.quest_subtitle: "20"
-	quest.66B5A8D259E12BF5.title: "&4Netherite Battlemage Outfit"
 	quest.66BAC2B478F9B119.quest_subtitle: "1/5"
 	quest.66BAC2B478F9B119.title: "Top &6&lATM Star&r part"
 	quest.66C21934DAFFAC7F.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_tide.png width:100 height:150 align:center}"]
@@ -10945,9 +10896,6 @@
 	quest.686AEC3EF1140D15.title: "New Tools for New Ores"
 	quest.686B25F2E9D8CC97.quest_desc: ["At the time of writing this it's the end of July so I've got about 3 months until Halloween. But it's never to early to start getting Spooky! Just like Spirit Halloween we can get Spooky 3 months before it actually starts. This time by Right Clicking a Furnace with the Spook-alator! Once it's time to start getting ready for Thanksgiving Shift Right Click them to Un-Spook-Alate!"]
 	quest.686B25F2E9D8CC97.quest_subtitle: "\"This is Halloween\""
-	quest.686EB173C94301C0.quest_desc: ["&e&lIron's Spells&r &bIce Armor&r!"]
-	quest.686EB173C94301C0.quest_subtitle: "20"
-	quest.686EB173C94301C0.title: "&bCryomancer Outfit"
 	quest.6877F33323910716.quest_desc: ["Tier 4 Pocket Storage has 64 Slots for Items and each hold 1,048,575 Items. That's 67,108,800 Items total. Move over Backpacks you've been replaced! \\n\\nIt only costs a few Nether Stars which in Modded honestly isn't expensive for what you get!"]
 	quest.6884E25641A1020C.quest_desc: ["The &5Enchantment Library&r is the single greatest &5Enchanted Book&r storage, ever! \\n\\nTo Craft it you'll need 4 &3Ender Chests&r, 1 &5Enchanting Table&r, and 4 of any of the &d&lInfused&r &7Bookshelves&r: &4Infused Hellshelf&r, &bInfused Seashelves&r, and &9Deepshelves&r. \\n\\nTo use it, you can either Shift Left Click &5Enchanted Books&r or bring them into the &9Blue Slot&r. This will add the &5Books&r to the &5Library&r. \\n\\nThe &5Books&r are sorted by name and are held in Points. Each Level of &5Enchanted Book&r determines the Level, and it is reflected on how many &5Books&r would be needed to get that Level. Level 1, is 1 Point. Level 2 is 2 Points. Level 3 is 4 Points. Level 4 is 8 Points. \\n\\nEach &5Book&r is stored to a max of 32768 Points, and they can be extracted by Left Clicking the stored &5Book&r. Each Click will add another Level to the &5Book&r in the &6Orange Slot&r. \\n\\nYou can Click different &5Books&r to add to the &5Book&r in the &6Orange Slot&r, similar to combining &5Books&r in an Anvil. \\n\\nThe max Level of &5Enchanted Book&r is determined by the highest Level of &5Book&r you've put in. It doesn't matter if you have 32000 Points, if you only put in &5Sharpness III&r, you can only take out &5Sharpness III&r."]
 	quest.6884E25641A1020C.title: "&5Enchantment Library"
@@ -12816,7 +12764,6 @@
 	]
 	quest.790F509BAA15A68E.quest_subtitle: "An Introduction"
 	quest.790F509BAA15A68E.title: "Tools"
-	quest.791A981914CE345F.quest_subtitle: "&f10 &cAttack Damage"
 	quest.791AE62ACACBD5BA.quest_subtitle: "You'll open it, close it, then open it again, just because you're bored"
 	quest.791E5CB36B5C1E73.quest_desc: [
 		"You'll need thin sheets and foil to make this, both of which can be made in a &eBender&r"
@@ -13036,6 +12983,9 @@
 	quest.7AD22973EDC05877.quest_desc: ["Add in UV power delivery blocks, and an ATM star, and BAM! You now have the Star Compression Module."]
 	quest.7AD22973EDC05877.quest_subtitle: "Star Compression"
 	quest.7AD4D212633DAEC8.quest_desc: ["Imbues a Mana Burst with entropic forces, or in simple terms, turns it into a bomb when it hits something that can't receive Mana."]
+	quest.7AD6E01ED01E6F13.quest_desc: ["These are some of the fastest, easiest to use, and most versatile item and fluid transfer devices there are. Use Glowstone to increase transfers to stacks/buckets per tick, and diamonds allow you to focus a specific MB or item amount being sent into the specified block (glowstone on output translocator, diamond nugget on input translocator)."]
+	quest.7AD6E01ED01E6F13.quest_subtitle: "Back again..."
+	quest.7AD6E01ED01E6F13.title: "Guess who's back?"
 	quest.7AD83A26A52C0983.quest_desc: ["This special essence is used for making the &6ATM Star&r."]
 	quest.7AD83A26A52C0983.title: "Creative Essence"
 	quest.7ADE214373DE135F.quest_subtitle: "Tier: &63"
@@ -13675,7 +13625,6 @@
 	task.0CD67A3D64E9B49B.title: "Decor Wires"
 	task.0CDFF60D581118E3.title: "Neon Cuckoo Bee"
 	task.0D4AE8FBAA953732.title: "Example Moderators"
-	task.0D5203048B6E068C.title: "Trapped Trader Carpets"
 	task.0D7C60D7BFBD8CF0.title: "AllRightsReserved"
 	task.0E28075B4E87FE2E.title: "Bronze Ingot"
 	task.0E6876A34D1975EB.title: "AllRightsReserved"
@@ -13723,6 +13672,7 @@
 	task.16EF7FF802D5A2BB.title: "Framed Blocks"
 	task.1709A45C149125F1.title: "AllRightsReserved"
 	task.171FD27057746E80.title: "Kill 1 Wither"
+	task.172162127C8F6E4E.title: "Any Trader carpet"
 	task.173044E1C1134A80.title: "Cobblestone"
 	task.173B725A839DEEAA.title: "Common Projectiles"
 	task.17B0E19125FCFA1A.title: "Glowing Comb"
@@ -14246,6 +14196,7 @@
 	task.76F6BC2EC054BD3C.title: "Alchemical Sulfurs"
 	task.770B8B984F85AB73.title: "AllRightsReserved"
 	task.770DE94AE3FBD13E.title: "Water"
+	task.77187686AC2440DB.title: "Translocators"
 	task.773B7F8C77B21B28.title: "Chipped Wool"
 	task.773CA1FDC4CEFCEF.title: "AllRightsReserved"
 	task.775A7E11D20688CD.title: "High-Flux RF Coil"
