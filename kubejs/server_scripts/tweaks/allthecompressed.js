@@ -69,7 +69,7 @@ ServerEvents.recipes(allthemods => {
         allthemods.smelting(`allthecompressed:stone_${i}x`, `allthecompressed:cobblestone_${i}x`)
         allthemods.smelting(`allthecompressed:glass_${i}x`, `allthecompressed:sand_${i}x`)
 
-        allthemods.recipes.exdeorum.barrel_mixing(`allthecompressed:clay_${i}x`, `allthecompressed:stone_${i}x`, '1000x minecraft:water')
+        allthemods.recipes.exdeorum.barrel_mixing(`allthecompressed:clay_${i}x`, `allthecompressed:sand_${i}x`, '1000x minecraft:water')
     } 
 })
 
