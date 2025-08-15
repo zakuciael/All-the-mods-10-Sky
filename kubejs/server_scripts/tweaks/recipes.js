@@ -220,6 +220,13 @@ ServerEvents.recipes(allthemods => {
             'supplementaries:lapis_bricks'
         ]
     )
+
+    allthemods.shapeless(
+        Item.of('4x minecraft:amethyst_shard'),
+        [
+            '#c:storage_blocks/amethyst'
+        ]
+    )
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
