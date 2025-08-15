@@ -2379,9 +2379,15 @@
 	quest.16299B9AE87257DC.quest_subtitle: "É por isso que você está aqui"
 	quest.16299B9AE87257DC.title: "Terminais Sem Fio"
 	quest.162AB6F9257EB71E.quest_desc: [
-		"Se quisermos começar com a automação no &eATM10:TTS&r, precisaremos nos aprofundar mais em energia e alguns mods novos!"
+		"Se quisermos começar com automação no ATM10:TTS, precisaremos nos aprofundar mais em energia e em alguns mods novos!"
 		""
-		"Para continuar nossa progressão, confira o &lCapítulo 2&r para seguir em frente."
+		"Embora o Capítulo 2 ainda não tenha sido lançado, você já pode começar com os mods que ele incluirá!"
+		""
+		"&bGenerators Galore&r (níveis e mudanças)"
+		""
+		"Níveis do &bGrowth Accelerator&r (recomendamos o direcional, é super rápido!)"
+		""
+		"&bGeOres&r (Cultive aqueles materiais que estão faltando!)&r"
 	]
 	quest.162AB6F9257EB71E.title: "O Próximo Capítulo"
 	quest.162CE44400A63575.quest_desc: ["A primeira e mais importante &5Máquina&r é o &9&lInfusor Metalúrgico&r! \\n\\nO &9&lInfusor Metalúrgico&r combinará um &eItem&r e um &cQuímico&r para Criar novos &eItens&r e Ligas. \\n\\n&cQuímicos &rou &aTipos de Infusão&r irão para o &eQuadrado Amarelo&r e aparecerão na &eBarra&r à esquerda dele. \\n\\nO &4Quadrado Vermelho&r conterá o Item que será Infundido. \\n\\nO &9Quadrado Azul Escuro&r será onde o produto irá! \\n\\nÀ direita, o &aSlot Verde Claro&r e a &aBarra&r são para &aEnergia&r! \\n\\nSe precisar de espaço na &eBarra de Químicos&r, use o botão &lESVAZIAR&r. Isso ejetará todos os &aQuímicos&r nela!"]
