@@ -217,8 +217,10 @@ ServerEvents.recipes(allthemods => {
     ]);
 
     // Crucible heating blocks
-    allthemods.recipes.exdeorum.crucible_heat_source({ block_tag: '#c:storage_blocks/uranium' }, 20);
+    allthemods.recipes.exdeorum.crucible_heat_source({ block_tag: 'alltheores:uranium' }, 20);
     allthemods.recipes.exdeorum.crucible_heat_source({ block: 'mekanism:superheating_element' }, 60);
+    allthemods.recipes.exdeorum.crucible_heat_source({block: 'oritech:still_sheol_fire_block'}, 30);
+    allthemods.recipes.exdeorum.crucible_heat_source({block: 'allthemodium:soul_lava'}, 80);
 
     // Hammer
     allthemods.remove({ type: 'exdeorum:compressed_hammer'})
