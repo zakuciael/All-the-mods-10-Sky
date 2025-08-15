@@ -130,7 +130,7 @@ ServerEvents.recipes(allthemods => {
     allthemods.shaped(
         Item.of('allthemodium:unobtainium_upgrade_smithing_template'), [
             'ITI',
-            'IAI',
+            'IBI',
             'III'
         ], {
             'I': '#c:ingots/vibranium',
