@@ -206,6 +206,13 @@ ServerEvents.recipes(allthemods => {
             '#c:storage_blocks/quartz'
         ]
     )
+
+    allthemods.shapeless(
+        Item.of('9x minecraft:nether_wart'),
+        [
+            'minecraft:nether_wart_block'
+        ]
+    )
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
