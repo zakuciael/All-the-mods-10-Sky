@@ -213,6 +213,13 @@ ServerEvents.recipes(allthemods => {
             'minecraft:nether_wart_block'
         ]
     )
+
+    allthemods.shapeless(
+        Item.of('4x minecraft:lapis_lazuli'),
+        [
+            'supplementaries:lapis_bricks'
+        ]
+    )
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
