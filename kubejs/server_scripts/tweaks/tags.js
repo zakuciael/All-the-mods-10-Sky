@@ -265,6 +265,9 @@ ServerEvents.tags('item', allthemods => {
         'actuallyadditions:crafter_on_a_stick',
         'allthemodium:teleport_pad'
     ])
+    
+    allthemods.add('c:sawdust', 'exdeorum:wood_chippings')
+
     // For crushing recipes
      allthemods.add('c:deepslate_blocks', [
         'minecraft:deepslate',
