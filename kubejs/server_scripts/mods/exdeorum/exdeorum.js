@@ -217,7 +217,7 @@ ServerEvents.recipes(allthemods => {
     ]);
 
     // Crucible heating blocks
-    allthemods.recipes.exdeorum.crucible_heat_source({ block_tag: '#c:storage_blocks/uranium' }, 20);
+    allthemods.recipes.exdeorum.crucible_heat_source({ block_tag: 'alltheores:uranium' }, 20);
     allthemods.recipes.exdeorum.crucible_heat_source({ block: 'mekanism:superheating_element' }, 60);
 
     // Hammer
@@ -239,4 +239,5 @@ ServerEvents.recipes(allthemods => {
         allthemods.recipes.exdeorum.compressed_hammer(Item.of('exdeorum:dust'), Math.pow(9, i), Ingredient.of(`allthecompressed:red_sand_${i}x`))
         allthemods.recipes.exdeorum.compressed_hammer(Item.of('exdeorum:crushed_end_stone'), Math.pow(9, i), Ingredient.of(`allthecompressed:end_stone_${i}x`))
     }
+
 });
