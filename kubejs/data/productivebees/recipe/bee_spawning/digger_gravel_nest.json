@@ -4,8 +4,6 @@
     "item": "productivebees:gravel_nest"
   },
   "results": [
-    {
-      "bee": "productivebees:ashy_mining_bee"
-    }
+    "productivebees:digger_bee"
   ]
 }
