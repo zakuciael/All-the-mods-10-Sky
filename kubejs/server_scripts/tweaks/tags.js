@@ -8,6 +8,13 @@ ServerEvents.tags('block', allthemods => {
     // Extreme Reactors
     allthemods.add('c:storage_blocks/yellorium', 'alltheores:uranium_block' )
 
+    allthemods.add('c:relocation_not_supported', [
+        'minecraft:beehive',
+        'minecraft:bee_nest',
+        '@integrateddynamics',
+        '@waystones'
+    ]);
+
     allthemods.remove('c:relocation_not_supported', [
         'geore:budding_diamond',
         'geore:budding_gold',
