@@ -4,7 +4,6 @@
     "item": "productivebees:gravel_nest"
   },
   "results": [
-    "productivebees:amber_bee"
-  ],
-  "biomes": "#productivebees:is_beach_or_river"
+    "productivebees:chocolate_mining_bee"
+  ]
 }

@@ -4,8 +4,6 @@
     "item": "productivebees:snow_nest"
   },
   "results": [
-    {
-      "bee": "productivebees:sweat_bee"
-    }
+    "productivebees:sweat_bee"
   ]
 }

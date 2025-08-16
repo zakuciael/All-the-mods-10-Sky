@@ -4,11 +4,9 @@
     "item": "productivebees:slimy_nest"
   },
   "results": [
-    {
-      "bee": "productivebees:slimy"
-    }
+    "productivebees:slimy"
   ],
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "productivebees:bee_exists",
       "bee": "productivebees:slimy"
