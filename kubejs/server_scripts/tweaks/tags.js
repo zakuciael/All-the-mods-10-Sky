@@ -258,6 +258,11 @@ ServerEvents.tags('item', allthemods => {
         'actuallyadditions:crafter_on_a_stick',
         'allthemodium:teleport_pad'
     ])
+    // For crushing recipes
+     allthemods.add('c:deepslate_blocks', [
+        'minecraft:deepslate',
+        'minecraft:cobbled_deepslate'
+    ])
 })
 
 ServerEvents.tags('fluid', allthemods => {
