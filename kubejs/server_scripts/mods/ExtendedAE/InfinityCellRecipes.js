@@ -14,9 +14,9 @@ ServerEvents.recipes(allthemods => {
                 X: typeA,
                 C: component,
                 Y: typeB,
-                A: 'allthemodium:unobtainium_allthemodium_alloy_ingot',
-                V: 'allthemodium:unobtainium_vibranium_alloy_ingot',
-                U: 'allthemodium:vibranium_allthemodium_alloy_ingot'
+                A: 'allthemodium:allthemodium_ingot',
+                V: 'allthemodium:vibranium_ingot',
+                U: 'allthemodium:unobtainium_ingot'
             }
         )
     }
