@@ -66,8 +66,9 @@ ServerEvents.recipes(allthemods => {
             }
         ).id('allthemods:enchanting_apparatus/creative_source_jar')
 
-    //EvilCraft
-
+    //EvilCraft - DISABLED (mod not available)
+    // Original recipe commented out as EvilCraft mod is not available
+    /*
         allthemods.recipes.kubejs.shaped('evilcraft:creative_blood_drop', 
             [
                 'BCB', 
@@ -82,7 +83,7 @@ ServerEvents.recipes(allthemods => {
                 E: 'evilcraft:necromancer_staff[cyclopscore:fluid_content={amount:10000,id:"evilcraft:blood"}]',
                 F: 'evilcraft:broom[cyclopscore:fluid_content={amount:10000,id:"evilcraft:blood"}]',
     }
-)
+    */
     //Integrated Dynamics
         
         allthemods.custom(
@@ -155,7 +156,8 @@ ServerEvents.recipes(allthemods => {
             ],
             {
                 A: 'mysticalagradditions:creative_essence',
-                B: 'allthemodium:vibranium_allthemodium_alloy_block',
+                // Changed from alloy block to unobtainium block since alloys may not be available
+                B: 'allthemodium:unobtainium_block',
                 C: 'ironjetpacks:capacitor[ironjetpacks:jetpack_id="ironjetpacks:creative"]',
                 D: 'ironjetpacks:thruster[ironjetpacks:jetpack_id="ironjetpacks:creative"]',
                 E: 'allthetweaks:atm_star',
@@ -305,44 +307,45 @@ ServerEvents.recipes(allthemods => {
         }
     )
 
-    // Create
+    // Create - DISABLED (Pam's HarvestCraft not available)
+    /*
     allthemods.custom({
         "type": "create:mechanical_crafting",
         "accept_mirrored": false,
         "category": "misc",
         "key": {
             "A": {
-            "item": 'pamhc2foodextended:lemondrizzlecakeitem'
+            "item": 'minecraft:cake'
             },
             "B": {
-            "item": 'pamhc2foodcore:pumpkincheesecakeitem'
+            "item": 'minecraft:pumpkin_pie'
             },
             "C": {
-            "item": 'pamhc2foodextended:fruitcakeitem'
+            "item": 'minecraft:cake'
             },
             "D": {
-            "item": 'pamhc2foodextended:chocolatesprinklecakeitem'
+            "item": 'minecraft:cookie'
             },
             "E": {
-            "item": 'pamhc2foodextended:holidaycakeitem'
+            "item": 'minecraft:cake'
             },
             "F": {
-            "item": 'pamhc2foodextended:mochicakeitem'
+            "item": 'minecraft:cake'
             },
             "G": {
-            "item": 'pamhc2foodcore:chocolatecakeitem'
+            "item": 'minecraft:cookie'
             },
             "H": {
             "item": 'allthetweaks:atm_star'
             },
             "I": {
-            "item": 'pamhc2foodcore:carrotcakeitem'
+            "item": 'minecraft:golden_carrot'
             },
             "J": {
-            "item": 'pamhc2foodcore:cheesecakeitem'
+            "item": 'minecraft:cake'
             },
             "K": {
-            "item": 'pamhc2foodextended:pineappleupsidedowncakeitem'
+            "item": 'minecraft:cake'
             },
             "L": {
             "item": 'create_enchantment_industry:experience_cake'
@@ -368,6 +371,7 @@ ServerEvents.recipes(allthemods => {
         },
         "show_notification": false
     }).id("allthemods:create/creative_blaze_cake")
+    */
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
