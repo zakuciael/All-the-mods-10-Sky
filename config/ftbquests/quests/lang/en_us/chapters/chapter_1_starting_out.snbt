@@ -1,0 +1,163 @@
+{
+	quest.04ACC7E762537FB4.quest_desc: [
+		"Place an ore inside this thing and jump on it to squeeze the ore into 2 raw ore (sometimes). Give it a Redstone signal to reset it after you squeeze."
+		""
+		"Hint: Place some Armor Stands on top :)"
+	]
+	quest.0C9B97D2048A1073.quest_desc: [
+		"In Skyblock you'll be getting a lot of basic items for processing like cobble, sand, and dust."
+		""
+		"To save room you can compress them by combining 9 in a crafting table."
+		""
+		"If you want to hammer them in bulk you'll need..."
+	]
+	quest.0C9B97D2048A1073.quest_subtitle: "It just saves space and time!"
+	quest.0C9B97D2048A1073.title: "Compressed Items"
+	quest.0DE706CEFF3D04DC.quest_desc: ["The Stone Barrel can hold Lava, unlike the wooden ones. With this, you can make Blackstone and whatnot."]
+	quest.0F9EE68E5D61DC91.title: "Gold Stone generator"
+	quest.0FD620A455281A6D.title: "The other 3"
+	quest.10B71AD29063471F.title: "Iron stone generator"
+	quest.11097D91EBF2490D.title: "Iron Mesh"
+	quest.11CE392E7A41785F.quest_desc: [
+		"Most of the starting journey will be getting materials via sieving. We'll learn more about that in the next quest."
+		""
+		"Don't be afraid to make a ton of gravel. Sieving gravel is how you progress!"
+	]
+	quest.11CE392E7A41785F.title: "Gravel"
+	quest.162AB6F9257EB71E.quest_desc: [
+		"If we want to get started with automation in ATM10:TTS, we'll need to dip our toes further into power and some new mods!"
+		""
+		"Whilst Chapter 2 is not out yet, you can get started with the mods it will include!"
+		""
+		"&bGenerators Galore&r (tiers and changes)"
+		""
+		"&bGrowth Accelerator tiers&r (we recommend directional, it's super fast!)"
+		""
+		"&bGeores&r (Grow those materials you are missing!)&r"
+	]
+	quest.162AB6F9257EB71E.title: "The Next Chapter"
+	quest.1658780534451E39.quest_desc: ["Use Dirt in a Sieve to get Seeds, then spam sneak to grow your crops quickly!"]
+	quest.1658780534451E39.title: "Start a Farm"
+	quest.1EFE097BA29A5C0D.quest_desc: ["Get ready to make free water with these!"]
+	quest.1EFE097BA29A5C0D.title: "Leaf it out"
+	quest.22C568A17B5D1B46.quest_desc: [
+		"If you've played the original (or any skyblock ever), most of what you have to do should be self-explanatory up until the ATM metals."
+		""
+		"If not, don't fear! These quests are here to guide you through the start."
+	]
+	quest.22C568A17B5D1B46.quest_subtitle: "Welcome to All The Mods 10: To the Sky! Now in double digits."
+	quest.22C568A17B5D1B46.title: "Getting Started"
+	quest.231765C07B4A12B7.quest_desc: [
+		"Once you have a Flint Mesh, you will start to get basic materials from sieving, like Iron!"
+		""
+		"Combine your ore pieces into proper ores, then throw them in your furnace to smelt them!"
+	]
+	quest.231765C07B4A12B7.title: "Antique Air Fryer"
+	quest.25D1363D8890E7C3.quest_desc: [
+		"There are plenty of ways to generate your first bits of power."
+		""
+		"In this pack, Generators Galore has been given an overhaul! With cheaper upgrades to 8x and 64x, and increased energy production across the board, grab yourself some hefty lava gen, and get going!"
+	]
+	quest.25D1363D8890E7C3.quest_subtitle: "Your First Generator"
+	quest.25D1363D8890E7C3.title: "Starting Power"
+	quest.25E267AAAD4B992B.quest_desc: ["Throw dust in a sieve to get some bone meal."]
+	quest.25E267AAAD4B992B.title: "Bone Meal"
+	quest.27187D13B58AC79C.title: "Copperstone Generator"
+	quest.29F82373417B2006.quest_desc: ["Ran out of saplings? You can get some emergency saplings at the top right of the quest menu! It's repeatable too: no need to restart your world if something bad happens!\","]
+	quest.29F82373417B2006.title: "Emergency Saplings"
+	quest.2C134DDBF9283407.quest_desc: ["For those who want to fast-track the start, this gives you an 'easy-mode' start. You do not have to complete this quest, and it is optional for progression."]
+	quest.2C134DDBF9283407.quest_subtitle: "For those who want to skip forward"
+	quest.2C134DDBF9283407.title: "A head Start"
+	quest.2CF0EE5C0651F531.quest_desc: [
+		"With the Flint Mesh, you'll start getting some actual resources."
+		""
+		"If you are wondering what each mesh drops when sieving, you can always hit 'U' in JEI on the mesh to check out the list."
+	]
+	quest.2CF0EE5C0651F531.quest_subtitle: "Our First Upgrade"
+	quest.2CF0EE5C0651F531.title: "Flint Mesh"
+	quest.3001B2EEE5C6C9AB.quest_desc: [
+		"Chop down the tree."
+		""
+		"&lIMPORTANT:&r Yes, being a modded skyblock pack, you can spam crouch to make anything, including your trees and crops, grow faster."
+	]
+	quest.3001B2EEE5C6C9AB.quest_subtitle: "The Start of Everyone's Journey"
+	quest.3001B2EEE5C6C9AB.title: "Chop it like its hot"
+	quest.30A5C7F6D624883F.quest_desc: ["Right clicking Dirt with these seeds will cause it to turn into Grass/Mycelium. This will spread to surrounding Dirt!"]
+	quest.35EF391AB5344094.quest_desc: ["To get resources, we'll need to bust up our cobblestone into something we can sieve.\\n\\nThis is where the hammer comes in. Place down the block you want to hammer, and... well... hammer it."]
+	quest.35EF391AB5344094.quest_subtitle: "A totally overused joke"
+	quest.35EF391AB5344094.title: "Hammer Time!"
+	quest.36D0417745C747B1.quest_subtitle: "Hammer twice"
+	quest.36D0417745C747B1.title: "Sand"
+	quest.3755C36AE60FF795.quest_subtitle: "Just add the leaves..."
+	quest.3755C36AE60FF795.title: "Oak Crucible"
+	quest.376BAC497511F067.quest_desc: [
+		"If you surround a furnace with Iron in a crafting table, you can upgrade your furnace to an Iron Furnace."
+		""
+		"These smelt faster and can also be configured to be automated with the cogwheel in the top left of the GUI."
+	]
+	quest.376BAC497511F067.quest_subtitle: "Does everything get an upgrade in this pack?"
+	quest.376BAC497511F067.title: "Smelting iron with iron"
+	quest.38852A6C2A1F8363.quest_desc: ["Sometimes, lower tier meshes drop certain loot more than higher tier meshes! Make sure to check drop rates in JEI."]
+	quest.38852A6C2A1F8363.title: "Diamond Mesh"
+	quest.3A478C8399A155DB.quest_desc: ["Place this thing on top of your Cobble Gen and it'll automatically compress everything it recieves, left click to extract!\\\\n\\\\n&lRight click it with an item before trying to pipe into it!"]
+	quest.3A478C8399A155DB.quest_subtitle: "You need this"
+	quest.3B2C5513A8781DD3.quest_desc: [
+		"When placing a barrel on top of mycellium and filling it with water, it produces witch water. This can be used to make soul sand, netherrack, and blackstone."
+		""
+		"&lCheck JEI on this bucket&r"
+	]
+	quest.3F755A55B2043E5B.quest_desc: [
+		"Just like other skyblocks, you can get pebbles from shift-right-clicking grass, but here it works a little differently."
+		""
+		"You have a 50%% chance for cobblestone pebbles, and a 50%% chance to get any of the other pebble variants."
+	]
+	quest.3F755A55B2043E5B.title: "All rock, No roll"
+	quest.40A3726417C13F83.quest_desc: ["This one has been changed, the recipe is now adding Milk to Water in a barrel."]
+	quest.40A3726417C13F83.title: "Slimy"
+	quest.40A495FCD317A38D.quest_desc: ["I mean, it's a skyblock. No matter how many different power generation methods we try to show you in these quests, you will ultimately end up with 20 of these in your base...\\n\\nThese convert cobblestone and other stone types into lava when a heat source is placed underneath it. You can use a torch to start with, even though it is slow."]
+	quest.40A495FCD317A38D.title: "All Fired Up"
+	quest.42240BED17BA0948.quest_desc: [
+		"The barrel is one of the most important ways to get materials in this pack, second only to the sieve."
+		""
+		"These can make clay using water, soul sand using witch water, and even create dirt from saplings and leaves."
+		""
+		"Note: These will fill with water when it rains."
+	]
+	quest.42240BED17BA0948.title: "Barrel of Laughs"
+	quest.4A536710A11856F2.quest_desc: ["To get string in a skyblock, some might say it is easier than it used to be... you will want to grow a tree, add a silkworm to one of the leaves, and watch the infestation spread across all the leaves! Once done, harvest these with your crook!"]
+	quest.4A536710A11856F2.title: "String"
+	quest.53F7B1EE005A696C.quest_desc: ["Fill a barrel with water and right-click it with Dust to get Clay."]
+	quest.53F7B1EE005A696C.title: "Clay"
+	quest.54992605CC8D3CA9.quest_desc: ["Shears, no iron required. Use this to collect leaves from your trees."]
+	quest.54992605CC8D3CA9.title: "Shears, now on Tiktok Shop!"
+	quest.55A7099B9A9E59EA.quest_subtitle: "Important to keep your strength up"
+	quest.55A7099B9A9E59EA.title: "Depends which side the bread is buttered"
+	quest.592D954F384D4EA7.quest_desc: ["This hammer can be used to turn ores into dusts, at a rate of 1 to 2! You can now double all your ores with this hammer, and even make steel dust."]
+	quest.5FF2B8BCB3CE6AB0.quest_desc: [
+		"You are about to be sieving a lot of blocks. Use Ultimine for fast mining with a hammer and perhaps get an autoclicker ready!"
+		""
+		"You can set up multiple sieves like this to sieve up to 25 blocks at once."
+	]
+	quest.5FF2B8BCB3CE6AB0.quest_subtitle: "A lot of sieving incoming"
+	quest.5FF2B8BCB3CE6AB0.title: "On your marks..."
+	quest.647E94E2156CB596.quest_desc: ["These generators actually work a little differently than you may expect. The first tier of generator you use will now make ALL of the same materials that you need with different inputs, and focused blocks on the bottom!"]
+	quest.647E94E2156CB596.title: "Stone (stone) Generator"
+	quest.6580DCA54E4C9BC2.title: "Gold Mesh"
+	quest.70063949E831D49E.quest_subtitle: "No, really smack it"
+	quest.70063949E831D49E.title: "Dust"
+	quest.744E757CA323FF46.quest_desc: ["Crooks will give you a much better chance of getting saplings and apples from leaves, but is also how to get silkworms. You will need these to get string for further progression.\","]
+	quest.744E757CA323FF46.title: "Is that crooked?"
+	quest.768F0E715B05D9E4.quest_desc: [
+		"Sieving is your most common method of gathering resources in this modpack, and countless useful materials can be acquired this way!"
+		""
+		"You can also sieve blocks 25 at a time by making 25 Oak Sieves, and placing them in a 5x5 square. Right-clicking the middle Sieve with the item you want to sieve will use 25 instead of 1. Each Sieve in the group needs its own mesh, and all meshes should be the same tier.\","
+	]
+	quest.768F0E715B05D9E4.quest_subtitle: "Its like baking a cake!"
+	quest.768F0E715B05D9E4.title: "1 Sieve, No flour"
+	quest.784B0D83F0229A08.quest_desc: ["A faster way of hammering for Gravel or Sand is by hammering compressed blocks. Normal hammers won't work though, so you'll need a Compressed Hammer!"]
+	quest.784B0D83F0229A08.quest_subtitle: "Compressed hammering is still a thing!"
+	quest.784B0D83F0229A08.title: "Hammering Compressed Items"
+	task.1BB08F6BC4167067.title: "Any #minecraft:logs"
+	task.2019707AE4DAC703.title: "{atm9.quest.start1.emergency}"
+	task.22649862928BBE26.title: "Get ready..."
+}
