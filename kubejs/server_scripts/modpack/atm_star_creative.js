@@ -16,4 +16,41 @@ ServerEvents.recipes(allthemods => {
         }
     )
 
+    allthemods.custom(
+        {
+            type: 'powah:energizing',
+            energy: 2147483647,
+            ingredients: [
+                Ingredient.of('draconicevolution:dragon_heart').toJson(),
+                Ingredient.of('draconicevolution:draconic_reactor_core').toJson(),
+                Ingredient.of('allthetweaks:atm_star').toJson(),
+                Ingredient.of('draconicevolution:draconic_reactor_core').toJson(),
+                Ingredient.of('draconicevolution:dragon_heart').toJson()
+            ],
+            result: {
+                count: 1,
+                id: 'draconicevolution:creative_op_capacitor'
+            }
+        }
+    ).id('allthemods:energizing/draconicevolution_creative_power_source')
+
+    allthemods.custom(
+        {
+            type: 'powah:energizing',
+            energy: 2147483647,
+            ingredients: [
+                Ingredient.of('draconicevolution:dragon_heart').toJson(),
+                Ingredient.of('draconicevolution:chaotic_capacitor').toJson(),
+                Ingredient.of('allthetweaks:atm_star').toJson(),
+                Ingredient.of('draconicevolution:chaotic_capacitor').toJson(),
+                Ingredient.of('draconicevolution:dragon_heart').toJson()
+            ],
+            result: {
+                count: 1,
+                id: 'draconicevolution:creative_capacitor'
+            }
+        }
+    ).id('allthemods:energizing/draconicevolution_creative_capacitor')
+
+
 })
