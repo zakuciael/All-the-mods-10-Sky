@@ -1,0 +1,46 @@
+{
+	quest.07BEB974DF1E5AD3.quest_desc: ["Gera Energia na mesma taxa que um &aGerador de Esmeralda&r, mas tem uma Taxa de Transferência muito maior. Também indiscutivelmente mais barato, pois leva menos itens, mas esse item também é &5Netherita&r, então..."]
+	quest.07BEB974DF1E5AD3.title: "&5Gerador de Netherita"
+	quest.1843C79133DFB024.quest_desc: ["O Gerador mais poderoso e eficiente, o Gerador de Estrela do Nether. Adivinhe o que ele usa para gerar Energia!"]
+	quest.1C73E60FC70408D4.quest_desc: ["Finalmente um Gerador único! Culinária é o nome da arte da Comida. Estes Geradores não usam Carvão, Lava, ou mesmo toras, eles usam Comida. Qualquer coisa com Pontos de Fome pode ser usada para gerar Energia, a quantidade que gera é baseada na quantidade de Pontos de Fome que a Comida consiste. Bife dará mais Energia do que uma Cenoura."]
+	quest.1C73E60FC70408D4.title: "&6Gerador de Culinária"
+	quest.2DC53BE2A93C2A31.quest_desc: ["Os Geradores neste pacote foram Aprimorados!\\n\\nVerifique os novos valores e algumas variantes &68/64x&r mais baratas, com &62 tipos&r de combustível sólido simplificados."]
+	quest.2DC53BE2A93C2A31.title: "&fGeradores, Com uma Reviravolta!"
+	quest.362DDA1A5694BE0F.quest_desc: [
+		"TRABALHO EM ANDAMENTO:"
+		""
+		"Para testadores: Esta seção conterá mods como: "
+		""
+		"Geore"
+		"8x magmático"
+		"Níveis de acelerador de crescimento"
+	]
+	quest.362DDA1A5694BE0F.title: "TRABALHO EM ANDAMENTO"
+	quest.40DB6E3DE87F16EF.quest_desc: [
+		"O &dHálito de Dragão&r é um item poderoso (e fedido) e misterioso. Poderoso significa que podemos gerar Energia com ele, e muita! O &5Gerador de Halitose&r gera Energia a partir do &dHálito de Dragão&r!"
+		""
+		"(A propósito, você pode farmar &dHálito de Dragão&r com um Extrator do &6XyCraft&r com uma Cabeça de Dragão)."
+	]
+	quest.40DB6E3DE87F16EF.title: "&5Gerador de Halitose"
+	quest.552CA2ABE659A507.quest_desc: ["&cLava&r entra. Energia sai."]
+	quest.552CA2ABE659A507.title: "&cGerador Magmático"
+	quest.61F265D9A5713A4D.quest_desc: ["Cada melhoria aprimora tudo, desde a quantidade que produz até o quanto pode armazenar e o que pode transferir para outros blocos! \\n \\nVocê precisará de um &6Gerador de Cobre&r para fazer um Gerador de Ferro, desculpem, odiadores de &6Cobre&r."]
+	quest.61F265D9A5713A4D.title: "&fGerador de Ferro"
+	quest.68972BA647FDCF8F.quest_desc: ["Se você conhece o &l&6Productive Bees&r, deve conhecer LobsterJonn. Ele fez o &l&6Productive Bees&r e o &lGenerator's Galore&r (junto com muitos outros). O &6Gerador de Mel&r é uma boa maneira de conectar esses dois mods! O &6Gerador de Mel&r usa &6Mel Líquido&r para gerar Energia. "]
+	quest.68972BA647FDCF8F.title: "&6Gerador de Mel"
+	quest.69201157ECFBB426.quest_desc: ["Eu sempre odeio quando tenho uma Fazenda de &5Endermen&r para XP ou Gemas do Apotheosis, mas acabo com todas essas &3Pérolas do Ender&r (hehe, acabo com &3pérolas do ender&r). Agora você pode usar essas &3Pérolas do Ender&r para Energia com o &3Gerador de Ender&r. Você pode até fazer &aOlhos do Ender&r para ainda mais Energia!"]
+	quest.69201157ECFBB426.title: "&3Gerador de Ender"
+	quest.6A1145678E80FB8E.quest_desc: ["Existem tantos &5Encantamentos&r inúteis por aí, por que não obter alguma Energia deles! O &bGerador de Encantamentos&r usa &5Livros Encantados&r para gerar Energia. O Nível e a Raridade dos &5Livros Encantados&r alteram a quantidade de Energia que você obtém deles."]
+	quest.6A1145678E80FB8E.title: "&bGerador de Encantamentos"
+	quest.7297391D026EE9A6.quest_desc: ["Quer algo empolgante e novo para gerar Energia? Que tal usar &dPoções&r para isso! É o que o &dGerador de Poções&r faz, ele pega suas &dPoções&r e gera Energia a partir delas, dependendo de sua força e duração."]
+	quest.7297391D026EE9A6.title: "&dGerador de Poções"
+	quest.72A287DCAEEFE49F.quest_desc: [
+		"Criar 8 dos mesmos Geradores 8x juntos os combina em 1 Gerador massivo! Funciona da mesma forma que 64 geradores comuns, mas ocupa apenas o espaço de 1."
+		""
+		"Um Gerador Magmático 64x é necessário para criar a Estrela ATM."
+	]
+	quest.7CE86300AF8E9BCA.quest_desc: ["Criar 8 dos mesmos Geradores juntos os combina em 1 Gerador massivo! Funciona da mesma forma que 8 geradores regulares, mas ocupa apenas o espaço de 1."]
+	quest.7CE86300AF8E9BCA.title: "8x Que pechincha!"
+	task.31E6FDB712244B72.title: "Geradores 64x"
+	task.37641D5607F6D00A.title: "Geradores 8x"
+}

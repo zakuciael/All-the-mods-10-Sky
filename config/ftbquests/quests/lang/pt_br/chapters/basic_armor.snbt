@@ -1,0 +1,193 @@
+{
+	quest.004D61425172324F.quest_desc: ["A &8Armadura de Malha&r é um pouco pior que a de Ferro. Seu uso principal no &l&2Minecraft&r era sua natureza elusiva, sendo obtida apenas através de Trocas e Drops de Mobs.\\n\\nClaro que isto é modificado, então podemos fabricá-la agora! O que tira seu propósito..."]
+	quest.004D61425172324F.quest_subtitle: "12"
+	quest.004D61425172324F.title: "&8Armadura de Malha"
+	quest.04B31A600004F7CB.quest_desc: ["Esta Missão foi criada pela &6Equipe AllTheMods&r, ou por um &2contribuidor da Comunidade&r para uso nos Modpacks AllTheMods.\\n\\nComo todos os pacotes &6AllTheMods&r são licenciados sob &eTodos os Direitos Reservados&r, esta Missão não pode ser usada em nenhum pacote público não lançado pela &6Equipe AllTheMods&r sem permissão explícita.\\n\\nEsta missão está intencionalmente oculta, se você está vendo isso, está no modo de edição."]
+	quest.074EC1E636CD6605.quest_desc: ["A &cArmadura de Netherita&r é o melhor que o &l&2Vanilla&r pode oferecer. Ela tem os mesmos Pontos de Armadura que a de &bDiamante&r, mas mais Tenacidade de Armadura.\\n\\nProvavelmente porque você precisa de &bDiamante&r para fazê-la!"]
+	quest.074EC1E636CD6605.quest_subtitle: "20"
+	quest.074EC1E636CD6605.title: "&cArmadura de Netherita"
+	quest.0ABB2264CBB82470.quest_desc: ["Armadura de Ferro da Armadura &d&lArs&r."]
+	quest.0ABB2264CBB82470.quest_subtitle: "15"
+	quest.0ABB2264CBB82470.title: "&5Traje de Arcanista"
+	quest.0E2515424291BB59.quest_desc: ["Versão de &bDiamante&r das Armaduras &d&lArs&r!"]
+	quest.0E2515424291BB59.quest_subtitle: "20"
+	quest.0E2515424291BB59.title: "&5Traje de Mago de Batalha"
+	quest.0F1D6F4729CC38F3.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_rib.png width:100 height:150 align:center}"]
+	quest.0F1D6F4729CC38F3.quest_subtitle: "Fortaleza do Nether"
+	quest.0F1D6F4729CC38F3.title: "Molde de Armadura de Costela"
+	quest.10AA2B20D86747F7.quest_desc: ["O &bFerricore&r tem os mesmos status que o Ferro, mas tem outras habilidades que o Ferro gostaria de ter! \\n\\nConfira as descrições dos Itens para saber mais sobre o que eles podem fazer!"]
+	quest.10AA2B20D86747F7.quest_subtitle: "15"
+	quest.10AA2B20D86747F7.title: "Armadura de &bFerricore"
+	quest.1245126B4338C019.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_vex.png width:100 height:150 align:center}"]
+	quest.1245126B4338C019.quest_subtitle: "Mansão da Floresta"
+	quest.1245126B4338C019.title: "Molde de Armadura Vex"
+	quest.13517D17E6BF015F.quest_desc: ["Com uma &bArmadura de Diamante&r e alguns &aItens de Inferium&r, podemos criar a &aArmadura de Inferium&r! \\n\\nEles também podem ser aprimorados com a Bancada de Ferramentas!"]
+	quest.13517D17E6BF015F.quest_subtitle: "21"
+	quest.13517D17E6BF015F.title: "&aArmadura de Inferium"
+	quest.17A68C4E9E9EA2B7.quest_desc: ["A &eArmadura de Ouro&r está entre a de Ferro e a de &7Couro&r. Mas sua Durabilidade é muito mais próxima da de &7Couro&r. \\n\\nNão há muito uso para ela, a não ser fazer com que os Piglins fiquem Neutros em relação a você quando estiver usando alguma &eArmadura de Ouro&r."]
+	quest.17A68C4E9E9EA2B7.quest_subtitle: "11"
+	quest.17A68C4E9E9EA2B7.title: "&eArmadura de Ouro"
+	quest.19F58E291A543228.quest_desc: ["Versão de &eOuro&r das Armaduras do &d&lArs&r!"]
+	quest.19F58E291A543228.quest_subtitle: "11"
+	quest.19F58E291A543228.title: "&5Traje de Feiticeiro"
+	quest.1A8440C0048EEB02.quest_desc: ["&cBlazegold&r tem as mesmas estatísticas do Ferro, mas tem outras habilidades que o Ferro gostaria de ter! \\n\\nConfira as descrições dos Itens para saber mais sobre o que eles podem fazer!"]
+	quest.1A8440C0048EEB02.quest_subtitle: "15"
+	quest.1A8440C0048EEB02.title: "&cArmadura de Blazegold"
+	quest.1C27C74722A19FC1.quest_desc: ["Com uma tonelada de Itens super caros do &l&5Mekanism&r, você pode aprimorar a &5Armadura de Unobtainium&r para a &aMekaSuit&r! \\n\\nAgora ela pode armazenar Energia e, em vez de tirar corações de dano, ela tirará Energia. \\n\\nVocê pode usar Unidades de Melhoria para torná-la ainda melhor!"]
+	quest.1C27C74722A19FC1.quest_subtitle: "Tanta Energia quanto você puder fornecer"
+	quest.1C27C74722A19FC1.title: "&aMekaSuit"
+	quest.1CC627D3FB348C89.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_shaper.png width:100 height:150 align:center}"]
+	quest.1CC627D3FB348C89.quest_subtitle: "Ruínas da Trilha"
+	quest.1CC627D3FB348C89.title: "Molde de Armadura Modelador"
+	quest.1D27EE427ECFD6CE.quest_desc: ["Versão aprimorada do &cTertium&r."]
+	quest.1D27EE427ECFD6CE.quest_subtitle: "27"
+	quest.1D27EE427ECFD6CE.title: "&9Armadura de Imperium"
+	quest.1D91E37BFD8CC911.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_emerald.png width:100 height:150 align:center}"]
+	quest.1D91E37BFD8CC911.title: "&2Esmeralda&r"
+	quest.1E3E688B3B52C4D2.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_raiser.png width:100 height:150 align:center}"]
+	quest.1E3E688B3B52C4D2.quest_subtitle: "Ruínas da Trilha"
+	quest.1E3E688B3B52C4D2.title: "Molde de Armadura Criador"
+	quest.1EABF2E7AE7B8F22.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_netherite.png width:100 height:150 align:center}"]
+	quest.1EABF2E7AE7B8F22.title: "&8Netherite&r"
+	quest.1FC7ABEAB5018E79.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_redstone.png width:100 height:150 align:center}"]
+	quest.1FC7ABEAB5018E79.title: "&4Redstone&r"
+	quest.211FD55DEB635A98.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_copper.png width:100 height:150 align:center}"]
+	quest.211FD55DEB635A98.title: "&6Cobre&r"
+	quest.2296CE4418AE62D4.quest_desc: ["&6Armadura de Allthemodium&r mas com bônus para Feitiços do &d&lArs Nouveau&r!"]
+	quest.2296CE4418AE62D4.quest_subtitle: "24"
+	quest.2296CE4418AE62D4.title: "&6Equipamento Arcanista de Allthemodium"
+	quest.243008D4DCD789D0.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_wild.png width:100 height:150 align:center}"]
+	quest.243008D4DCD789D0.quest_subtitle: "Templos da Selva"
+	quest.243008D4DCD789D0.title: "Molde de Armadura Selvagem"
+	quest.28408BFAA54E4FC6.quest_desc: ["A &7Armadura de Couro&r é o pior conjunto de Armadura que você pode obter. \\n\\nIsso se deve principalmente porque a &c&lMojang&r esperava que você a obtivesse antes de qualquer outra. \\n\\nEu quase nunca a obtenho, no entanto, porque luto para encontrar tantas &8V&fa&8c&fa&rs&r, desculpe &c&lMojang&r!"]
+	quest.28408BFAA54E4FC6.quest_subtitle: "7"
+	quest.28408BFAA54E4FC6.title: "&7Armadura de Couro"
+	quest.2A4FE9644F3B9DC1.quest_desc: ["Versão aprimorada do &2Prudentium&r."]
+	quest.2A4FE9644F3B9DC1.quest_subtitle: "26"
+	quest.2A4FE9644F3B9DC1.title: "&cArmadura de Tertium"
+	quest.2E0F82F7E1B74033.quest_desc: ["&d&lArs Elemental&r &2Armadura da Terra&r!"]
+	quest.2E0F82F7E1B74033.quest_subtitle: "15"
+	quest.2E0F82F7E1B74033.title: "&2Traje de Geomante"
+	quest.2EAA6BE598C83F24.quest_desc: ["&d&lArs Elemental&r &3Armadura da Água&r!"]
+	quest.2EAA6BE598C83F24.quest_subtitle: "15"
+	quest.2EAA6BE598C83F24.title: "&3Traje de Aquamante"
+	quest.338BD467EBE6EE1F.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_sentry.png width:100 height:150 align:center}"]
+	quest.338BD467EBE6EE1F.quest_subtitle: "Posto Avançado dos Pillagers"
+	quest.338BD467EBE6EE1F.title: "Molde de Armadura de Sentinela"
+	quest.3403D7502F7BC897.quest_desc: ["Literalmente invencível, nada pode te atingir e causar dano. \\n\\nAtualmente você precisa aprimorar a &cArmadura de Netherita&r com uma &eMelhoria &bQuântica&r, mas seus amigos da &6&lEquipe ATM&r estão trabalhando para dificultar essa receita! \\n\\nE você não pode fazer nada para impedir! &lBWAHAHAHAHA"]
+	quest.3403D7502F7BC897.quest_subtitle: "Invencível"
+	quest.3403D7502F7BC897.title: "&eArmadura &bQuântica&r (&l&7MI&r)"
+	quest.34D14B807A2DAC0F.quest_desc: ["Você acha que o &5&lMekanism&r e a &l&7Modern Industrialization&r podem ter toda a diversão? \\n\\nEsta &5Armadura Quântica&r tem estatísticas padrão semelhantes à &cArmadura de Netherita&r, mas, como o &aMekaSuit&r, pode usar Energia como um escudo. \\nEla também tem melhorias que podem ser instaladas para torná-lo ainda mais poderoso! Como Voo, Visão Noturna e até a capacidade de recarregar. \\n\\nMas a melhor parte é que ela pode ser Vinculada ao seu Sistema de Armazenamento! Então, você pode retirar energia automaticamente dele e retirar qualquer Item dele, não importa onde você esteja. "]
+	quest.34D14B807A2DAC0F.quest_subtitle: "Tanta Energia quanto você puder fornecer"
+	quest.34D14B807A2DAC0F.title: "&5Armadura Quântica&r (&l&bAE2&r)"
+	quest.351159C55159C316.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_spire.png width:100 height:150 align:center}"]
+	quest.351159C55159C316.quest_subtitle: "Cidade do End e Navios do End"
+	quest.351159C55159C316.title: "Molde de Armadura Espiral"
+	quest.3512F47DADC07EAE.quest_desc: ["&5Armadura de Unobtainium&r mas com bônus para Feitiços do &d&lArs Nouveau&r!"]
+	quest.3512F47DADC07EAE.quest_subtitle: "40"
+	quest.3512F47DADC07EAE.title: "&5Equipamento Arcanista de Unobtainium"
+	quest.3685B52446DEC809.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_gold.png width:100 height:150 align:center}"]
+	quest.3685B52446DEC809.title: "&eOuro&r"
+	quest.39796D8EE440F318.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_dune.png width:100 height:150 align:center}"]
+	quest.39796D8EE440F318.quest_subtitle: "Pirâmides do Deserto"
+	quest.39796D8EE440F318.title: "Molde de Armadura de Duna"
+	quest.3AA836E8EDB52097.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_lapis.png width:100 height:150 align:center}"]
+	quest.3AA836E8EDB52097.title: "&9Lápis-lazúli&r"
+	quest.3ABE7074E500494D.quest_desc: ["O &7Aço&r é usado para a maioria das Máquinas no &5&lMekanism&r... e também para Armaduras, o que é legal!"]
+	quest.3ABE7074E500494D.quest_subtitle: "20"
+	quest.3ABE7074E500494D.title: "&7Armadura de Aço"
+	quest.3AE0198177A8E91B.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_coast.png width:100 height:150 align:center}"]
+	quest.3AE0198177A8E91B.quest_subtitle: "Naufrágios e Tesouros Enterrados"
+	quest.3AE0198177A8E91B.title: "Molde de Armadura Costeira"
+	quest.3EA3A6414AB8A39C.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_flow.png width:100 height:150 align:center}"]
+	quest.3EA3A6414AB8A39C.quest_subtitle: "Câmaras de Teste"
+	quest.3EA3A6414AB8A39C.title: "Molde de Armadura Flow"
+	quest.3FCEF8FF45E51608.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_quartz.png width:100 height:150 align:center}"]
+	quest.452DC5EB02D592B8.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_amethyst.png width:100 height:150 align:center}"]
+	quest.452DC5EB02D592B8.title: "&5Ametista&r"
+	quest.497D222F74A52DF5.quest_desc: ["Agora é disso que eu gosto! Ferro é muito comum e sua Armadura é incrível para o início do jogo. \\n\\nZumbis e Esqueletos quase não têm chance!"]
+	quest.497D222F74A52DF5.quest_subtitle: "15"
+	quest.4A9CB8778D37049F.quest_desc: ["Você precisará usar um Ritual de Despertar para obter os Itens para fazer outro Ritual de Despertar na &4Armadura de Supremium&r. \\n\\nEu acho que vale a pena; é a melhor Armadura que você pode obter do &2&lMystical&r!"]
+	quest.4A9CB8778D37049F.quest_subtitle: "36"
+	quest.4A9CB8778D37049F.title: "&6Armadura de Supremium Desperta"
+	quest.4B9C54DA5CB6D5C9.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_host.png width:100 height:150 align:center}"]
+	quest.4B9C54DA5CB6D5C9.quest_subtitle: "Ruínas de Trilhas"
+	quest.4B9C54DA5CB6D5C9.title: "Molde de Armadura Host"
+	quest.4DF683461225690F.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_iron.png width:100 height:150 align:center}"]
+	quest.4DF683461225690F.title: "&7Ferro&r"
+	quest.5064D5F99E2C69C8.quest_desc: ["Versão aprimorada de &9Imperium&r."]
+	quest.5064D5F99E2C69C8.quest_subtitle: "29"
+	quest.5064D5F99E2C69C8.title: "&4Armadura de Supremium"
+	quest.52AFABA08674B6A8.quest_desc: ["&3Armadura de Vibranium&r mas com bônus para os Feitiços de &d&lArs Nouveau&r!"]
+	quest.52AFABA08674B6A8.quest_subtitle: "32"
+	quest.52AFABA08674B6A8.title: "&3Equipamento Arcanista de Vibranium"
+	quest.52B61FB01D7C12A4.quest_desc: ["Versão aprimorada de &aInferium&r."]
+	quest.52B61FB01D7C12A4.quest_subtitle: "23"
+	quest.52B61FB01D7C12A4.title: "&2Armadura de Prudentium"
+	quest.5865951E4F81C91F.quest_desc: ["&7Ósmio&r + &6Pedra Luminosa&r = &ePedra Luminosa Refinada&r!"]
+	quest.5865951E4F81C91F.quest_subtitle: "20"
+	quest.5865951E4F81C91F.title: "&eArmadura de Pedra Luminosa Refinada"
+	quest.5A9C646718EE92C2.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_vibranium.png width:100 height:150 align:center}"]
+	quest.5A9C646718EE92C2.title: "&3Vibranium&r"
+	quest.5C83D5CDD980FD9A.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_snout.png width:100 height:150 align:center}"]
+	quest.5C83D5CDD980FD9A.quest_subtitle: "Restos de Bastião"
+	quest.5C83D5CDD980FD9A.title: "Molde de Armadura de Focinho"
+	quest.5DDC15AAFD2CAF47.quest_desc: ["A &bArmadura de Diamante&r é a próxima na cadeia &l&2Vanilla&r, e geralmente é aqui que começamos a Encantá-la também! \\n\\nRecomendo Proteção e suas várias formas, não precisamos ser exigentes com mods!"]
+	quest.5DDC15AAFD2CAF47.quest_subtitle: "20"
+	quest.5DDC15AAFD2CAF47.title: "&bArmadura de Diamante"
+	quest.5E7CCDE9229A646A.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_allthemodium.png width:100 height:150 align:center}"]
+	quest.5E7CCDE9229A646A.title: "&6Allthemodium&r"
+	quest.62161BDE9AAAA4BF.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_wayfinder.png width:100 height:150 align:center}"]
+	quest.62161BDE9AAAA4BF.quest_subtitle: "Ruínas de Trilhas"
+	quest.62161BDE9AAAA4BF.title: "Molde de Armadura do Desbravador"
+	quest.65A529C8238E89F1.quest_desc: ["Graças ao &5&lMekanism&r, agora podemos fazer Armadura de &9Lápis-lazúli&r! \\n\\nÉ meio ruim, no entanto..."]
+	quest.65A529C8238E89F1.quest_subtitle: "9"
+	quest.65A529C8238E89F1.title: "&9Armadura de Lápis-lazúli"
+	quest.65E733AACBE62EDB.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_ward.png width:100 height:150 align:center}"]
+	quest.65E733AACBE62EDB.quest_subtitle: "Cidades Ancestrais"
+	quest.65E733AACBE62EDB.title: "Molde de Armadura do Warden"
+	quest.66C21934DAFFAC7F.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_tide.png width:100 height:150 align:center}"]
+	quest.66C21934DAFFAC7F.quest_subtitle: "Derrubado por Guardiões Anciões"
+	quest.66C21934DAFFAC7F.title: "Molde de Armadura da Maré"
+	quest.68DABFFB6B3E1A57.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_eye.png width:100 height:150 align:center}"]
+	quest.68DABFFB6B3E1A57.quest_subtitle: "Fortaleza"
+	quest.68DABFFB6B3E1A57.title: "Molde de Armadura do Olho"
+	quest.6B671CB07D046BEC.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_diamond.png width:100 height:150 align:center}"]
+	quest.6B671CB07D046BEC.title: "&bDiamante&r"
+	quest.6C5F9D0D447EFB9C.quest_desc: ["Você acha que &l&2Vanilla&r era tudo o que tínhamos? \\n\\nA &6Armadura de Allthemodium&r tem mais Pontos de Armadura e Resistência de Armadura, além de Proteção aumentada contra Magia e outros bônus que você pode ler na Página de Missões do &6&lAllthemodium&r! \\n\\nAliás, você precisará de &cNetherita&r para fabricá-la."]
+	quest.6C5F9D0D447EFB9C.quest_subtitle: "24"
+	quest.6C5F9D0D447EFB9C.title: "Armadura de Allthemodium"
+	quest.6F76DA3BBAE8337B.quest_desc: ["A melhor Armadura que podemos obter do &6&lAllthemodium&r, &5Unobtainium&r! \\n\\nAgora com 100% de Resistência à Repulsão e atributos mais altos em tudo! \\n\\nTambém precisa de &3Armadura de Vibranium&r para fazê-la."]
+	quest.6F76DA3BBAE8337B.quest_subtitle: "40"
+	quest.6F76DA3BBAE8337B.title: "Armadura de Unobtainium"
+	quest.71C552678A0F649F.quest_desc: ["O &7Ósmio&r aparece ao redor da Ardosiabissal e só precisa de Ferro para ser minerado, mas dá atributos melhores que a &cNetherita&r!"]
+	quest.71C552678A0F649F.quest_subtitle: "21"
+	quest.71C552678A0F649F.title: "Armadura de Ósmio"
+	quest.7279700A93E8630B.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_unobtainium.png width:100 height:150 align:center}"]
+	quest.7279700A93E8630B.title: "&5Unobtainium&r"
+	quest.729DCB919A92B735.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_bolt.png width:100 height:150 align:center}"]
+	quest.729DCB919A92B735.quest_subtitle: "Câmaras de Julgamento"
+	quest.729DCB919A92B735.title: "Molde de Armadura Parafuso"
+	quest.72DDA413D73E3235.quest_desc: ["Atributos muito mais altos em tudo com o próximo na linha de Armaduras de &6&lAllthemodium&r, &3Vibranium&r! \\n\\nVocê precisará da &6Armadura de Allthemodium&r para criá-la."]
+	quest.72DDA413D73E3235.quest_subtitle: "32"
+	quest.72DDA413D73E3235.title: "&3Armadura de Vibranium"
+	quest.76CDF08465700AA2.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_silent.png width:100 height:150 align:center}"]
+	quest.76CDF08465700AA2.quest_subtitle: "Cidades Antigas"
+	quest.76CDF08465700AA2.title: "Molde de Armadura Silêncio"
+	quest.79D3055DE0EEA6B0.quest_desc: ["&d&lArs Elemental&r &cArmadura de Fogo&r!"]
+	quest.79D3055DE0EEA6B0.quest_subtitle: "15"
+	quest.79D3055DE0EEA6B0.title: "&cTraje de Piromante"
+	quest.7B500E0577BDFF8F.quest_desc: ["O &6Bronze&r é uma combinação de &6Cobre&r e Estanho. \\n\\nExistem dezenas de maneiras diferentes de fazer a liga, não vou lhe dizer a maneira certa de fazê-lo."]
+	quest.7B500E0577BDFF8F.quest_subtitle: "18"
+	quest.7B500E0577BDFF8F.title: "&6Armadura de Bronze"
+	quest.7C1D407CF67786F6.quest_desc: ["&d&lArmadura Elemental do Ar do Ars&r!"]
+	quest.7C1D407CF67786F6.quest_subtitle: "15"
+	quest.7C1D407CF67786F6.title: "&fTraje de Aethermancer"
+	quest.7F11ABFB2E21B7E4.quest_desc: ["A Armadura é uma parte muito importante do &l&2Minecraft&r, é o que o protege de danos. \\n\\nDiferentes peças de Armadura dão diferentes Pontos de Armadura. Estes são o que determinam a eficácia da sua Armadura, quanto mais, melhor!\\n\\nA maioria das armaduras pode ser alterada para mais decoração com Acabamentos de Armadura, use uma peça de Armadura com um Acabamento de Armadura e um Item para colorir para mudar a aparência!"]
+	quest.7F11ABFB2E21B7E4.title: "&l&bArmadura Básica&r"
+	quest.7FABB77A60E7962C.quest_desc: ["Ao infundir Obsidiana com &bDiamantes&r, podemos obter Pó de Obsidiana Refinada! \\n\\nEntão, podemos comprimir &7Ósmio&r nele para obtê-lo em forma de Barra. \\n\\nDepois disso, podemos transformar essas Barras em Armadura com status melhores do que até mesmo a &6Armadura de Allthemodium&r!"]
+	quest.7FABB77A60E7962C.quest_subtitle: "31"
+	quest.7FABB77A60E7962C.title: "&5Armadura de Obsidiana Refinada"
+	task.4BDF268861CA744F.title: "TodosOsDireitosReservados"
+	task.57895147416291FE.title: "TodosOsDireitosReservados"
+}
