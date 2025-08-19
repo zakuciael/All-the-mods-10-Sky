@@ -1,0 +1,185 @@
+{
+	quest.01FEB5D4F5ADD557.title: "&#963512Malha de Netherita"
+	quest.04ACC7E762537FB4.quest_desc: [
+		"Coloque um &6Minério&r dentro desta coisa e pule nela para espremer o &6Minério&r em 2 &6Minérios Brutos&r &8(às vezes)&r. Dê um sinal de &cRedstone&r para resetá-la depois de espremer."
+		""
+		"&8Dica: Coloque alguns Suportes de Armadura em cima :)&r"
+	]
+	quest.04ACC7E762537FB4.title: "&7Espremedor"
+	quest.0C9B97D2048A1073.quest_desc: [
+		"No Skyblock, você obterá muitos itens básicos para processamento, como pedregulho, areia e pó."
+		""
+		"Para economizar espaço, você pode comprimi-los combinando 9 em uma Bancada de Trabalho."
+		""
+		"Se você quiser martelá-los em grande quantidade, precisará..."
+	]
+	quest.0C9B97D2048A1073.quest_subtitle: "Apenas economiza espaço e tempo!"
+	quest.0C9B97D2048A1073.title: "Itens Comprimidos"
+	quest.0DE706CEFF3D04DC.quest_desc: ["O Barril de Pedra pode conter Lava, ao contrário dos de madeira. Com isso, você pode fazer Blackstone e outras coisas."]
+	quest.0DE706CEFF3D04DC.title: "&fBarril de Pedra"
+	quest.0F9EE68E5D61DC91.title: "&eGerador de Pedra de &lOuro"
+	quest.0FD620A455281A6D.title: "&fOs outros 3"
+	quest.10B71AD29063471F.title: "&fGerador de Pedra de &lFerro"
+	quest.11097D91EBF2490D.title: "&fMalha de &lFerro"
+	quest.11CE392E7A41785F.quest_desc: [
+		"A maior parte da jornada inicial será obter materiais através da peneiração. Aprenderemos mais sobre isso na próxima missão."
+		""
+		"Não tenha medo de fazer muito cascalho. Peneirar cascalho é como você progride!"
+	]
+	quest.11CE392E7A41785F.title: "Cascalho"
+	quest.162AB6F9257EB71E.quest_desc: [
+		"Se quisermos começar com automação no ATM10:TTS, precisaremos nos aprofundar mais em energia e em alguns mods novos!"
+		""
+		"Embora o Capítulo 2 ainda não tenha sido lançado, você já pode começar com os mods que ele incluirá!"
+		""
+		"&bGenerators Galore&r (níveis e mudanças)"
+		""
+		"Níveis do &bGrowth Accelerator&r (recomendamos o direcional, é super rápido!)"
+		""
+		"&bGeOres&r (Cultive aqueles materiais que estão faltando!)&r"
+	]
+	quest.162AB6F9257EB71E.title: "O Próximo Capítulo"
+	quest.1658780534451E39.quest_desc: ["Use Terra em uma Peneira para obter Sementes, depois aperte sneak repetidamente para fazer suas plantações crescerem rapidamente!"]
+	quest.1658780534451E39.title: "&fComece uma Fazenda"
+	quest.1EFE097BA29A5C0D.quest_desc: ["Prepare-se para fazer água de graça com elas!"]
+	quest.1EFE097BA29A5C0D.title: "&fDeixe as &aFolhas"
+	quest.22C568A17B5D1B46.quest_desc: [
+		"Se você já jogou o original (ou qualquer skyblock), a maior parte do que você precisa fazer deve ser autoexplicativa até os metais do ATM."
+		""
+		"Se não, não tema! Essas missões estão aqui para guiá-lo no início."
+	]
+	quest.22C568A17B5D1B46.quest_subtitle: "Bem-vindo ao All The Mods 10: To the Sky! Agora em dois dígitos."
+	quest.22C568A17B5D1B46.title: "Começando"
+	quest.231765C07B4A12B7.quest_desc: [
+		"Depois de ter uma &8Malha de Pederneira&r, você começará a obter materiais básicos da peneiração, como &f&lFerro&r!"
+		""
+		"Combine seus &ePedaços de Minério&r em &eMinérios Próprios&r, depois jogue-os em sua &8Fornalha&r para fundi-los!"
+	]
+	quest.231765C07B4A12B7.title: "&fFritadeira de Ar Quente Antiga"
+	quest.25D1363D8890E7C3.quest_desc: [
+		"Existem muitas maneiras de gerar seus primeiros bits de &aEnergia&r."
+		""
+		"Neste pacote, o &9Generators Galore&r recebeu uma reforma! Com atualizações mais baratas para &68x&r e &664x&r, e produção de &aEnergia&r aumentada em geral, pegue um &cGerador de Lava&r potente e manda ver!"
+	]
+	quest.25D1363D8890E7C3.quest_subtitle: "Seu Primeiro Gerador"
+	quest.25D1363D8890E7C3.title: "&aEnergia Inicial"
+	quest.25E267AAAD4B992B.quest_desc: ["Jogue pó em uma peneira para obter um pouco de farinha de osso."]
+	quest.25E267AAAD4B992B.title: "Farinha de Osso"
+	quest.27187D13B58AC79C.title: "&#FF5900Gerador de Pedra de &lCobre"
+	quest.29F82373417B2006.quest_desc: ["Ficou sem mudas? Você pode conseguir algumas mudas de emergência no canto superior direito do menu de missões! É repetível também: não há necessidade de reiniciar seu mundo se algo ruim acontecer!\","]
+	quest.29F82373417B2006.title: "Mudas de Emergência"
+	quest.2C134DDBF9283407.quest_desc: ["Para aqueles que querem acelerar o início, isto oferece um começo no 'modo fácil'. Você não precisa completar esta missão, e ela é opcional para a progressão."]
+	quest.2C134DDBF9283407.quest_subtitle: "Para aqueles que querem pular adiante"
+	quest.2C134DDBF9283407.title: "Um Começo com Vantagem"
+	quest.2CF0EE5C0651F531.quest_desc: [
+		"Com a &8Malha de Pederneira&r, você começará a obter alguns recursos de verdade."
+		""
+		"Se você está se perguntando o que cada &6Malha&r dropa ao peneirar, pode sempre apertar 'U' no &eJEI&r sobre a &6Malha&r para conferir a lista."
+	]
+	quest.2CF0EE5C0651F531.quest_subtitle: "Nossa Primeira Melhoria"
+	quest.2CF0EE5C0651F531.title: "&8Malha de Pederneira"
+	quest.3001B2EEE5C6C9AB.quest_desc: [
+		"Corte a árvore."
+		""
+		"&lIMPORTANTE:&r Sim, sendo um pacote de skyblock modificado, você pode apertar repetidamente o botão de agachar para fazer qualquer coisa, incluindo suas árvores e plantações, crescer mais rápido."
+	]
+	quest.3001B2EEE5C6C9AB.quest_subtitle: "O Início da Jornada de Todos"
+	quest.3001B2EEE5C6C9AB.title: "&fCorte como se estivesse quente"
+	quest.30A5C7F6D624883F.quest_desc: ["Clicar com o botão direito na &#963512Terra&r com estas sementes fará com que ela se transforme em &6Grama/Micélio&r. Isso se espalhará para a &#963512Terra&r adjacentes!"]
+	quest.30A5C7F6D624883F.title: "&aSementes de Grama"
+	quest.35EF391AB5344094.quest_desc: ["Para obter recursos, precisaremos quebrar nosso pedregulho em algo que possamos peneirar.\\n\\nÉ aqui que o martelo entra.\\n\\nColoque o bloco que você quer martelar e... bem... martele-o."]
+	quest.35EF391AB5344094.quest_subtitle: "Sinta o PESO do MARTELO! - Não, não é uma menção a outra coisa."
+	quest.35EF391AB5344094.title: "&fHora do Martelo!"
+	quest.36D0417745C747B1.quest_subtitle: "Martele duas vezes"
+	quest.36D0417745C747B1.title: "&eAreia"
+	quest.3755C36AE60FF795.quest_subtitle: "Apenas adicione as folhas..."
+	quest.3755C36AE60FF795.title: "&fCadinho de Carvalho"
+	quest.376BAC497511F067.quest_desc: [
+		"Se você cercar uma &8Fornalha&r com &f&lFerro&r em uma &6Bancada de Trabalho&r, você pode aprimorar sua &8Fornalha&r para uma &f&lFornalha de Ferro&r."
+		""
+		"Estas derretem mais rápido e também podem ser configuradas para serem automatizadas com a &6Engrenagem&r no canto superior esquerdo da &6Interface&r."
+	]
+	quest.376BAC497511F067.quest_subtitle: "Tudo ganha uma melhoria neste pacote?"
+	quest.376BAC497511F067.title: "&fFundindo &f&lFerro&r &fcom &f&lFerro"
+	quest.38852A6C2A1F8363.quest_desc: ["Às vezes, Malhas de Nível Inferior dropam certos itens com mais frequência do que Malhas de Nível Superior!\\n\\nCertifique-se de verificar as taxas de drop no &eJEI&r."]
+	quest.38852A6C2A1F8363.title: "&#00EAFFMalha de Diamante"
+	quest.3A478C8399A155DB.quest_desc: ["Coloque esta coisa em cima do seu Gerador de Pedregulho e ela comprimirá automaticamente tudo o que receber, clique com o botão esquerdo para extrair!\\\\n\\\\n&lClique com o botão direito com um item antes de tentar canalizar para ele!"]
+	quest.3A478C8399A155DB.quest_subtitle: "Você precisa disso!"
+	quest.3B2C5513A8781DD3.quest_desc: [
+		"Ao colocar um barril em cima de micélio e enchê-lo com água, ele produz água de bruxa. Isso pode ser usado para fazer areia de almas, netherrack e pedra negra."
+		""
+		"&lVerifique o JEI neste balde&r"
+	]
+	quest.3B2C5513A8781DD3.title: "&5Balde de Água de Bruxa"
+	quest.3F755A55B2043E5B.quest_desc: [
+		"Assim como em outros skyblocks, você pode obter pedregulhos clicando com o botão direito e agachado na grama, mas aqui funciona um pouco diferente."
+		""
+		"Você tem 50%% de chance de obter pedregulhos de cobblestone, e 50%% de chance de obter qualquer uma das outras variantes de pedregulho."
+	]
+	quest.3F755A55B2043E5B.title: "Tudo pedra, sem rolar"
+	quest.40A3726417C13F83.quest_desc: ["Este foi alterado, a receita agora é adicionar Leite à Água em um barril."]
+	quest.40A3726417C13F83.title: "&fGosmento"
+	quest.40A495FCD317A38D.quest_desc: ["Quer dizer, é um skyblock. Não importa quantos métodos diferentes de geração de energia tentemos mostrar a vocês nessas missões, vocês acabarão com 20 desses em sua base...\\n\\nEles convertem pedregulho e outros tipos de pedra em lava quando uma fonte de calor é colocada embaixo. Você pode usar uma tocha para começar, mesmo que seja lento."]
+	quest.40A495FCD317A38D.title: "&fTudo em &cChamas"
+	quest.42240BED17BA0948.quest_desc: [
+		"O &6Barril&r é uma das formas mais importantes de obter Materiais neste Pacote, perdendo apenas para a &6Peneira&r."
+		""
+		"Eles podem fazer &9Argila&r usando &9Água&r, &#692306Areia de Almas&r usando &5Água de Bruxa&r, e até criar &#B53F09Terra&r a partir de Mudas e Folhas."
+		""
+		"&8Nota: Eles se encherão com Água quando chover acima deles.&r"
+	]
+	quest.42240BED17BA0948.title: "&fBarril de Risadas"
+	quest.4A536710A11856F2.quest_desc: ["Para obter &lLinha&r em um &9Mundo Skyblock&r, alguns diriam que é mais fácil do que costumava ser...\\n\\nVocê vai querer cultivar uma árvore, adicionar um &lbicho-da-seda&r a uma das folhas e observar a infestação se espalhar por todas as folhas! Uma vez feito, colha-as com seu gancho!"]
+	quest.4A536710A11856F2.title: "&fLinha"
+	quest.53F7B1EE005A696C.quest_desc: ["Encha um Barril com &9Água&r e clique com o botão direito nele com &lPoeira&r para obter &9Argila&r."]
+	quest.53F7B1EE005A696C.title: "Argila"
+	quest.54992605CC8D3CA9.quest_desc: ["Tesouras, sem necessidade de ferro. Use isso para coletar folhas de suas árvores."]
+	quest.54992605CC8D3CA9.title: "&fTesouras, agora na Tiktok Shop!"
+	quest.55A7099B9A9E59EA.quest_subtitle: "Importante manter sua força"
+	quest.55A7099B9A9E59EA.title: "&fDepende de que lado o pão está amanteigado"
+	quest.592D954F384D4EA7.quest_desc: ["Este &#D1381BMartelo&r pode ser usado para transformar minérios em pós, na proporção de 1 para 2! Agora você pode dobrar todos os seus minérios com este martelo, e até mesmo fazer pó de aço."]
+	quest.592D954F384D4EA7.title: "&#D1381BMartelo de Cobre"
+	quest.5FF2B8BCB3CE6AB0.quest_desc: [
+		"Você está prestes a peneirar muitos Blocos. Use o &6Ultimine&r para uma Mineração rápida usando um martelo e talvez prepare um &6Autoclicker&r!"
+		""
+		"Você pode configurar várias peneiras como esta para peneirar até &625 Blocos&r de uma vez."
+	]
+	quest.5FF2B8BCB3CE6AB0.quest_subtitle: "Muitas peneiradas a caminho"
+	quest.5FF2B8BCB3CE6AB0.title: "&6Aos seus lugares..."
+	quest.647E94E2156CB596.quest_desc: ["Esses geradores realmente funcionam de maneira um pouco diferente do que você pode esperar. O primeiro nível de gerador que você usa agora fará TODOS os mesmos materiais que você precisa com diferentes entradas e blocos focados na parte inferior!"]
+	quest.647E94E2156CB596.title: "&#ABABABGerador de &lPedra"
+	quest.6580DCA54E4C9BC2.title: "&#FFEF00Malha de Ouro"
+	quest.70063949E831D49E.quest_subtitle: "Não, sério, bata nele"
+	quest.70063949E831D49E.title: "&fPó"
+	quest.744E757CA323FF46.quest_desc: ["Cajados lhe darão uma chance muito maior de obter mudas e maçãs de folhas, mas também é como conseguir bichos-da-seda. Você precisará deles para obter linha para progressão posterior.\","]
+	quest.744E757CA323FF46.title: "Isso está torto?"
+	quest.768F0E715B05D9E4.quest_desc: [
+		"&6Peneirar&r é seu método mais comum de coletar recursos neste modpack, e inúmeros materiais úteis podem ser adquiridos desta forma!"
+		""
+		"Você também pode peneirar blocos de &e25&r em &e25&r, fazendo &e25&r &#FF832EPeneiras de Carvalho&r e colocando-as em um quadrado de &e5x5&r.\\n\\nClicar com o botão direito na Peneira do meio com o item que você quer peneirar usará &e25&r em vez de &e1&r.\\n\\nCada Peneira no grupo precisa de sua própria Malha, e todas as Malhas devem ser do Mesmo Nível."
+	]
+	quest.768F0E715B05D9E4.quest_subtitle: "É como assar um bolo!"
+	quest.768F0E715B05D9E4.title: "&f1 Peneira, sem farinha"
+	quest.784B0D83F0229A08.quest_desc: ["Uma forma mais rápida de martelar para obter Cascalho ou Areia é martelando blocos comprimidos. Martelos normais não funcionarão, então você precisará de um Martelo Comprimido!"]
+	quest.784B0D83F0229A08.quest_subtitle: "Martelar comprimido ainda é uma coisa!"
+	quest.784B0D83F0229A08.title: "Martelando Itens Comprimidos"
+	task.09BBBCD923E11EC3.title: "&#963512Sementes de Micélio"
+	task.1244CE2DE8D1F57F.title: "&#00EAFFMalha de Diamante"
+	task.1980B0B27E468094.title: "&eGerador de Pedra de &lOuro"
+	task.1BB08F6BC4167067.title: "Qualquer #minecraft:logs"
+	task.2019707AE4DAC703.title: "Mudas de Emergência"
+	task.22649862928BBE26.title: "Prepare-se..."
+	task.27685E76E25D8E61.title: "&#ABABABGerador de &lPedra"
+	task.2A5A47ACE1821C05.title: "&5Balde de Água de Bruxa"
+	task.2E0FB9514B1670B0.title: "&#FFEF00Malha de Ouro"
+	task.30578E2D8046B257.title: "&fPó"
+	task.32574FAB3A959505.title: "&#963512Gerador de Pedra de &lNetherite"
+	task.43CCDF53A482B4BC.title: "&fGerador de Pedra de &lFerro"
+	task.4591A7EDAC7584E4.title: "&8Malha de Pederneira"
+	task.4DA51388599C4C74.title: "&#FF5900Gerador de Pedra de &lCobre"
+	task.5E39E9C41ABFC6EB.title: "&#00F0FFGerador de Pedra de &lDiamante"
+	task.60BD8D76493BC120.title: "&#00FF2AGerador de Blocos &lEsmeralda"
+	task.6786082559455714.title: "&#963512Malha de Netherita"
+	task.6796CC6B57FBA03E.title: "&aSementes de Grama"
+	task.6BB34060F0E0CF88.title: "&fMalha de &lFerro"
+}
