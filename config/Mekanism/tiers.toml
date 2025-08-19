@@ -7,7 +7,7 @@
 	#Output rate in Joules of Basic energy cubes.
 	# Default: 4000
 	# Range: 1 ~ 9223372036854775807
-	basicOutput = 4000
+	basicOutput = 8000
 	#Maximum number of Joules Advanced energy cubes can store.
 	# Default: 16000000
 	# Range: 1 ~ 9223372036854775807
@@ -15,7 +15,7 @@
 	#Output rate in Joules of Advanced energy cubes.
 	# Default: 16000
 	# Range: 1 ~ 9223372036854775807
-	advancedOutput = 16000
+	advancedOutput = 32000
 	#Maximum number of Joules Elite energy cubes can store.
 	# Default: 64000000
 	# Range: 1 ~ 9223372036854775807
@@ -23,7 +23,7 @@
 	#Output rate in Joules of Elite energy cubes.
 	# Default: 64000
 	# Range: 1 ~ 9223372036854775807
-	eliteOutput = 64000
+	eliteOutput = 128000
 	#Maximum number of Joules Ultimate energy cubes can store.
 	# Default: 256000000
 	# Range: 1 ~ 9223372036854775807
@@ -31,7 +31,7 @@
 	#Output rate in Joules of Ultimate energy cubes.
 	# Default: 256000
 	# Range: 1 ~ 9223372036854775807
-	ultimateOutput = 256000
+	ultimateOutput = 512000
 	#Maximum number of Joules Creative energy cubes can store.
 	# Default: 9223372036854775807
 	# Range: 1 ~ 9223372036854775807
@@ -50,7 +50,7 @@
 	#Output rate of Basic fluid tanks in mB.
 	# Default: 1000
 	# Range: > 1
-	basicOutput = 1000
+	basicOutput = 2000
 	#Storage size of Advanced fluid tanks in mB.
 	# Default: 64000
 	# Range: > 1
@@ -58,7 +58,7 @@
 	#Output rate of Advanced fluid tanks in mB.
 	# Default: 4000
 	# Range: > 1
-	advancedOutput = 4000
+	advancedOutput = 8000
 	#Storage size of Elite fluid tanks in mB.
 	# Default: 128000
 	# Range: > 1
@@ -66,7 +66,7 @@
 	#Output rate of Elite fluid tanks in mB.
 	# Default: 16000
 	# Range: > 1
-	eliteOutput = 16000
+	eliteOutput = 32000
 	#Storage size of Ultimate fluid tanks in mB.
 	# Default: 256000
 	# Range: > 1
@@ -74,7 +74,7 @@
 	#Output rate of Ultimate fluid tanks in mB.
 	# Default: 64000
 	# Range: > 1
-	ultimateOutput = 64000
+	ultimateOutput = 128000
 	#Storage size of Creative fluid tanks in mB.
 	# Default: 2147483647
 	# Range: > 1
@@ -93,7 +93,7 @@
 	#Output rate of Basic chemical tanks in mB.
 	# Default: 1000
 	# Range: 1 ~ 9223372036854775807
-	basicOutput = 1000
+	basicOutput = 2000
 	#Storage size of Advanced chemical tanks in mB.
 	# Default: 256000
 	# Range: 1 ~ 9223372036854775807
@@ -101,7 +101,7 @@
 	#Output rate of Advanced chemical tanks in mB.
 	# Default: 16000
 	# Range: 1 ~ 9223372036854775807
-	advancedOutput = 16000
+	advancedOutput = 32000
 	#Storage size of Elite chemical tanks in mB.
 	# Default: 1024000
 	# Range: 1 ~ 9223372036854775807
@@ -109,7 +109,7 @@
 	#Output rate of Elite chemical tanks in mB.
 	# Default: 128000
 	# Range: 1 ~ 9223372036854775807
-	eliteOutput = 128000
+	eliteOutput = 256000
 	#Storage size of Ultimate chemical tanks in mB.
 	# Default: 8192000
 	# Range: 1 ~ 9223372036854775807
@@ -117,7 +117,7 @@
 	#Output rate of Ultimate chemical tanks in mB.
 	# Default: 512000
 	# Range: 1 ~ 9223372036854775807
-	ultimateOutput = 512000
+	ultimateOutput = 1024000
 	#Storage size of Creative chemical tanks in mB.
 	# Default: 9223372036854775807
 	# Range: 1 ~ 9223372036854775807
@@ -167,7 +167,7 @@
 	#Maximum number of Joules Ultimate induction cells can store.
 	# Default: 4000000000000
 	# Range: 1 ~ 9223372036854775807
-	ultimateCapacity = 4000000000000
+	ultimateCapacity = 4096000000000
 	#Maximum number of Joules Basic induction providers can output or accept.
 	# Default: 256000
 	# Range: 1 ~ 9223372036854775807

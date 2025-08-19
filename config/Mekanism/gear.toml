@@ -195,19 +195,19 @@
 	#Energy capacity (Joules) of the Meka-Tool without any installed upgrades. Quadratically scaled by upgrades.
 	# Default: 16000000
 	# Range: 0 ~ 9223372036854775807
-	baseEnergyCapacity = 16000000
+	baseEnergyCapacity = 48000000
 	#Amount (joules) of energy the Meka-Tool can accept per tick. Quadratically scaled by upgrades.
 	# Default: 100000
 	# Range: 0 ~ 9223372036854775807
-	chargeRate = 100000
+	chargeRate = 320000
 	#Base bonus damage applied by the Meka-Tool without using any energy.
 	# Default: 4
 	# Range: 0 ~ 100000
-	baseDamage = 4
+	baseDamage = 24
 	#Attack speed of the Meka-Tool.
 	# Default: -2.4
 	# Range: -4.0 ~ 100.0
-	attackSpeed = -2.4
+	attackSpeed = -0.2
 	#Efficiency of the Meka-Tool with energy but without any upgrades.
 	# Default: 4.0
 	# Range: 0.1 ~ 100.0
@@ -224,58 +224,58 @@
 		#Base energy (Joules) usage of the Meka-Tool. (Gets multiplied by speed factor)
 		# Default: 10
 		# Range: 0 ~ 9223372036854775807
-		base = 10
+		base = 120
 		#Silk touch energy (Joules) usage of the Meka-Tool. (Gets multiplied by speed factor)
 		# Default: 100
 		# Range: 0 ~ 9223372036854775807
-		silk = 100
+		silk = 800
 		#Cost in Joules of using the Meka-Tool to deal 4 units of damage.
 		# Default: 2000
 		# Range: 0 ~ 9223372036854775807
-		weapon = 2000
+		weapon = 6400
 		#Cost in Joules of using the Meka-Tool as a hoe.
 		# Default: 10
 		# Range: 0 ~ 9223372036854775807
-		hoe = 10
+		hoe = 80
 		#Cost in Joules of using the Meka-Tool as a shovel for making paths and dowsing campfires.
 		# Default: 10
 		# Range: 0 ~ 9223372036854775807
-		shovel = 10
+		shovel = 80
 		#Cost in Joules of using the Meka-Tool as an axe for stripping logs, scraping, or removing wax.
 		# Default: 10
 		# Range: 0 ~ 9223372036854775807
-		axe = 10
+		axe = 80
 		#Cost in Joules of using the Meka-Tool to shear entities.
 		# Default: 10
 		# Range: 0 ~ 9223372036854775807
-		shearEntity = 10
+		shearEntity = 80
 		#Cost in Joules of using the Meka-Tool to carefully shear and trim blocks.
 		# Default: 10
 		# Range: 0 ~ 9223372036854775807
-		shearTrim = 10
+		shearTrim = 80
 		#Cost in Joules of using the Meka-Tool to teleport 10 blocks.
 		# Default: 1000
 		# Range: 0 ~ 9223372036854775807
-		teleport = 1000
+		teleport = 9600
 
 #Settings for configuring the MekaSuit
 [mekasuit]
 	#Energy capacity (Joules) of MekaSuit items without any installed upgrades. Quadratically scaled by upgrades.
 	# Default: 16000000
 	# Range: 0 ~ 9223372036854775807
-	baseEnergyCapacity = 16000000
+	baseEnergyCapacity = 52000000
 	#Amount (joules) of energy the MekaSuit can accept per tick. Quadratically scaled by upgrades.
 	# Default: 100000
 	# Range: 0 ~ 9223372036854775807
-	chargeRate = 100000
+	chargeRate = 480000
 	#Charge rate of inventory items in Joules/t when charging the player's inventory with the Charge Distribution Unit.
 	# Default: 10000
 	# Range: 0 ~ 9223372036854775807
-	inventoryChargeRate = 10000
+	inventoryChargeRate = 64000
 	#Solar recharging rate in Joules/t of the helmet, per upgrade installed.
 	# Default: 500
 	# Range: 0 ~ 9223372036854775807
-	solarRechargingRate = 500
+	solarRechargingRate = 1200
 	#Should the Gravitational Modulation unit give off vibrations that can be detected by Sculk Sensors and Shriekers when in use.
 	gravitationalVibrations = true
 	#Maximum amount in mB of Nutritional Paste storable by the nutritional injection unit.
@@ -289,30 +289,30 @@
 	#Maximum amount in mB of Hydrogen storable per installed jetpack unit.
 	# Default: 24000
 	# Range: 1 ~ 9223372036854775807
-	jetpackMaxStorage = 24000
+	jetpackMaxStorage = 48000
 	#Rate in mB/t at which Hydrogen can be transferred into the jetpack unit.
 	# Default: 256
 	# Range: 1 ~ 9223372036854775807
-	jetpackTransferRate = 256
+	jetpackTransferRate = 1024
 
 	#Settings for configuring the MekaSuit's Energy Usage
 	[mekasuit.energy_usage]
 		#Energy usage (Joules) of MekaSuit per unit of damage applied.
 		# Default: 100000
 		# Range: 0 ~ 9223372036854775807
-		damage = 100000
+		damage = 960000
 		#Energy cost multiplier in Joules for reducing magic damage via the inhalation purification unit. Energy cost is: MagicDamage * magicReduce. (1 MagicDamage is 1 half heart).
 		# Default: 1000
 		# Range: 0 ~ 9223372036854775807
-		magicReduce = 1000
+		magicReduce = 4800
 		#Energy cost multiplier in Joules for reducing fall damage with MekaSuit Boots. Energy cost is: FallDamage * fall. (1 FallDamage is 1 half heart)
 		# Default: 50
 		# Range: 0 ~ 9223372036854775807
-		fall = 50
+		fall = 800
 		#Energy usage (Joules) of MekaSuit when adding 0.1 to jump motion.
 		# Default: 1000
 		# Range: 0 ~ 9223372036854775807
-		jump = 1000
+		jump = 3200
 		#Energy usage (Joules) per second of the MekaSuit when flying with the Elytra Unit.
 		# Default: 32000
 		# Range: 0 ~ 9223372036854775807
@@ -320,19 +320,19 @@
 		#Energy usage (Joules) of MekaSuit when lessening a potion effect.
 		# Default: 40000
 		# Range: 0 ~ 9223372036854775807
-		energyUsagePotionTick = 40000
+		energyUsagePotionTick = 96000
 		#Energy usage (Joules) of MekaSuit when adding 0.1 to sprint motion.
 		# Default: 100
 		# Range: 0 ~ 9223372036854775807
-		sprintBoost = 100
+		sprintBoost = 800
 		#Energy usage (Joules) of MekaSuit per tick when flying via Gravitational Modulation.
 		# Default: 1000
 		# Range: 0 ~ 2305843009213693951
-		gravitationalModulation = 1000
+		gravitationalModulation = 9600
 		#Energy usage (Joules) of MekaSuit per tick of using vision enhancement.
 		# Default: 500
 		# Range: 0 ~ 9223372036854775807
-		visionEnhancement = 500
+		visionEnhancement = 800
 		#Energy usage (Joules) of MekaSuit per tick of using hydrostatic repulsion.
 		# Default: 500
 		# Range: 0 ~ 9223372036854775807
@@ -340,11 +340,11 @@
 		#Energy usage (Joules) of MekaSuit per half-food of nutritional injection.
 		# Default: 20000
 		# Range: 0 ~ 9223372036854775807
-		nutritionalInjection = 20000
+		nutritionalInjection = 48000
 		#Energy usage (Joules) of MekaSuit per tick of attracting a single item.
 		# Default: 250
 		# Range: 0 ~ 9223372036854775807
-		itemAttraction = 250
+		itemAttraction = 480
 
 	#Settings for configuring damage absorption of the MekaSuit
 	[mekasuit.damage_absorption]
