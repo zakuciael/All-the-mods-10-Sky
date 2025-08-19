@@ -24,9 +24,9 @@ ServerEvents.recipes(allthemods => {
             energy: 2147483647,
             ingredients: [
                 Ingredient.of('draconicevolution:dragon_heart').toJson(),
-                Ingredient.of('draconicevolution:reactor_core').toJson(),
+                Ingredient.of('draconicevolution:chaotic_core').toJson(),
                 Ingredient.of('allthetweaks:atm_star').toJson(),
-                Ingredient.of('draconicevolution:reactor_core').toJson(),
+                Ingredient.of('draconicevolution:chaotic_core').toJson(),
                 Ingredient.of('draconicevolution:dragon_heart').toJson()
             ],
             result: {
