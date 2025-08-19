@@ -216,11 +216,11 @@
 	quest.3D7480E4F9063E93.quest_subtitle: "Madeira + Suor"
 	quest.3D7480E4F9063E93.title: "&fAbelha Fazendeira"
 	quest.3E301F3EEC8C763A.quest_desc: [
-		"Isso pode ser usado para acelerar a taxa de crescimento de abelhas bebês ou para criar novos Ovos de Spawn."
+		"Isso pode ser usado para acelerar a taxa de crescimento de abelhas bebês ou para criar novos Ovos de Geração."
 		""
 		"Coloque uma abelha bebê enjaulada com 20 Guloseimas de Mel para transformá-la em adulta."
 		""
-		"Para criar Ovos de Spawn, você precisará combinar o gene da abelha que deseja com uma guloseima de mel e, em seguida, usar essa guloseima de mel nesta máquina com um ovo para criar o novo ovo de spawn.\\n\\nOs genes podem ser combinados para um máximo de 100% de pureza, o que lhe dará 100% de chance de converter um Ovo em um Ovo de Spawn de Abelha."
+		"Para criar Ovos de Geração, você precisará combinar o gene da abelha que deseja com uma guloseima de mel e, em seguida, usar essa guloseima de mel nesta máquina com um ovo para criar o novo Ovo de Geração.\\n\\nOs genes podem ser combinados para um máximo de 100% de pureza, o que lhe dará 100% de chance de converter um Ovo em um Ovo de Geração de Abelha."
 	]
 	quest.3E301F3EEC8C763A.quest_subtitle: "Creche para Abelhas Bebês"
 	quest.3E301F3EEC8C763A.title: "&fIncubadora de &6Abelhas Bebê"
