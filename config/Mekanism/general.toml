@@ -1,7 +1,7 @@
 #Log Mekanism packet names. Debug setting.
 logPackets = false
 #Controls whether Mekanism allows players to load chunks. If this is disabled, neither the Anchor Upgrade nor the Dimensional Stabilizer will provide any functionality.
-allowChunkloading = true
+allowChunkloading = false
 #How many ticks must pass until a block's active state is synced with the client when the block stops being active. This prevents rapid state changes that can cause lag. Note: Mekanism's blocks always sync immediately when they go from inactive to active; this only controls the time it takes to go from active to inactive.
 # Default: 60
 # Range: 0 ~ 1200
@@ -13,11 +13,11 @@ transmitterAlloyUpgrade = true
 #Base factor for working out machine performance with upgrades - UpgradeModifier * (UpgradesInstalled/UpgradesPossible).
 # Default: 10
 # Range: > 1
-maxUpgradeMultiplier = 10
+maxUpgradeMultiplier = 16
 #Peak processing rate in mB/t for the Solar Neutron Activator. Note: It can go higher than this value in some extreme environments.
 # Default: 64
 # Range: 1 ~ 1024
-maxSolarNeutronActivatorRate = 64
+maxSolarNeutronActivatorRate = 256
 
 #Settings for configuring heaters
 [heater]
@@ -113,11 +113,11 @@ maxSolarNeutronActivatorRate = 64
 	#Radiation sources are multiplied by this constant roughly once per second to represent their emission decay. At the default rate, it takes roughly 10 hours to remove a 1,000 Sv/h (crazy high) source.
 	# Default: 0.9995
 	# Range: 0.0 ~ 1.0
-	sourceDecayRate = 0.9995
+	sourceDecayRate = 0.9965
 	#Radiated objects and entities are multiplied by this constant roughly once per second to represent their dosage decay.
 	# Default: 0.9995
 	# Range: 0.0 ~ 1.0
-	targetDecayRate = 0.9995
+	targetDecayRate = 0.9965
 	#Defines the minimum severity radiation dosage severity (scale of 0 to 1) for which negative effects can take place. Set to 1 to disable negative effects completely.
 	# Default: 0.1
 	# Range: 0.0 ~ 1.0
@@ -129,11 +129,11 @@ maxSolarNeutronActivatorRate = 64
 	#Number of ticks required for radioactive chemical stored in a Radioactive Waste Barrel to decay radioactiveWasteBarrelDecayAmount mB.
 	# Default: 20
 	# Range: > 1
-	wasteBarrelProcessTicks = 20
+	wasteBarrelProcessTicks = 10
 	#Number of mB of chemical that decay every radioactiveWasteBarrelProcessTicks ticks when stored in a Radioactive Waste Barrel. Set to zero to disable decay all together. (Chemicals in the mekanism:waste_barrel_decay_blacklist tag will not decay).
 	# Default: 1
 	# Range: 0 ~ 9223372036854775807
-	wasteBarrelDecayAmount = 1
+	wasteBarrelDecayAmount = 4
 
 #Settings for configuring the Digital Miner
 [digital_miner]
@@ -150,7 +150,7 @@ maxSolarNeutronActivatorRate = 64
 	# Range: > 1
 	ticksPerMine = 80
 	#Allows dragging items from recipe viewers into the target slot of Digital Miner filters. This allows selecting specific blocks without having to acquire an instance of the block first.
-	easyMinerFilters = false
+	easyMinerFilters = true
 
 #Settings for configuring Lasers
 [laser]
@@ -183,7 +183,7 @@ maxSolarNeutronActivatorRate = 64
 	#Amount of Heavy Water in mB that is extracted per block of Water by the Electric Pump with a Filter Upgrade.
 	# Default: 10
 	# Range: 1 ~ 1000
-	heavyWaterAmount = 10
+	heavyWaterAmount = 60
 	#The number of blocks Fluidic Plenisher attempts to place fluid in before stopping.
 	# Default: 4000
 	# Range: 1 ~ 1000000
@@ -209,7 +209,7 @@ maxSolarNeutronActivatorRate = 64
 	#Enable the security system. This allows players to prevent other players from accessing their machines. Does NOT affect Frequencies.
 	allowProtection = true
 	#If this is enabled then players with the 'mekanism.bypass_security' permission (default for ops) can bypass block and item security restrictions.
-	opsBypassRestrictions = false
+	opsBypassRestrictions = true
 
 #Settings for configuring Nutritional Paste
 [nutritional_paste]
@@ -227,19 +227,19 @@ maxSolarNeutronActivatorRate = 64
 	#Amount of fluid (mB) that each block of the boiler's water portion contributes to the volume. Max = volume * waterPerTank
 	# Default: 16000
 	# Range: 1 ~ 368224
-	waterPerTank = 16000
+	waterPerTank = 3200
 	#Amount of steam (mB) that each block of the boiler's steam portion contributes to the volume. Max = volume * steamPerTank
 	# Default: 160000
 	# Range: 10 ~ 1581510980256305
-	steamPerTank = 160000
+	steamPerTank = 320000
 	#Amount of steam (mB) that each block of the boiler's heated coolant portion contributes to the volume. Max = volume * heatedCoolantPerTank
 	# Default: 256000
 	# Range: 1 ~ 1581510980256305
-	heatedCoolantPerTank = 256000
+	heatedCoolantPerTank = 512000
 	#Amount of steam (mB) that each block of the boiler's cooled coolant portion contributes to the volume. Max = volume * cooledCoolantPerTank
 	# Default: 256000
 	# Range: 1 ~ 1581510980256305
-	cooledCoolantPerTank = 256000
+	cooledCoolantPerTank = 512000
 	#How much Boiler heat is immediately usable to convert water to steam.
 	# Default: 0.7
 	# Range: 0.01 ~ 1.0
@@ -262,15 +262,15 @@ maxSolarNeutronActivatorRate = 64
 	#Ratio of temperature to output amount produced.
 	# Default: 0.4
 	# Range: 0.001 ~ 1000000.0
-	tempMultiplier = 0.4
+	tempMultiplier = 1.85
 	#Heat capacity of Thermal Evaporation Plant layers. This increases the amount of energy needed to increase temperature.
 	# Default: 100.0
 	# Range: 1.0 ~ 1000000.0
-	heatCapacity = 100.0
+	heatCapacity = 600.0
 	#Amount of fluid (mB) that each block of the evaporation plant contributes to the input tank capacity. Max = volume * fluidPerTank
 	# Default: 64000
 	# Range: 1 ~ 29826161
-	fluidPerTank = 64000
+	fluidPerTank = 128000
 	#Amount of output fluid (mB) that the evaporation plant can store.
 	# Default: 10000
 	# Range: > 1
@@ -289,4 +289,4 @@ maxSolarNeutronActivatorRate = 64
 	#Energy needed to process 1 mB of input (inputPerAntimatter * energyPerInput = energy to produce 1 mB of antimatter).
 	# Default: 1000000
 	# Range: 0 ~ 9223372036854775807
-	energyPerInput = 1000000
+	energyPerInput = 100000

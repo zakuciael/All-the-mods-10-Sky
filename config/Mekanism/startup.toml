@@ -56,4 +56,4 @@
 		#Knockback resistance value of the MekaSuit.
 		# Default: 0.10000000149011612
 		# Range: 0.0 ~ 3.4028234663852886E38
-		knockbackResistance = 0.10000000149011612
+		knockbackResistance = 0.1
