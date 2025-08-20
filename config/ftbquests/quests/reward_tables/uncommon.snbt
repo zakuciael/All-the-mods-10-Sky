@@ -184,14 +184,6 @@
 			weight: 5.0f
 		}
 		{
-			id: "5A3DD47596C81893"
-			item: {
-				count: 1
-				id: "mekanismgenerators:gas_burning_generator"
-			}
-			weight: 5.0f
-		}
-		{
 			id: "5E6A9820088B9C68"
 			item: {
 				count: 1
