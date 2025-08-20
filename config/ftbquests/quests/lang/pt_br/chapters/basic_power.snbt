@@ -22,7 +22,7 @@
 	]
 	quest.35ABB0DEE70DF7FD.quest_desc: ["Acredite ou não, o mod &aPowah&r tem algumas ótimas opções para obter... powoder.\\n\\nCertifique-se de verificar o capítulo de missões do &cPowah&r para saber mais!"]
 	quest.35ABB0DEE70DF7FD.title: "Mais &aPowah&r!"
-	quest.35CC898E0E49FE58.quest_desc: ["&9Flux Networks&r é um mod que visa ser a solução para todas as suas necessidades de energia sem fio.\\n\\nO mod em si não tem uma maneira de gerar energia, mas pode armazenar e transmitir energia sem fio, até mesmo através de dimensões. Ele pode até carregar seus itens no seu inventário.\\n\\nVocê pode até carregar seus Jetpacks enquanto voa com este mod.\\n\\nPara começar com o mod, você precisará de um pouco de Pó de Fluxo. Vá para a Rocha Matriz, jogue um pouco de Redstone em cima de alguma Rocha Matriz. Coloque um pouco de Obsidiana logo acima da Redstone flutuante, e então clique com o botão esquerdo na Obsidiana."]
+	quest.35CC898E0E49FE58.quest_desc: ["&9Flux Networks&r é um mod que tem como objetivo ser a solução para todas as suas necessidades de energia sem fio.\\n\\nO mod em si não possui uma forma de gerar energia, mas pode armazenar e transmitir energia sem fio, até mesmo entre dimensões. Ele também pode carregar seus itens no inventário.\\n\\nVocê pode até carregar seus Jetpacks enquanto estiver voando com este mod.\\n\\nPara começar com o mod, você precisará de um pouco de Pó de Flux. Faça uma Obsidiana 1x Comprimida (9 Obsidianas na bancada de trabalho), coloque-a no chão e jogue um pouco de Redstone em cima dela. Coloque uma Obsidiana logo acima da Redstone flutuante (1 bloco acima), e então clique com o botão esquerdo (ou dê um soco) na Obsidiana."]
 	quest.35CC898E0E49FE58.quest_subtitle: "A Solução Definitiva de Energia Sem Fio"
 	quest.35CC898E0E49FE58.title: "&8Flux Networks"
 	quest.36DEA17CBB696CC7.quest_desc: ["Se você clicar com o botão direito no Plug, verá a interface da Rede Flux. No canto superior direito, clique no botão + para criar sua primeira rede. Você precisará definir uma senha para criar a rede, mas também pode definir uma cor!\\n\\nA partir daqui, você pode ir para a guia Seleção de Rede para ativar sua rede no Plug. Se o Plug estiver conectado a uma fonte de energia, agora você pode aproveitar essa energia em qualquer lugar do seu sistema usando um Ponto Flux!\\n\\nDica Profissional: Você pode criar várias redes se quiser ter diferentes fontes de energia alimentando diferentes partes dos seus sistemas!"]
@@ -86,3 +86,4 @@
 	task.6C4B8A2662030CB0.title: "Cabos Universais"
 	task.76378687551A79C3.title: "Cubos de Energia"
 }
+

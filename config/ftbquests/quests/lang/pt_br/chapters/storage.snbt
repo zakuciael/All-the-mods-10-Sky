@@ -21,6 +21,11 @@
 	quest.0E5AE195158CF344.quest_subtitle: "Melhoria de Armazenamento x32"
 	quest.0E5AE195158CF344.title: "&dAtualização de Netherite"
 	quest.110D27EA86CDA62B.quest_desc: ["Atrai itens para a Mochila."]
+	quest.11A351E2CDE2A31E.quest_desc: [
+		"O Integrated Terminals também permite acessar seu armazenamento sem fio! Basta conectar um Divisor Omnidirecional do Integrated Dynamics em qualquer Cabo Lógico ligado ao seu armazenamento, "
+		"clicar com o botão direito usando o Terminal de Armazenamento Portátil, e você terá acesso irrestrito ao seu sistema."
+	]
+	quest.11A351E2CDE2A31E.title: "&fAcesso Portátil ao Armazenamento"
 	quest.11D4EEAC61C7E530.quest_desc: ["A Melhoria de Coletor fará a Gaveta aspirar itens de um dos lados."]
 	quest.11D4EEAC61C7E530.title: "&fAtualização de Coletor"
 	quest.11D57C768032E3F7.quest_subtitle: "Mais Opções de Filtragem"
@@ -66,12 +71,26 @@
 	quest.2746575C929B6C50.quest_desc: ["Gavetas podem ser 1x1, 2x1 ou 2x2. Gavetas podem armazenar uma tonelada de stacks de 1/2/4 itens, dependendo do tipo de Gaveta."]
 	quest.2746575C929B6C50.quest_subtitle: "Pilhas sobre Pilhas"
 	quest.2746575C929B6C50.title: "&fGavetas"
+	quest.289ED1DFD83B9838.quest_desc: [
+		"Você não apenas pode conectar itens, como também pode conectar fluidos! Basta colocar uma interface de fluido em qualquer solução de armazenamento que contenha fluido e conectá-la com Cabos Lógicos, e ela aparecerá em seu sistema!"
+		""
+		"Uma maneira prática de interagir com seu fluido é ter baldes no inventário, clicar no fluido e depois clicar novamente nos baldes para enchê-los!"
+	]
 	quest.2B422B7E0CE3590D.quest_desc: ["A Gaveta Compactadora pode converter itens colocados dentro dela em suas formas de pepita ou bloco.\\n\\nPor exemplo: Uma Barra de Ferro colocada aqui permitirá que você retire 9 pepitas, ou se mais Ferro for colocado, irá convertê-lo em Blocos de Ferro."]
 	quest.2B422B7E0CE3590D.quest_subtitle: "Compacta/Descompacta Automaticamente"
 	quest.2B422B7E0CE3590D.title: "&fGaveta Compactadora"
 	quest.2F9B0C642A6BE30C.title: "&f&lMochila de Ferro"
 	quest.2FC15D3916DBF4E4.quest_subtitle: "Mais Opções de Filtragem"
 	quest.2FC15D3916DBF4E4.title: "&eMódulo de Descarte Avançada"
+	quest.3043C83CCFC9706D.quest_desc: [
+		"Sem dúvida, a melhor solução de armazenamento antes de configurar o AE2 é o &9Integrated Terminals&r."
+		""
+		"O &9Integrated Terminals&r oferece uma solução de armazenamento para o início do jogo "
+		"que permite acessar todos os baús ao redor, além de algumas opções de Autofabricação!"
+		""
+		"Primeiro, faça um pouco de Vidro de Menril colocando Vidro em uma Bacia de Secagem cheia de Resina de Menril."
+	]
+	quest.3043C83CCFC9706D.title: "&fIntegrated Terminals"
 	quest.33882172DA8021F6.quest_desc: ["Mantém o inventário do jogador abastecido com itens de dentro da Mochila."]
 	quest.33AADC1B97E9F7A9.quest_desc: ["Carrinhos de Mina com Baús são Carrinhos de Mina com Baús dentro deles. Você não pode andar neles, mas eles podem ser úteis para transportar itens por sistemas de Trilhos."]
 	quest.36BCE35215B2B6E9.quest_desc: ["Derrete automaticamente itens na Mochila."]
@@ -84,6 +103,8 @@
 	quest.3A1D07AED2A841E4.title: "&eMódulo de Fundição Avançado"
 	quest.3B570B3DB5F6D2CB.quest_subtitle: "Melhoria de Armazenamento x16"
 	quest.3B570B3DB5F6D2CB.title: "&eAtualização de Ouro&r"
+	quest.3CE3CDB9C93CBDAD.quest_desc: ["[ \"Quer fazer algum Autofabricação? Confira o guia completo de \", { \"text\": \"IntegratedDynamics\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"499CF9F39CED8899\" } }, \"!\" ]"]
+	quest.3CE3CDB9C93CBDAD.title: "Autofabricação"
 	quest.3E33730DC2115D26.title: "&eBaú de Ouro"
 	quest.4007DFA7CC3A5FF2.quest_desc: ["Para evitar que você tenha esta &oseção de missões inteira&r coberta com melhorias, dê uma olhada nas melhorias da Mochila Sofisticada\\n\\nVocê precisará fazer o equivalente do Armazenamento Sofisticado, mas eles funcionam quase da mesma forma."]
 	quest.4007DFA7CC3A5FF2.quest_subtitle: "A Base para Melhorias"
@@ -135,6 +156,14 @@
 	quest.6E3D53D1C4569A89.quest_subtitle: "Armazenando XP"
 	quest.6E3D53D1C4569A89.title: "&aMódulo de Bomba de Experiência"
 	quest.6E9041744C592573.quest_desc: ["Adiciona a habilidade de bombear líquidos da Melhoria de Tanque."]
+	quest.6F6A23579CAE8013.quest_desc: [
+		"Em seguida, faça algumas Interfaces de Itens e Cabos Lógicos."
+		""
+		"Coloque as Interfaces nos baús que você deseja conectar e use os Cabos Lógicos para ligá-los todos."
+		""
+		"Depois, tudo o que você precisa fazer é colocar um Terminal de Armazenamento lá e voilà! Você terá acesso a todo o seu sistema de armazenamento."
+	]
+	quest.6F6A23579CAE8013.title: "Conectando Seu Armazenamento"
 	quest.6FBAE89EE782DABA.quest_desc: ["Quando colocado e conectado com a &aFerramenta de Vinculação&r a outras Gavetas, o Controlador atua como um \"Hub\".\\n\\nSe você clicar com o botão direito duas vezes, todos os itens em seu inventário que têm um espaço na rede de Gavetas serão puxados.\\n\\nAo clicar com o botão direito segurando sneak no controlador com a mão vazia, você pode abrir a aba de melhorias, adicionar melhorias de armazenamento normais nesses espaços para aumentar o alcance do Controlador. O alcance máximo é de 40 blocos para todos os lados, ou um cubo de 80x80x80."]
 	quest.6FBAE89EE782DABA.quest_subtitle: "O Cérebro das Gavetas"
 	quest.6FBAE89EE782DABA.title: "&fControlador de Armazenamento"

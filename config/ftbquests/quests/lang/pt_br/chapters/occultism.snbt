@@ -32,6 +32,11 @@
 	]
 	quest.0BD6365534BF04D5.quest_subtitle: "Quem você vai chamar?"
 	quest.0BD6365534BF04D5.title: "&aFascínio de Ihagan"
+	quest.0C554FD9A150D2CD.quest_desc: [
+		"Você também pode usar &cTigelas Sacrificiais de Cobre&r e &cTigelas Sacrificiais de Prata!&r"
+		""
+		"Embora estas sejam puramente decorativas e não alterem nada funcionalmente, elas ficam muito mais bonitas!"
+	]
 	quest.0D18BBB04693885A.quest_desc: ["A Ligação Superior de Strigeor é o segundo nível dos &6Rituais de Infusão&r. É usado para muitas coisas diferentes, mas as principais coisas que precisaremos são a Picareta Infundida e a Pasta Cinza."]
 	quest.0D18BBB04693885A.quest_subtitle: "O Ritual \"de Tudo\""
 	quest.0D18BBB04693885A.title: "&aLigação Superior de Strigeor"
@@ -123,17 +128,11 @@
 	quest.30C5B597610F4AFB.quest_desc: ["O primeiro e mais importante item a ser feito usando a Compulsão Espectral de Eziveus é o Pó de Fragmento de Pesquisa. Isso é usado em combinação com algumas Esmeraldas esmagadas para criar Giz de Lima!"]
 	quest.30C5B597610F4AFB.title: "&aGiz de Lima"
 	quest.33106E24A3B5DDD8.quest_desc: [
-		"O próximo passo em sua jornada será encontrar &eMinério de Iesnium&r no Nether."
+		"O próximo passo na sua jornada será encontrar &cIesnium&r."
 		""
-		"Sem os efeitos do &3Terceiro Olho&r, isso parecerá apenas Netherrack. Certifique-se de ter seus &dÓculos do Outro Mundo&r equipados!"
+		"Normalmente, você teria que explorar cavernas no Nether, mas este é um modpack Skyblock!"
 		""
-		"Para localizar o minério, tente usar uma &aVara de Adivinhação&r. Você precisará sintonizá-la com Netherrack primeiro, depois segure o botão direito do mouse para usá-la. Após alguns segundos, você verá uma partícula disparar na direção do Minério de Iesnium mais próximo. Você só pode minerar o minério usando a &dPicareta Infundida&r!"
-		""
-		"Como você não pode transformar este minério em o dobro de pós usando os métodos padrão, tente usar seu Foliot Crusher para dobrar suas Barras por minério bruto!"
-		""
-		"Nota: Se você não vir a partícula, certifique-se de que suas configurações de partículas estão ativadas!"
-		""
-		"{image:atm:textures/questpics/occultism/iesniumexample.png width:200 height:175 align:1}"
+		"Em vez disso, tente peneirar um pouco de &ePedra Negra Triturada&c."
 	]
 	quest.33106E24A3B5DDD8.title: "&cIesnium: Minério do Outro Mundo"
 	quest.3543563DF036D461.quest_desc: ["Para criar o Pó de Dragonyst, você precisará realizar a &9Torre Invertida de Uphyxes&r. No entanto, para criar o Giz Magenta, você também precisará de alguns materiais que só pode obter através do &9Marid Crusher&r."]
@@ -148,7 +147,7 @@
 		"Como ainda não temos acesso a Red Chalk, tudo o que podemos invocar é um &9Demônio&r &9Liberto&r, o que significa que ele não pode ser controlado e será violento."
 	]
 	quest.38A1295878B68F83.quest_subtitle: "Demônios Quentes!"
-	quest.38A1295878B68F83.title: "&6Conjuração Aberta de Abras"
+	quest.38A1295878B68F83.title: "&6Conjuração Aberta de Kandar"
 	quest.39647A2473F6F7D7.quest_desc: [
 		"Nosso próximo passo é uma incursão nos &6Rituais de Infusão&r. Esses rituais são usados para imbuir itens com a magia de demônios."
 		""
@@ -174,7 +173,7 @@
 		"&4AVISO: VOCÊ PODE TER QUE FAZER ESTE RITUAL VÁRIAS VEZES PARA OBTER CARNE DEMONÍACA SUFICIENTE."
 	]
 	quest.429B5A81DF6C43FE.quest_subtitle: "Quão... Carnudo..."
-	quest.429B5A81DF6C43FE.title: "&6Comando de Conjuração Aberto de Abra"
+	quest.429B5A81DF6C43FE.title: "&6Comando de Conjuração Aberto de Odus"
 	quest.42F50CE7FE715583.quest_desc: [
 		"Para aumentar a quantidade de stacks que seu armazenamento mágico pode conter, você precisará fazer &dEstabilizadores de Armazenamento&r."
 		""
@@ -237,7 +236,7 @@
 	]
 	quest.4F35D04721DFC9FF.quest_subtitle: "Círculo de Aviar"
 	quest.4F35D04721DFC9FF.title: "&bNosso Primeiro &dRitual"
-	quest.5316DF321B45D2CA.quest_desc: ["Bem-vindo ao &dOccultism&r!\\n\\nEste mod visa ajudar o jogador de várias maneiras, recrutando a ajuda de &c&mDemônios&r &bEspíritos&r! Não se preocupe, a maioria deles é amigável. &oA maioria&r.\\n\\nPara começar, você precisará obter algumas &aSementes de Fruta do Demônio&r."]
+	quest.5316DF321B45D2CA.quest_desc: ["Bem-vindo ao &dOccultism&r!\\n\\nEste mod tem como objetivo ajudar o jogador de várias maneiras, contando com a ajuda de &c&mDemônios&r &bEspíritos&r! Não se preocupe, a maioria deles é amigável. &oA maioria&r.\\n\\nPara começar, você precisará obter algumas &aSementes de Fruta do Demônio&r."]
 	quest.5316DF321B45D2CA.title: "Sonhando com &cDemônios"
 	quest.53DEA3DFEDC4809E.quest_desc: [
 		"Não se preocupe, este é o último da série de rituais de Abras. Ele é usado para invocar um demônio &9Marid&r, mas mesmo que use Giz Vermelho, não é poderoso o suficiente para &9vincular&r o Demônio. Isso significa que, infelizmente, você terá que lutar contra ele."
@@ -245,7 +244,7 @@
 		"Este ritual usa um Tridente como sacrifício, o que é confuso porque a maioria dos sacrifícios são criaturas vivas. Então, em vez de matar um mob em cima do círculo ritual completo, você simplesmente joga o Tridente na tigela central para iniciar o ritual."
 	]
 	quest.53DEA3DFEDC4809E.quest_subtitle: "É um Pássaro? É um Avião? Não, é um &9Marid&r desvinculado!"
-	quest.53DEA3DFEDC4809E.title: "Conjuração Fortificada de &4Abras"
+	quest.53DEA3DFEDC4809E.title: "&4Atração de Tibira"
 	quest.54378277B8D28B1D.quest_desc: [
 		"Uma \"melhoria\" para o Giz Arco-Íris, para aqueles que não gostam das runas de cores que mudam rapidamente arruinando sua estética meticulosamente criada."
 		""
