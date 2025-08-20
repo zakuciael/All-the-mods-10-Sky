@@ -1,5 +1,4 @@
 # All-the-mods-10-Sky
-
 ======
 All the mods skyblock pack for 1.21.1 NeoForge
 
@@ -7,7 +6,6 @@ Does "All The Mods" *really* contain ALL THE MODS? No, of course not.
 
 Need Help?
 ======
-
 When reporting an issue, please follow the templates!
 
 |                                                 You can also find us on Discord for help<br>or just to chat as well as Reddit                                                  |
@@ -16,8 +14,7 @@ When reporting an issue, please follow the templates!
 | <a href="https://www.reddit.com/r/allthemods"><img src="https://www.redditstatic.com/about/assets/reddit-logo.png" alt="/r/AllTheMods on Reddit"  width="200" height="67"></a> |
 <br>
 
-#### Modpacks
-
+#### Modpacks:
 + [![All the Mods 0](http://cf.way2muchnoise.eu/372309.svg "ATM0") All The Mods 0 - ATM0](https://www.curseforge.com/minecraft/modpacks/all-the-mods-0)
 + [![All the Mods 1](http://cf.way2muchnoise.eu/242462.svg "ATM1") All The Mods 1 - ATM1](https://www.curseforge.com/minecraft/modpacks/all-the-mods)
 + [![All the Mods 2](http://cf.way2muchnoise.eu/253707.svg "ATM2") All The Mods 2 - ATM2](https://www.curseforge.com/minecraft/modpacks/all-the-mods-2)
@@ -42,4 +39,3 @@ When reporting an issue, please follow the templates!
 + [![All the Mods 10](http://cf.way2muchnoise.eu/925200.svg "ATM10") All The Mods 10 - ATM10](https://www.curseforge.com/minecraft/modpacks/all-the-mods-10)
 + [![All the Magic Arcana](http://cf.way2muchnoise.eu/1190911.svg "ATMA") All The Magic - Arcana - ATMA](https://www.curseforge.com/minecraft/modpacks/all-the-magic-arcana)
 + [![All the Mods 10Sky](http://cf.way2muchnoise.eu/1298402.svg "ATM10Sky") All The Mods 10 - To The Sky - ATM10Sky](https://www.curseforge.com/minecraft/modpacks/all-the-mods-10-sky)
-
