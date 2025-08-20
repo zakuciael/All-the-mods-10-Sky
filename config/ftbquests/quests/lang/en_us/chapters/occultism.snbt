@@ -32,6 +32,11 @@
 	]
 	quest.0BD6365534BF04D5.quest_subtitle: "Who you gonna call?"
 	quest.0BD6365534BF04D5.title: "&aIhagan's Enthrallment"
+	quest.0C554FD9A150D2CD.quest_desc: [
+		"You can also use &cCopper Sacrificial Bowls&r and &cSilver Sacrifical Bowls!&r"
+		""
+		"While these are purely for decoration and change nothing functionally, they do look much nicer!"
+	]
 	quest.0D18BBB04693885A.quest_desc: ["Strigeor's Higher Binding is the second tier of &6Infusion Rituals&r. It's used for many different things, but the main things we'll need are the Infused Pickaxe and Gray Paste."]
 	quest.0D18BBB04693885A.quest_subtitle: "The \"Everything\" Ritual"
 	quest.0D18BBB04693885A.title: "&aStrigeor's Higher Binding"
@@ -123,17 +128,11 @@
 	quest.30C5B597610F4AFB.quest_desc: ["The first and most important item to make using Eziveus' Spectral Compulsion is the Research Fragment Dust. This is used in combination with some crushed Emeralds to create Lime Chalk!"]
 	quest.30C5B597610F4AFB.title: "&aLime Chalk"
 	quest.33106E24A3B5DDD8.quest_desc: [
-		"The next step in your journey will be to find &eIesnium Ore&r in the Nether."
+		"The next step in your journey will be to find &cIesnium&r."
 		""
-		"Without the effects of the &3Third Eye&r, this will look just like Netherrack. Make sure to have your &dOtherworld Goggles&r equipped!"
+		"Normally, you would have to go spelunking in the Nether, but this is a Skyblock modpack!"
 		""
-		"To locate the ore, try using a &aDivination Rod&r. You'll need to attune it to Netherrack first, then hold down right click to use it. After a few seconds, you will see a particle shoot out in the direction of the nearest Iesnium Ore. You can only mine the ore using the &dInfused Pickaxe&r!"
-		""
-		"Since you can't break this ore down into double the dusts using the standard methods, try using your Foliot Crusher to double your ingots per raw ore!"
-		""
-		"Note: If you don't see the particle, make sure your particle settings are turned on!"
-		""
-		"{image:atm:textures/questpics/occultism/iesniumexample.png width:200 height:175 align:1}"
+		"Instead, try sieving some &eCrushed Blackstone&c."
 	]
 	quest.33106E24A3B5DDD8.title: "&cIesnium: Ore of the Otherworld"
 	quest.3543563DF036D461.quest_desc: ["To create Dragonyst Dust, you'll need to perform &9Uphyxes' Inverted Tower&r. However, to create Magenta Chalk, you'll also need some materials that you can only get through the &9Marid Crusher&r."]
@@ -148,7 +147,7 @@
 		"Because we don't have access to Red Chalk yet, all we can summon is an &9Unbound&r Demon, meaning it cannot be controlled and will be violent."
 	]
 	quest.38A1295878B68F83.quest_subtitle: "Hot Demons!"
-	quest.38A1295878B68F83.title: "&6Abras' Open Conjure"
+	quest.38A1295878B68F83.title: "&6Kandar's Open Conjure"
 	quest.39647A2473F6F7D7.quest_desc: [
 		"Our next step is a foray into &6Infusion Rituals&r. These rituals are used to imbue items with the magic of demons."
 		""
@@ -174,7 +173,7 @@
 		"&4WARNING: YOU MAY HAVE TO DO THIS ONE MULTIPLE TIMES TO GET ENOUGH DEMONIC MEAT."
 	]
 	quest.429B5A81DF6C43FE.quest_subtitle: "How... Fleshy..."
-	quest.429B5A81DF6C43FE.title: "&6Abras' Open Commanding Conjure"
+	quest.429B5A81DF6C43FE.title: "&6Odus' Open Convocation"
 	quest.42F50CE7FE715583.quest_desc: [
 		"To upgrade the amount of stacks your magical storage can hold, you'll need to make &dStorage Stabilizers&r."
 		""
@@ -238,7 +237,7 @@
 	]
 	quest.4F35D04721DFC9FF.quest_subtitle: "Aviar's Circle"
 	quest.4F35D04721DFC9FF.title: "&bOur First &dRitual"
-	quest.5316DF321B45D2CA.quest_desc: ["Welcome to &dOccultism&r!\\n\\nThis mod aimes to help the player in many different ways by enlisting the help of &c&mDemons&r &bSpirits&r! Don't worry, most of them are friendly. &oMost&r.\\n\\nTo get started, you'll need to get some &aDemon's Fruit Seeds&r."]
+	quest.5316DF321B45D2CA.quest_desc: ["Welcome to &dOccultism&r!\\n\\nThis mod aims to help the player in many different ways by enlisting the help of &c&mDemons&r &bSpirits&r! Don't worry, most of them are friendly. &oMost&r.\\n\\nTo get started, you'll need to get some &aDemon's Fruit Seeds&r."]
 	quest.5316DF321B45D2CA.title: "&dDreaming of &cDemons"
 	quest.53DEA3DFEDC4809E.quest_desc: [
 		"Don't worry, this is the last of the Abras series of rituals. It is used to summon a &9Marid&r demon, but even though it uses Red Chalk, it's not powerful enough to &9bind&r the Demon. This means that, unfortunately, you're going to have to fight it."
@@ -246,7 +245,7 @@
 		"This ritual uses a Trident as a sacrifice, which is confusing because most sacrifices are living creatures. So instead of killing a mob on top of the completed ritual circle, you simply throw the Trident at the center bowl to start the ritual."
 	]
 	quest.53DEA3DFEDC4809E.quest_subtitle: "Is it a Bird? Is it a Plane? No, it's an unbound &9Marid&r!"
-	quest.53DEA3DFEDC4809E.title: "&4Abras' Fortified Conjure"
+	quest.53DEA3DFEDC4809E.title: "&4Tibira's Attraction"
 	quest.54378277B8D28B1D.quest_desc: [
 		"An \"upgrade\" to the Rainbow Chalk, for those who don't like the rapid color-switching runes ruining their tediously crafted aesthetic. "
 		""
