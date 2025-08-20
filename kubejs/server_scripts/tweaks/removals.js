@@ -199,6 +199,9 @@ const seedRemovals = [
 
     allthemods.remove({ output: /exdeorum:.*_compressed_sieve/})
     allthemods.remove({ output: /generatorgalore:.*_upgrade/})
+    allthemods.remove({ id: `create:crushing/nether_gold_ore` })
+    allthemods.remove({ id: `create:crushing/deepslate_gold_ore` })
+    allthemods.remove({ id: `create:crushing/netherrack` })
     allthemods.remove({ id: 'alltheores:alloysmelter/brass/ingot' })
     allthemods.remove({ id: 'soulshards:vile_dust_from_soul_sand' })
     allthemods.remove({ id: 'oritech:crafting/alloy/steel' })

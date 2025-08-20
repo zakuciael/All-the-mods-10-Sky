@@ -113,6 +113,16 @@ ServerEvents.recipes(allthemods => {
         ],
         ticks: 40,
     })
+
+    extractor({
+        output: { item: "create:ochrum", count: 1 },
+        target: { type:  "xycraft_core:block_rule", block: "create:ochrum" },
+        adjacent: [
+            { type: "xycraft_core:block_rule", block: "minecraft:blue_ice" },
+            { type: "xycraft_core:fluid_type_rule", block: "minecraft:lava" },
+        ],
+        ticks: 40,
+    })
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10: To the Sky.

@@ -9,7 +9,8 @@ ServerEvents.recipes(allthemods => {
         "minecraft:end_stone",
         "minecraft:blackstone",
         "minecraft:sand",
-        "minecraft:netherrack"
+        "minecraft:netherrack",
+        "exdeorum:crushed_netherrack"
     ].map(ing => Ingredient.of(ing))
 
     let crushingResults = [
@@ -17,7 +18,8 @@ ServerEvents.recipes(allthemods => {
         "exdeorum:crushed_end_stone",
         "exdeorum:crushed_blackstone",
         "exdeorum:dust",
-        "exdeorum:crushed_netherrack"
+        "exdeorum:crushed_netherrack",
+        'create:cinder_flour'
     ].map(stack => Item.of(stack))
 
     /**

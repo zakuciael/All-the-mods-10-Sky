@@ -51,7 +51,8 @@ ServerEvents.recipes(allthemods => {
         'create:veridium',
         'create:crimsite',
         'create:asurine',
-        'xycraft_world:kivi'
+        'xycraft_world:kivi',
+        'create:ochrum'
     ].forEach(ore => sieving(ore, Materials.Gravel, [
         { mesh: Meshes.IRON, chance: 0.04 },
         { mesh: Meshes.GOLD, chance: 0.06 },
