@@ -29,6 +29,13 @@ ServerEvents.recipes(allthemods => {
         ]
     )
 
+    allthemods.shapeless('minecraft:yellow_dye',
+        [
+            'minecraft:bone_meal',
+            'alltheores:sulfur'
+        ]
+    )
+
     allthemods.shapeless(
         Item.of('minecraft:honey_block'),
         [

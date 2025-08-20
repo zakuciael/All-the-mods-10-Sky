@@ -202,6 +202,7 @@ const seedRemovals = [
     allthemods.remove({ id: `create:crushing/nether_gold_ore` })
     allthemods.remove({ id: `create:crushing/deepslate_gold_ore` })
     allthemods.remove({ id: `create:crushing/netherrack` })
+    allthemods.remove({ id: `mekanism:sulfur_dye` })
     allthemods.remove({ id: 'alltheores:alloysmelter/brass/ingot' })
     allthemods.remove({ id: 'soulshards:vile_dust_from_soul_sand' })
     allthemods.remove({ id: 'oritech:crafting/alloy/steel' })
