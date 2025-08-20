@@ -11,7 +11,6 @@
 	quest.0B37355262121DD5.title: "&4Altar de Infusão"
 	quest.0EFEDB0DD90DFC81.quest_desc: ["O Colhedor pode colher plantações automaticamente e replantá-las. Os itens coletados pelo Colhedor são colocados em seu inventário interno."]
 	quest.13124A7E22999850.quest_subtitle: "Tier: &e1"
-	quest.155A843A562DB7C4.quest_subtitle: "Tier: &63"
 	quest.15D764CAF047EA7A.title: "Armadura de &cTertium"
 	quest.1609BF52108238B0.quest_subtitle: "Tier: &e1"
 	quest.1636F3F12E92CAEA.quest_desc: [
@@ -146,7 +145,6 @@
 	quest.75560045ED084900.title: "Criando Sementes de Mob"
 	quest.7580037DB8ADEB3C.quest_desc: ["Miau miau, eu sou uma Vaca..."]
 	quest.7580037DB8ADEB3C.quest_subtitle: "Tier: &a2"
-	quest.75D09040185B0E40.quest_subtitle: "Tier: &a2"
 	quest.76071C22A73A2026.title: "&cFarmland de Tertium"
 	quest.7655E1C6C5E5469F.quest_subtitle: "Alcance: &a18&r Blocos"
 	quest.7655E1C6C5E5469F.title: "&2Growth Accelerators de Prudentium"
@@ -155,6 +153,8 @@
 	quest.7A103577EAE7B3F1.quest_subtitle: "Nível: &c5 - Despertado"
 	quest.7A103577EAE7B3F1.title: "&6Supremium Despertado"
 	quest.7ADE214373DE135F.quest_subtitle: "Nível: &63"
+	quest.7BBD85F94D98CA46.quest_desc: ["Most Resource Seeds were &cremoved&r to give way for &bFlux Sieves&r (ExDeorum) and &aGeOres&r mod with &6Growth Accelerator Tiers&r."]
+	quest.7BBD85F94D98CA46.title: "Warning"
 	quest.7CFA92CC48D1E7E3.quest_subtitle: "Nível: &c5"
 	quest.7D43016926E77150.title: "&9Armadura de Imperium&r"
 	quest.7DFF18CFEB0B8DBE.quest_desc: ["Você vai querer começar a cultivar &aInferium&r assim que puder!\\n\\nEmbora não seja necessário para o cultivo dessas sementes, você também pode criar &eTerra de Cultivo de Essência&r que aumentará a velocidade de crescimento das sementes (especialmente Sementes de Inferium). No entanto, certas sementes exigirão que certas terras de cultivo sejam plantadas."]
