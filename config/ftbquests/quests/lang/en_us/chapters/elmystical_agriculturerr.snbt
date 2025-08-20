@@ -159,6 +159,8 @@
 	quest.7A103577EAE7B3F1.quest_subtitle: "Tier: &c5 - Awakened"
 	quest.7A103577EAE7B3F1.title: "&6Awakened Supremium"
 	quest.7ADE214373DE135F.quest_subtitle: "Tier: &63"
+	quest.7BBD85F94D98CA46.quest_desc: ["Most Resource Seeds were &cremoved&r to give way for &bFlux Sieves&r (ExDeorum) and &aGeOres&r mod with &6Growth Accelerator Tiers&r."]
+	quest.7BBD85F94D98CA46.title: "Warning"
 	quest.7CFA92CC48D1E7E3.quest_subtitle: "Tier: &c5"
 	quest.7D43016926E77150.title: "&9Imperium Armor&r"
 	quest.7DFF18CFEB0B8DBE.quest_desc: ["You'll want to start growing &aInferium&r as soon as you can!\\n\\nWhile not required for growing these seeds, you can also create &eEssence Farmland&r that will increase the growth speed of the seeds (especially Inferium Seeds). However, certain seeds will require certain farmlands to be planted on."]

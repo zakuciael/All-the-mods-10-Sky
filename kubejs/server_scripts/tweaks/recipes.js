@@ -213,6 +213,22 @@ ServerEvents.recipes(allthemods => {
             'minecraft:nether_wart_block'
         ]
     )
+    // Flashpine
+    allthemods.custom({
+        type: 'ars_nouveau:enchanting_apparatus',
+        keepNbtOfReagent: false,
+        pedestalItems: [
+            Ingredient.of('ars_nouveau:air_essence').toJson()
+        ],
+        reagent: [
+            Ingredient.of('ars_nouveau:magebloom_crop').toJson()
+        ],
+        result: {
+            count: 1,
+            id: 'ars_elemental:flashpine_pod'
+        },
+        sourceCost: 10000
+    }).id('ars_elemental:ars_elemental/flashpine_pod')
 
     allthemods.shapeless(
         Item.of('4x minecraft:lapis_lazuli'),
