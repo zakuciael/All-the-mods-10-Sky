@@ -187,9 +187,14 @@ const seedRemovals = [
         'mysticalagriculture:nitro_crystal_seeds'
 ]
 
-removals.forEach(removals => {
-            allthemods.remove({ input: seedRemovals });
-            allthemods.remove({ output: removals });
+    removals.forEach(entry => {
+        allthemods.remove({ input: entry });
+        allthemods.remove({ output: entry });
+    });
+
+    seedRemovals.forEach(entry => {
+        allthemods.remove({ input: entry });
+        allthemods.remove({ output: entry });
     });
 
     allthemods.remove({ output: /exdeorum:.*_compressed_sieve/})
