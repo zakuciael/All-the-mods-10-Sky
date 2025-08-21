@@ -209,6 +209,7 @@ const seedRemovals = [
     allthemods.remove({ id: 'silentgear:graded_mat_test' })
     allthemods.remove({ id: 'silentgear:diamond_shard' })
     allthemods.remove({ id: 'actuallyadditions:tagged_slime_block' })
+    allthemods.remove({ id: `mekanism:compat/ae2/sand_to_silicon` })
 });
 
 ServerEvents.generateData('after_mods', allthemods => {
