@@ -75,22 +75,6 @@ KubeJSTweaks.beforeRecipes(event => {
       entry.addConditionsFromKey("ingredients")
     })
 
-  // RIP Jonn, forgot `s`
-  event.getEntry(/^dyenamicsandfriends:.*_hammock$/).forEach(entry => {
-    entry.fixCondition()
-    entry.replaceValueAtKey("key", "tag", "c:string", "c:strings")
-  })
-
-  // RIP Jonn2, forgot another `s`
-  event.getEntry("productivetrees:crates/coffee_bean_crate").forEach(entry => {
-	entry.replaceValueAtKey("key", "tag", "c:coffee_bean", "c:coffee_beans")
-  })
-
-  // RIP Jonn3, looks like it was changed to `_blocks` now
-  event.getEntry("productivetrees:time_traveller_display").forEach(entry => {
-	entry.replaceValueAtKey("key", "tag", "c:glass/colorless", "c:glass_blocks/colorless")
-  })
-
   // Ignore warnings because silent gear ingredients
   // that contains "silentgear:material" are not ready
   // yet, but are valid in a later stage

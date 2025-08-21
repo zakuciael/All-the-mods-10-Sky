@@ -188,7 +188,7 @@ const seedRemovals = [
 ]
 
     removals.forEach(entry => {
-        allthemods.remove({ input: entry });
+//        allthemods.remove({ input: entry }); DO NOT ENABLE, THIS WILL BREAK THE PACK
         allthemods.remove({ output: entry });
     });
 
