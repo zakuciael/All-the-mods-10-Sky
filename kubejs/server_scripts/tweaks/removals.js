@@ -207,6 +207,8 @@ const seedRemovals = [
     allthemods.remove({ id: 'soulshards:vile_dust_from_soul_sand' })
     allthemods.remove({ id: 'oritech:crafting/alloy/steel' })
     allthemods.remove({ id: 'silentgear:graded_mat_test' })
+    allthemods.remove({ id: 'silentgear:diamond_shard' })
+    allthemods.remove({ id: 'actuallyadditions:tagged_slime_block' })
 });
 
 ServerEvents.generateData('after_mods', allthemods => {
