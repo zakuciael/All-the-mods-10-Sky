@@ -105,13 +105,13 @@
 #Settings for Singularities.
 [Singularities]
 	#Should the Singularities be enabled?
-	enabled = false
+	enabled = true
 	#The default amount of items required to create a Singularity.
 	# Default: 10000
 	# Range: > 1
-	defaultMaterialsRequired = 10000
+	defaultMaterialsRequired = 25000
 	#The default amount of FE required to create a Singularity.
-	# Default: 2500000
+	# Default: 5000000
 	# Range: > 0
 	defaultPowerRequired = 2500000
 	#Should default recipes be generated for Singularities?
