@@ -196,11 +196,6 @@ ServerEvents.recipes(allthemods => {
 
     // ===== Blackstone =====
 
-    sieving('occultism:raw_iesnium', Materials.Blackstone, [
-        { mesh: Meshes.DIAMOND, chance: 0.05 },
-        { mesh: Meshes.NETHERITE, chance: 0.05 }
-    ]);
-
     sieving('allthemodium:allthemodium_nugget', Materials.Blackstone, [
         { mesh: Meshes.DIAMOND, chance: 0.04 },
         { mesh: Meshes.NETHERITE, chance: 0.15 }
@@ -220,6 +215,7 @@ ServerEvents.recipes(allthemods => {
     // Crucible heating blocks
     allthemods.recipes.exdeorum.crucible_heat_source({ block_tag: 'alltheores:uranium' }, 20);
     allthemods.recipes.exdeorum.crucible_heat_source({ block: 'mekanism:superheating_element' }, 60);
+    allthemods.recipes.exdeorum.crucible_heat_source({ block: 'allthemodium:soul_lava' }, 120);
 
     // Hammer
     allthemods.remove({ type: 'exdeorum:compressed_hammer'})
@@ -240,5 +236,8 @@ ServerEvents.recipes(allthemods => {
         allthemods.recipes.exdeorum.compressed_hammer(Item.of('exdeorum:dust'), Math.pow(9, i), Ingredient.of(`allthecompressed:red_sand_${i}x`))
         allthemods.recipes.exdeorum.compressed_hammer(Item.of('exdeorum:crushed_end_stone'), Math.pow(9, i), Ingredient.of(`allthecompressed:end_stone_${i}x`))
     }
+
+    // Barrel mixing output, input, fluid
+    allthemods.recipes.exdeorum.barrel_mixing('minecraft:crying_obsidian', 'minecraft:obsidian', 'exdeorum:witch_water')
 
 });

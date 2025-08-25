@@ -29,6 +29,7 @@ ServerEvents.recipes(allthemods => {
     gen(Item.of('minecraft:end_stone', 1), 'exdeorum:witch_water', 'minecraft:lava', 1, 'minecraft:glowstone')
     gen(Item.of('minecraft:netherrack', 1), 'exdeorum:witch_water', 'minecraft:lava', 1, 'minecraft:redstone_block')
     gen(Item.of('forbidden_arcanus:darkstone', 1), 'exdeorum:witch_water', 'minecraft:lava', 1, 'forbidden_arcanus:arcane_crystal_block')
+    gen(Item.of('allthemodium:ancient_stone', 1), 'minecraft:packed_ice', 'allthemodium:soul_lava', 1, 'allthemodium:allthemodium_block')
 
 })
 
