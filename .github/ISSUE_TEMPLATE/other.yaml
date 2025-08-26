@@ -1,0 +1,24 @@
+---
+name: ✏️ Other
+description: File issue that doesn't fit into any other category
+title: "[Other]: "
+labels:
+  - "Type: Other"
+  - "Status: Needs Confirmation"
+body:
+  - type: input
+    id: pack-version
+    attributes:
+      label: Modpack Version
+      description: What version of the pack are you using?
+      placeholder: Pack version
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the issue
+      description: Please give the details on how it is now and how it should be!
+      placeholder: Describe your issue as detailed possible here
+    validations:
+      required: true
