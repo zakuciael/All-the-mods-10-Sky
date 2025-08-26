@@ -4,7 +4,7 @@
 ServerEvents.recipes(allthemods => {
 
     //Complete removal, including JEI
-const removals = [
+    const removals = [
         'exmachinis:netherite_upgrade',
         /geore:.*tungsten.*/,
         /geore:.*monazite.*/,
@@ -38,7 +38,7 @@ const removals = [
         'railcraft:world_spike_minecart'
     ]
 
-const seedRemovals = [
+    const seedRemovals = [
         'mysticalagriculture:uraninite_essence',
         'mysticalagriculture:yellorium_essence',
         'mysticalagriculture:yellorium_essence',
@@ -183,10 +183,10 @@ const seedRemovals = [
         'mysticalagriculture:spirited_crystal_seeds',
         'mysticalagriculture:uraninite_seeds',
         'mysticalagriculture:nitro_crystal_seeds'
-]
+    ]
 
     removals.forEach(entry => {
-//        allthemods.remove({ input: entry }); DO NOT ENABLE, THIS WILL BREAK THE PACK
+        //        allthemods.remove({ input: entry }); DO NOT ENABLE, THIS WILL BREAK THE PACK
         allthemods.remove({ output: entry });
     });
 
@@ -195,11 +195,12 @@ const seedRemovals = [
         allthemods.remove({ output: entry });
     });
 
-    allthemods.remove({ output: /exdeorum:.*_compressed_sieve/})
-    allthemods.remove({ output: /generatorgalore:.*_upgrade/})
+    allthemods.remove({ output: /exdeorum:.*_compressed_sieve/ })
+    allthemods.remove({ output: /generatorgalore:.*_upgrade/ })
     allthemods.remove({ id: `create:crushing/nether_gold_ore` })
     allthemods.remove({ id: `create:crushing/deepslate_gold_ore` })
     allthemods.remove({ id: `create:crushing/netherrack` })
+    allthemods.remove({ id: `create:crushing/ochrum_recycling` })
     allthemods.remove({ id: `mekanism:sulfur_dye` })
     allthemods.remove({ id: 'alltheores:alloysmelter/brass/ingot' })
     allthemods.remove({ id: 'soulshards:vile_dust_from_soul_sand' })
