@@ -199,14 +199,6 @@
 					item: { count: 1, id: "modern_industrialization:sulfuric_acid_bucket" }
 					type: "item"
 				}
-				{
-					fluid: {
-						amount: 1000
-						id: "modern_industrialization:sulfuric_acid"
-					}
-					id: "785957D4602B376C"
-					type: "fluid"
-				}
 			]
 			x: -13.5d
 			y: -10.5d
