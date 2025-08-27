@@ -3,9 +3,9 @@
   // Can be used to generate them in the middle of .mca files
   // This applies on top of the "offset" defined in each template
   "defaultOffset": 0,
-  
+
   // The template which will be used for spawn only
-  // Example: 
+  // Example:
   // {
   //     "name": "default",
   //     "desc": "",
@@ -26,7 +26,7 @@
         "east": []
       }
     },
-  
+
   // A list of possible spawn points.
   // You may also directly use these in the template config, or use a reference created here.
   "spawnPointReferences": {
@@ -78,6 +78,14 @@
         [ 5, 14, 14 ]
       ]
     },
+    "skyfactory": {
+      "south": [],
+      "west": [],
+      "north": [],
+      "east": [
+        [ 3, 7, 3 ]
+      ]
+    },
     "spawn": {
       "south": [],
       "west": [],
@@ -87,12 +95,12 @@
       "east": []
     }
   },
-  
+
   // A list of file names for templates which should spread around an island
   // You may also directly use these in the template config, or use a reference created here.
   // Instead of "min" and "max" with same values, you could also just use a single array.
   // "origin" defines from where the offset will be used. Possible values are "zero" and "center", where "center" is default.
-  // Example: 
+  // Example:
   // {
   //     "file": "default.nbt",
   //     "offset": {
@@ -104,7 +112,7 @@
   "spreadReferences": {
     "default": []
   },
-  
+
   // A list of blocks which can be used to surround islands/caves.
   // You may also directly use these in the template config, or use a reference created here.
   "surroundingBlockReferences": {
@@ -112,7 +120,7 @@
       "margin": 1
     }
   },
-  
+
   // The list of templates being available. The first entry is the default template.
   "templateList": [
     {
@@ -184,6 +192,18 @@
         "north": [],
         "east": [
           [ 5, 14, 14 ]
+        ]
+      }
+    },
+    {
+      "name": "skyfactory",
+      "file": "skyfactory.nbt",
+      "spawns": {
+        "south": [],
+        "west": [],
+        "north": [],
+        "east": [
+          [ 3, 7, 3 ]
         ]
       }
     }
