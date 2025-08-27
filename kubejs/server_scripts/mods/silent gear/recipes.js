@@ -17,4 +17,12 @@ ServerEvents.recipes(event => {
         'kubejs:silent_vibranium_plate',
         'allthemodium:unobtainium_ingot'
     )
+    event.shaped(Item.of('silentgear:fluffy_puff', 4), [
+        'WsW',
+        'sss',
+        'WsW'
+    ], {
+        W: '#c:wools',
+        s: 'minecraft:string'
+    });
 })

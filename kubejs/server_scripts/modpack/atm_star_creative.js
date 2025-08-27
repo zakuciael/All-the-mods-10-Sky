@@ -205,7 +205,8 @@ ServerEvents.recipes(allthemods => {
                 'DED'
             ],
             {
-                A: 'mysticalagradditions:creative_essence',
+                // Changed from Creative Essence to Insanium Essence since Creative Essence is unavailable
+                A: 'mysticalagradditions:insanium_essence',
                 // Changed from alloy block to unobtainium block since alloys may not be available
                 B: 'allthemodium:unobtainium_block',
                 C: 'ironjetpacks:capacitor[ironjetpacks:jetpack_id="ironjetpacks:creative"]',

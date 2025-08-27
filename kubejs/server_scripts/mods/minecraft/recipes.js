@@ -8,4 +8,9 @@ ServerEvents.recipes(allthemods => {
         U: 'minecraft:netherite_upgrade_smithing_template',
         N: 'minecraft:netherrack'
     });
+
+    allthemods.shapeless('minecraft:snowball', [
+        '#c:slime_balls',
+        '#c:dyes/white'
+    ])
 });
