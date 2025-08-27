@@ -5,17 +5,17 @@ ServerEvents.recipes(allthemods => {
      * @enum {string}
      */
     const Materials = {
-        Dirt:           'minecraft:dirt',
-        SoulSand:       'minecraft:soul_sand',
-        RedSand:        'minecraft:red_sand',
-        Gravel:         'minecraft:gravel',
-        Sand:           'minecraft:sand',
-        Dust:           'exdeorum:dust',
-        Netherrack:     'exdeorum:crushed_netherrack',
-        EndStone:       'exdeorum:crushed_end_stone',
-        Deepslate:      'exdeorum:crushed_deepslate',
-        Blackstone:     'exdeorum:crushed_blackstone',
-        Moss:           'minecraft:moss_block'
+        Dirt: 'minecraft:dirt',
+        SoulSand: 'minecraft:soul_sand',
+        RedSand: 'minecraft:red_sand',
+        Gravel: 'minecraft:gravel',
+        Sand: 'minecraft:sand',
+        Dust: 'exdeorum:dust',
+        Netherrack: 'exdeorum:crushed_netherrack',
+        EndStone: 'exdeorum:crushed_end_stone',
+        Deepslate: 'exdeorum:crushed_deepslate',
+        Blackstone: 'exdeorum:crushed_blackstone',
+        Moss: 'minecraft:moss_block'
     };
 
     /**
@@ -23,16 +23,16 @@ ServerEvents.recipes(allthemods => {
      * @enum {string}
      */
     const Meshes = {
-        STRING:   'exdeorum:string_mesh',
-        FLINT:    'exdeorum:flint_mesh',
-        IRON:     'exdeorum:iron_mesh',
-        GOLD:     'exdeorum:golden_mesh',
-        DIAMOND:  'exdeorum:diamond_mesh',
-        NETHERITE:'exdeorum:netherite_mesh'
+        STRING: 'exdeorum:string_mesh',
+        FLINT: 'exdeorum:flint_mesh',
+        IRON: 'exdeorum:iron_mesh',
+        GOLD: 'exdeorum:golden_mesh',
+        DIAMOND: 'exdeorum:diamond_mesh',
+        NETHERITE: 'exdeorum:netherite_mesh'
     };
 
     [Meshes.FLINT, Meshes.IRON, Meshes.GOLD, Meshes.DIAMOND].forEach(mesh => {
-        allthemods.remove({id: mesh});
+        allthemods.remove({ id: mesh });
     });
 
     const sieving = (output, material, config) => {
@@ -61,8 +61,8 @@ ServerEvents.recipes(allthemods => {
     ]));
 
 
-    allthemods.remove({output: 'minecraft:diamond', type: 'exdeorum:sieve', mod: 'exdeorum'});
-    allthemods.remove({output: 'minecraft:emerald', type: 'exdeorum:sieve', mod: 'exdeorum'});
+    allthemods.remove({ output: 'minecraft:diamond', type: 'exdeorum:sieve', mod: 'exdeorum' });
+    allthemods.remove({ output: 'minecraft:emerald', type: 'exdeorum:sieve', mod: 'exdeorum' });
 
     sieving('minecraft:diamond', Materials.Gravel, [
         { mesh: Meshes.IRON, amount: 1, chance: 0.01 },
@@ -106,6 +106,10 @@ ServerEvents.recipes(allthemods => {
     sieving('allthemodium:allthemodium_nugget', Materials.Sand, [
         { mesh: Meshes.DIAMOND, chance: 0.01 },
         { mesh: Meshes.NETHERITE, chance: 0.06 }
+    ]);
+
+    sieving('minecraft:kelp', Materials.Sand, [
+        { mesh: Meshes.DIAMOND, chance: 0.075 }
     ]);
 
     // ===== Dust =====
@@ -157,10 +161,10 @@ ServerEvents.recipes(allthemods => {
         'minecraft:sunflower'
     ].forEach(seed => {
         sieving(seed, Materials.Dirt, [
-            { mesh: Meshes.FLINT,     amount: 1, chance: 0.06 },
-            { mesh: Meshes.IRON,      amount: 1, chance: 0.08 },
-            { mesh: Meshes.GOLD,      amount: 1, chance: 0.08 },
-            { mesh: Meshes.DIAMOND,   amount: 1, chance: 0.11 },
+            { mesh: Meshes.FLINT, amount: 1, chance: 0.06 },
+            { mesh: Meshes.IRON, amount: 1, chance: 0.08 },
+            { mesh: Meshes.GOLD, amount: 1, chance: 0.08 },
+            { mesh: Meshes.DIAMOND, amount: 1, chance: 0.11 },
             { mesh: Meshes.NETHERITE, amount: 2, chance: 0.11 }
         ])
     });
@@ -173,9 +177,9 @@ ServerEvents.recipes(allthemods => {
         'ars_elemental:yellow_archwood_sapling'
     ].forEach(sapling => {
         sieving(sapling, Materials.Moss, [
-            { mesh: Meshes.IRON,      chance: 0.01 },
-            { mesh: Meshes.GOLD,      chance: 0.02 },
-            { mesh: Meshes.DIAMOND,   chance: 0.03 },
+            { mesh: Meshes.IRON, chance: 0.01 },
+            { mesh: Meshes.GOLD, chance: 0.02 },
+            { mesh: Meshes.DIAMOND, chance: 0.03 },
             { mesh: Meshes.NETHERITE, chance: 0.04 }
         ])
     });
@@ -218,7 +222,7 @@ ServerEvents.recipes(allthemods => {
     allthemods.recipes.exdeorum.crucible_heat_source({ block: 'allthemodium:soul_lava' }, 120);
 
     // Hammer
-    allthemods.remove({ type: 'exdeorum:compressed_hammer'})
+    allthemods.remove({ type: 'exdeorum:compressed_hammer' })
     for (let i = 1; i < 10; i++) {
         allthemods.recipes.exdeorum.compressed_hammer(Item.of(`allthecompressed:gravel_${i}x`), 1, Ingredient.of(`allthecompressed:cobblestone_${i}x`))
         allthemods.recipes.exdeorum.compressed_hammer(Item.of(`allthecompressed:gravel_${i}x`), 1, Ingredient.of(`allthecompressed:granite_${i}x`))
