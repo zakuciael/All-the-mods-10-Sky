@@ -1,6 +1,6 @@
 {
 	reward_table.04285B94275AB879.title: "Powah: Varetas e Cabos"
-	reward_table.047C4C58EC06DBF3.title: "Powah: Hardened"
+	reward_table.047C4C58EC06DBF3.title: "Powah: Endurecido"
 	reward_table.06C4634E81851A6C.title: "Recompensa: Comum"
 	reward_table.0A18991D9745743A.title: "AE2: Recompensas Básicas"
 	reward_table.0A4D0C6441DBF319.title: "Immersive: Recursos"
@@ -8,7 +8,7 @@
 	reward_table.11204745E52B4C0C.title: "Troncos e Mudas"
 	reward_table.13DF975BE0A23373.title: "Powah: Nitro"
 	reward_table.1AE4A39086CA5564.title: "MA: Saco de Sementes Nível 4"
-	reward_table.1C750D27FEF7C386.title: "Powah: Blazing"
+	reward_table.1C750D27FEF7C386.title: "Powah: Flamejante"
 	reward_table.1DB1EEDA7B79672B.title: "RailCraft: Trilhos"
 	reward_table.1EC6956FA2BB2B00.title: "Armazenamento Básico: Recompensas"
 	reward_table.21B1896C13F84C09.title: "MA: Saco de Sementes Nível 2"
@@ -39,3 +39,4 @@
 	reward_table.79C7738D7CEDABD4.title: "MA: Saco de Sementes Nível 5"
 	reward_table.7FB97C5850827C71.title: "PNC: Nível Avançado"
 }
+
