@@ -255,7 +255,7 @@
 				}
 				{
 					id: "22716B7AE8B5C488"
-					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:steel_drill)item(modern_industrialization:stainless_steel_drill)item(modern_industrialization:gold_drill)item(modern_industrialization:copper_drill)item(modern_industrialization:titanium_drill)item(modern_industrialization:bronze_drill)item(kubejs:allthemodium_drill)item(kubejs:vibranium_drill)item(kubejs:unobtainium_drill))", "minecraft:custom_name": "\"Mining Drill\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:steel_drill)item(modern_industrialization:stainless_steel_drill)item(modern_industrialization:gold_drill)item(modern_industrialization:copper_drill)item(modern_industrialization:titanium_drill)item(modern_industrialization:bronze_drill))", "minecraft:custom_name": "\"Mining Drill\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
