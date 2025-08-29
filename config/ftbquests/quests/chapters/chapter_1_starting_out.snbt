@@ -339,7 +339,7 @@
 				}
 				{
 					id: "2F3F55EDC60018DA"
-					item: { components: { "minecraft:damage": 48 }, count: 1, id: "alltheores:copper_ore_hammer" }
+					item: { count: 1, id: "alltheores:copper_ore_hammer" }
 					type: "item"
 				}
 			]
@@ -475,7 +475,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "417EF9716FAEA831"
-				item: { components: { "minecraft:damage": 98 }, count: 1, id: "exdeorum:stone_hammer" }
+				item: { count: 1, id: "exdeorum:stone_hammer" }
 				type: "item"
 			}]
 			x: 7.5d
@@ -988,6 +988,9 @@
 		}
 		{
 			dependencies: ["043AB8772206FF71"]
+			icon: {
+				id: "pickletweaks:flint_shears"
+			}
 			id: "091F1D752FA3BAAC"
 			rewards: [
 				{
@@ -1013,7 +1016,7 @@
 			tasks: [
 				{
 					id: "66C8F49BB7B67EB5"
-					item: { components: { "minecraft:damage": 75 }, count: 1, id: "pickletweaks:flint_shears" }
+					item: { count: 1, id: "pickletweaks:flint_shears" }
 					type: "item"
 				}
 				{
@@ -1367,7 +1370,7 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "3DE6BFA19CAF3FFF"
-				item: { components: { "minecraft:damage": 98 }, count: 1, id: "exdeorum:compressed_stone_hammer" }
+				item: { count: 1, id: "exdeorum:compressed_stone_hammer" }
 				type: "item"
 			}]
 			x: 10.0d
