@@ -84,7 +84,11 @@
 	quest.3E555B364FD88B43.quest_subtitle: "Range: &c45&r Blocks"
 	quest.3E555B364FD88B43.title: "&4Supremium Growth Accelerator"
 	quest.3EA2578C3A56FAE8.quest_desc: ["The Soul Extractor allows you to fill up Soul Jars by inserting a jar and using mob items to fill them. For example, adding Rotten Flesh will give a portion of a Zombie Soul."]
+	quest.3EBCBED3FD033117.quest_desc: [ ]
+	quest.3EBCBED3FD033117.quest_subtitle: "Tier: &a2"
+	quest.3EBCBED3FD033117.title: ""
 	quest.408D8B1CFBA22BAF.quest_desc: ["Witherproof Blocks, Witherproof Bricks and Witherproof Glass have a very high blast resistance and cannot be destroyed by the Wither or the Ender Dragon."]
+	quest.408D8B1CFBA22BAF.quest_subtitle: ""
 	quest.408D8B1CFBA22BAF.title: "&0Witherproof Blocks"
 	quest.409A92D40F539485.quest_subtitle: "Tier: &e1"
 	quest.41DBE44D7AA0B623.quest_desc: ["The Tinkering Table is how you add these augments to your essence gear!"]
