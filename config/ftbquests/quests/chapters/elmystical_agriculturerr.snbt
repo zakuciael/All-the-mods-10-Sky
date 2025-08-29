@@ -75,7 +75,7 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: 15.0d
-			y: -5.5d
+			y: -6.0d
 		}
 		{
 			height: 7.5d
@@ -2585,7 +2585,11 @@
 			y: 9.125d
 		}
 		{
-			dependencies: ["7CFA92CC48D1E7E3"]
+			dependencies: [
+				"7CFA92CC48D1E7E3"
+				"54735C5FCD2077B3"
+			]
+			hide_dependency_lines: true
 			id: "408D8B1CFBA22BAF"
 			optional: true
 			rewards: [
@@ -3161,6 +3165,34 @@
 			}]
 			x: 35.0d
 			y: -1.37d
+		}
+		{
+			dependencies: [
+				"0B37355262121DD5"
+				"576ABF43FCF886B7"
+			]
+			id: "3EBCBED3FD033117"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "221070E7A15CF8D9"
+					table_id: 2427872771413920777L
+					type: "random"
+				}
+				{
+					id: "48142352446CBF31"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "33AB1F29D4C215CE"
+				item: { count: 1, id: "mysticalagriculture:honey_seeds" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -5.0d
 		}
 	]
 }
