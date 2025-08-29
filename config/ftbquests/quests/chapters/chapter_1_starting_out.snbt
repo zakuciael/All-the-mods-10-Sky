@@ -390,11 +390,15 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7ADFD864139BF2F2"]
+			dependencies: [
+				"7ADFD864139BF2F2"
+				"057A182F4DC408CE"
+			]
 			icon: {
 				id: "minecraft:grass_block"
 			}
 			id: "145917B219D0D28D"
+			min_required_dependencies: 1
 			rewards: [{
 				count: 5
 				id: "31CB93462FCBDB8E"
@@ -1545,6 +1549,29 @@
 			}]
 			x: 16.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["7ADFD864139BF2F2"]
+			id: "057A182F4DC408CE"
+			optional: true
+			rewards: [{
+				id: "004A7C1C8D0D5891"
+				item: {
+					count: 1
+					id: "minecraft:grass_block"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "67596651EAF261E1"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:dirt"
+				type: "observation"
+			}]
+			x: 13.5d
+			y: -1.0d
 		}
 	]
 }
