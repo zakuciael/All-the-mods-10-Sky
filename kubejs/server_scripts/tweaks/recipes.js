@@ -250,6 +250,44 @@ ServerEvents.recipes(allthemods => {
             '#c:storage_blocks/amethyst'
         ]
     )
+
+    allthemods.custom({
+        type: 'immersiveengineering:crusher',
+        energy: 800,
+        input: {
+            item: 'geore:coal_shard'
+        },
+        result: {
+            item: 'mekanism:dust_coal',
+            count: 1
+        },
+        secondaries: []
+    }).id('allthemods:immersiveengineering/crusher/coal_dust_from_shard')
+
+    allthemods.custom({
+      "type": "modern_industrialization:macerator",
+      "eu": 2,
+      "duration": 100,
+      "item_inputs": {
+        "item": "geore:coal_shard",
+        "amount": 1
+      },
+      "item_outputs": {
+        "item": "modern_industrialization:coal_dust",
+        "amount": 1
+      }
+    }).id('allthemods:modern_industrialization/macerator/coal_dust_from_shard')
+
+    allthemods.custom({
+      "type": "industrialforegoing:crusher",
+      "input": {
+        "item": "geore:coal_shard"
+      },
+      "output": {
+        "item": "mekanism:dust_coal",
+        "count": 1
+      }
+    }).id('allthemods:industrialforegoing/crusher/coal_dust_from_shard')
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
