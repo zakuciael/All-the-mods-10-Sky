@@ -21,6 +21,9 @@ ServerEvents.recipes(allthemods => {
     aa.mining_lens("acacia_button", "#ae2:all_quartz", 30)
     aa.pressing("actuallyadditions:canola_oil", "#actuallyadditions:crystals")
     */
+
+    // laser(output, input, power)
+    aa.laser('occultism:iesnium_ore', 'minecraft:ancient_debris', 50000)
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10: To the Sky.
