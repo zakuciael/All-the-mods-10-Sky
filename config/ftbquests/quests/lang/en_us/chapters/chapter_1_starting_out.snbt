@@ -35,7 +35,7 @@
 		""
 		"In this pack, Generators Galore has been given an overhaul! With cheaper upgrades to 8x and 64x, and increased energy production across the board, grab yourself some hefty lava gen, and get going!If we want to get started with automation in ATM10:TTS, we'll need to dip our toes further into power and some new mods!"
 		""
-		"Whilst Chapter 2 is not out yet, you can get started with the mods it will include!"
+		"Here are some of the mods it includes!"
 		""
 		"&bGenerators Galore&r (tiers and changes)"
 		""
@@ -135,3 +135,4 @@
 	quest.7CC729E68A89D962.title: "&aSlime"
 	task.2019707AE4DAC703.title: "{atm9.quest.start1.emergency}"
 }
+
