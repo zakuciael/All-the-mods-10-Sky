@@ -24,6 +24,11 @@ ServerEvents.recipes(allthemods => {
 
     // laser(output, input, power)
     aa.laser('occultism:iesnium_ore', 'minecraft:ancient_debris', 50000)
+
+    allthemods.recipes.actuallyadditions.crushing(
+        [{ stack: 'alltheores:coal_dust', chance: 1.0 }],
+        'geore:coal_shard'
+    ).id('allthemods:actuallyadditions/crushing/coal_dust_from_shard')
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10: To the Sky.
