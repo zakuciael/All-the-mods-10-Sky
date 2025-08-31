@@ -33,4 +33,15 @@ ServerEvents.recipes(allthemods => {
         }
       }).id(`kubejs:mekanism/crushing/${outputs[index].split(':')[1]}`)
     })
+
+    allthemods.custom({
+      type: 'mekanism:crushing',
+      input: {
+        item: 'geore:coal_shard'
+      },
+      output: {
+        id: 'mekanism:dust_coal',
+        count: 1
+      }
+    }).id('allthemods:mekanism/crushing/coal_dust_from_shard')
 })
