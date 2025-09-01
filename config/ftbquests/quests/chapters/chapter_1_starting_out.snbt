@@ -1555,6 +1555,9 @@
 		}
 		{
 			dependencies: ["7ADFD864139BF2F2"]
+			icon: {
+				id: "minecraft:dirt"
+			}
 			id: "057A182F4DC408CE"
 			optional: true
 			rewards: [{
