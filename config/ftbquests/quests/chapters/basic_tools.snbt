@@ -277,7 +277,7 @@
 			}]
 			tasks: [{
 				id: "73CDA6AAB0CF2A7F"
-				item: { count: 1, id: "allthemodium:raw_allthemodium" }
+				item: { count: 1, id: "allthemodium:allthemodium_nugget" }
 				type: "item"
 			}]
 			x: -3.5d
@@ -1251,3 +1251,4 @@
 		}
 	]
 }
+
