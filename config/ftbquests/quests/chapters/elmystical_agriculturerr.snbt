@@ -2934,34 +2934,6 @@
 		}
 		{
 			dependencies: [
-				"576ABF43FCF886B7"
-				"0B37355262121DD5"
-			]
-			id: "5A417BE804E46E8C"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "609A0F7F639284AC"
-					table_id: 2427872771413920777L
-					type: "random"
-				}
-				{
-					id: "19D973EC5CD8E18C"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "21C93120A8D7A974"
-				item: { count: 1, id: "mysticalagriculture:basalt_seeds" }
-				type: "item"
-			}]
-			x: 15.0d
-			y: -4.0d
-		}
-		{
-			dependencies: [
 				"5BC4250E4C9F803C"
 				"0B37355262121DD5"
 			]
@@ -3142,7 +3114,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: -5.0d
+			y: -4.0d
 		}
 	]
 }
