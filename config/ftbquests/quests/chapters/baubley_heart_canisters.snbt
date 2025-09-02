@@ -502,15 +502,5 @@
 			x: -3.5d
 			y: -2.0d
 		}
-		{
-			id: "23B575544BB1C998"
-			tasks: [{
-				dimension: "minecraft:overworld"
-				id: "4735CA06BCFCC892"
-				type: "dimension"
-			}]
-			x: -8.0d
-			y: 2.5d
-		}
 	]
 }
