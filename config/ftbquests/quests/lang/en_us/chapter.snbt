@@ -4,7 +4,6 @@
 	chapter.0A093D8C4429B627.title: "&fMekanism: Reactors"
 	chapter.0A52D0932DA3F809.title: "&fHostile Neural Networks"
 	chapter.0AB4F9AED808DE48.title: "&fModular Routers"
-	chapter.0B826D13BAD43EEB.chapter_subtitle: [ ]
 	chapter.0B826D13BAD43EEB.title: "&fDraconic Evolution"
 	chapter.0D990A1D1E088701.title: "Steam Age: New Beginnings"
 	chapter.0E81CBCD6B1D1895.title: "&fApothic Spawners"
@@ -22,7 +21,6 @@
 	chapter.23983F4DC524B14B.title: "&fMekanism"
 	chapter.25344A9254E02C8E.title: "The End Game"
 	chapter.26E6ED94168A05C4.title: "&fProductive Bees"
-	chapter.28BCA5042050B140.chapter_subtitle: [ ]
 	chapter.28BCA5042050B140.title: "&fChapter 2: The Cool Parts"
 	chapter.29EFE8220836C79A.title: "&aChapter 2&r: &6The ATM Star"
 	chapter.2A6EBEEBAB882679.title: "&fPowah"
@@ -50,6 +48,7 @@
 	chapter.5D045EF1AB73DF70.title: "&fBasic Power"
 	chapter.5E31DF282998B992.title: "&fPneumaticCraft"
 	chapter.69299302373C4CBC.title: "&fIntegrated Dynamics"
+	chapter.6AEDA2F9BEB57759.chapter_subtitle: [ ]
 	chapter.6AEDA2F9BEB57759.title: "&fArs Nouveau"
 	chapter.6B13AF321AC831D1.title: "&fAge of Oil and Blastproof Plates"
 	chapter.73180B829B960E63.title: "&fIron Furnaces"
