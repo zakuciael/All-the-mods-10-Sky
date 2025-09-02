@@ -260,6 +260,8 @@ ServerEvents.tags('item', allthemods => {
         'exdeorum:mechanical_sieve',
         'exdeorum:mechanical_hammer',
         /georenouveau:.*_dowsing_rod/,
+        "georenouveau:monazite_geore_golem_charm",
+        "georenouveau:tungsten_geore_golem_charm",
         'actuallyadditions:crafter_on_a_stick',
         'allthemodium:teleport_pad'
     ])
