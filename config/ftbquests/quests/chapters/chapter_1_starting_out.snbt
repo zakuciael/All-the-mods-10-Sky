@@ -1344,11 +1344,8 @@
 			id: "70C2B568FA46337F"
 			rewards: [
 				{
-					id: "61BD54CF36D8A3AC"
+					id: "2D6BC2F02482CD65"
 					item: {
-						components: {
-							"minecraft:damage": 187
-						}
 						count: 1
 						id: "exdeorum:compressed_iron_hammer"
 					}
