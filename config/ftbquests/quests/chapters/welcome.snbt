@@ -9,15 +9,6 @@
 	id: "5B00676D79306EA2"
 	images: [
 		{
-			corner: true
-			height: 5.0d
-			image: "packmenu:textures/gui/logo.png"
-			rotation: 0.0d
-			width: 5.0d
-			x: 0.2380952380952408d
-			y: -3.357142857142854d
-		}
-		{
 			click: "https://discord.gg/3paFjuRfz9"
 			height: 1.0d
 			hover: ["Join the Discord!"]
@@ -26,6 +17,14 @@
 			width: 1.0d
 			x: 0.0d
 			y: 1.5d
+		}
+		{
+			height: 10.0d
+			image: "atm:textures/questpics/logo.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.25d
+			y: -4.0160714285715216d
 		}
 	]
 	order_index: 0
