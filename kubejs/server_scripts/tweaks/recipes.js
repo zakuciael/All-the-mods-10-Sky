@@ -290,6 +290,8 @@ ServerEvents.recipes(allthemods => {
         "count": 1
       }
     }).id('allthemods:industrialforegoing/crusher/coal_dust_from_shard')
+
+    allthemods.replaceInput({ input: 'minecraft:coal' }, 'minecraft:coal', '#c:coal')
 })
 
 
