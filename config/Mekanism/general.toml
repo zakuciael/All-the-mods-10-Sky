@@ -227,7 +227,7 @@ maxSolarNeutronActivatorRate = 256
 	#Amount of fluid (mB) that each block of the boiler's water portion contributes to the volume. Max = volume * waterPerTank
 	# Default: 16000
 	# Range: 1 ~ 368224
-	waterPerTank = 3200
+	waterPerTank = 32000
 	#Amount of steam (mB) that each block of the boiler's steam portion contributes to the volume. Max = volume * steamPerTank
 	# Default: 160000
 	# Range: 10 ~ 1581510980256305
