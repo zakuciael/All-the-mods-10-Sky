@@ -9,8 +9,6 @@
 	quest.03C059DFF8F1BF41.quest_subtitle: "20"
 	quest.03C059DFF8F1BF41.title: "&aArmadura de Esmeralda"
 	quest.04B31A600004F7CB.quest_desc: ["Esta Missão foi criada pela &6Equipe AllTheMods&r, ou por um &2contribuidor da Comunidade&r para uso nos Modpacks AllTheMods. \\n\\nComo todos os packs &6AllTheMods&r são licenciados sob &eTodos os Direitos Reservados&r, esta Missão não pode ser usada em nenhum pack público não lançado pela &6Equipe AllTheMods&r sem permissão explícita. \\n\\nEsta missão está intencionalmente oculta, se você está vendo isso, você está no modo de edição."]
-	quest.04B31A600004F7CB.quest_subtitle: ""
-	quest.04B31A600004F7CB.title: ""
 	quest.06B8539B731FE4BA.quest_desc: ["A armadura de &4Liga Eclipse&r do mod &b&lJust Dire Things&r é o nível final e mais poderoso de armadura do &b&lJDT&r. Embora forneça a proteção da armadura de diamante, suas funções reais vêm de sua capacidade de energia e muitas, muitas, muitas melhorias que podem ser aplicadas a ela."]
 	quest.06B8539B731FE4BA.quest_subtitle: "20"
 	quest.06B8539B731FE4BA.title: "&4Armadura de Liga Eclipse"
@@ -253,7 +251,6 @@
 	quest.7C1D407CF67786F6.quest_subtitle: "15"
 	quest.7C1D407CF67786F6.title: "&fTraje de Etermante"
 	quest.7F11ABFB2E21B7E4.quest_desc: ["Armadura é uma parte muito importante do &l&2Minecraft&r, é o que te protege do perigo. \\n\\nDiferentes peças de Armadura dão diferentes Pontos de Armadura. Estes determinam a eficácia da sua Armadura, quanto mais, melhor!\\n\\nA maioria das armaduras pode ser alterada para mais decoração com Ornamentos de Armadura, use uma peça de Armadura com um Ornamento de Armadura e um Item para colorir para mudar a aparência!"]
-	quest.7F11ABFB2E21B7E4.quest_subtitle: ""
 	quest.7F11ABFB2E21B7E4.title: "&l&bArmadura Básica&r"
 	quest.7FABB77A60E7962C.quest_desc: ["Ao infundir Obsidiana com &bDiamantes&r podemos obter Pó de Obsidiana Refinada! \\n\\nEntão, podemos comprimir &7Ósmio&r nele para obtê-lo em forma de Barra. \\n\\nDepois disso, podemos transformar essas Barras em Armadura com status melhores que até mesmo a &6Armadura de Allthemodium&r!"]
 	quest.7FABB77A60E7962C.quest_subtitle: "31"
