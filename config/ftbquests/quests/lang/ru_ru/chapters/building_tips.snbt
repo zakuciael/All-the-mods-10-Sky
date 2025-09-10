@@ -41,6 +41,8 @@
 	quest.2094D1CE4BA66091.quest_desc: ["Light is a very important part of any Base. \\n\\nIt keeps Monsters from Spawning, helps to see, and even adds more Color and life to your Builds! \\n\\nOr you can just use Night Vision but where's the fun in that!"]
 	quest.22D2CFDDB06C720C.quest_desc: ["Tools are very important in &2&lMinecraft&r but so is inventory space. So why not clear some space up by making a Paxel! \\nPaxels are a combination of Pickaxes (P), Axes (axe), and Shovels (els). \\n\\nThey can strip wood, make paths, and mine any blocks that same pickaxe/axe/shovel tier can!"]
 	quest.22D2CFDDB06C720C.title: "Paxel"
+	quest.22E007025C19EC0A.quest_desc: ["&l&7Railcraft&r, along with Trains, adds some Stones for Decoration! \\n\\nQuarried and Abyssal Stone can be crafted together to make Polished, Chiseled, or Brick versions! \\n\\nAlso don't forget Stairs and Slabs! "]
+	quest.22E007025C19EC0A.title: "&l&7Railcraft&r Stones"
 	quest.23631A4A743D4F0C.quest_desc: ["Don't even complain about this one. \\n\\nThere are dozens of ways of getting Iron and it's needed for even just normal progression. \\n\\nYou will get Iron, you will make it into a Block, and you will make it pretty!"]
 	quest.23631A4A743D4F0C.title: "&l&bChipped&r Metals"
 	quest.26FADB78B04F592B.quest_desc: ["&l&aBuilding Gadgets 2&r is a Mod that adds a few very helpful Items. \\n\\nAll for of course, building! \\n\\nEach requires &cEnergy&r to work and has a Menu which is pulled up by default &lG&r."]
@@ -166,6 +168,7 @@
 	task.4B13D48FF9D2530E.title: "XyCraft Lights"
 	task.4B274207A9646FE9.title: "Farmer's Delight"
 	task.4E28970476CABACD.title: "Chipped Lights"
+	task.50BED71A6677392E.title: "Railcraft Stones"
 	task.53A682560123F9B6.title: "Glassential"
 	task.5936B8B8EDE0AE55.title: "Metal and Gem Blocks"
 	task.5DEABD15EDE5736F.title: "XyCraft Glass"

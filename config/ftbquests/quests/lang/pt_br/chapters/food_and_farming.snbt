@@ -70,7 +70,6 @@
 	quest.34F29677E6B5E40C.quest_desc: ["Aumenta a produção por colheita, entra em conflito com o fertilizante vermelho."]
 	quest.34F29677E6B5E40C.quest_subtitle: "Mofo produtivo"
 	quest.361DFDB1E1352D6B.quest_desc: ["Encontre um pouco de Cana-de-Açúcar perto da água."]
-	quest.361DFDB1E1352D6B.quest_subtitle: "Hmmmm... Docinho..."
 	quest.361DFDB1E1352D6B.title: "Açúcar Açúcar"
 	quest.37CA6F9F0226F10E.quest_desc: ["Este bloco armazena itens para cozinhar.\\n\\nVocê também pode colocar outros itens da cozinha multi-bloco sobre ele, como torradeiras e uma Vaca na Jarra."]
 	quest.37CA6F9F0226F10E.quest_subtitle: "Precisamos de mais espaço para cozinhar"
@@ -119,7 +118,6 @@
 	quest.73B8A70240E6070E.quest_subtitle: "Por que não há Touros no jogo?"
 	quest.73B8A70240E6070E.title: "Ordenhe uma Vaca - Lucre"
 	quest.791AE62ACACBD5BA.quest_subtitle: "Você vai abrir, fechar, e abrir de novo, só porque está entediado"
-	quest.791AE62ACACBD5BA.title: "&fGeladeiras"
 	quest.79DD2C115A5FC23B.quest_desc: ["Cada nível concede um novo efeito positivo. Pode-se dizer que são bem OP..."]
 	quest.79DD2C115A5FC23B.quest_subtitle: "Maçãs em níveis"
 	quest.79DD2C115A5FC23B.title: "Maçãs de MA"

@@ -139,6 +139,8 @@
 	quest.79C9875A1A494762.quest_desc: ["Se você prefere não usar &9Almas Corrompidas&r para cultivar Edelwood, pode contar com a Sorte! \\n\\nO Vendedor Ambulante tem uma chance de te vender uma Muda de Edelwood, que pode ser plantada para cultivar Edelwood. \\n\\nO Vendedor Ambulante é muito aleatório, no entanto, tente usar Tapetes de Vendedor para pelo menos saber onde ele aparecerá!"]
 	quest.79C9875A1A494762.quest_subtitle: "Do Vendedor A."
 	quest.79C9875A1A494762.title: "Comprando Edelwood"
+	task.5F6E362D342D6E1F.title: ""
 	task.63D5DE02A5E407A1.title: "Qualquer #occultism:miners"
+	task.659DCADAC821ECB7.title: ""
 	task.763964008982F4ED.title: "Tapetes de Vendedor"
 }

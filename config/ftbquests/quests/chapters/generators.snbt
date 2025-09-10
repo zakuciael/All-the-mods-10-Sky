@@ -153,7 +153,7 @@
 			y: 9.0d
 		}
 	]
-	order_index: 8
+	order_index: 5
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "food_and_farming"
-	group: ""
+	group: "522A4C27273AE844"
 	icon: {
 		id: "minecraft:cake"
 	}
