@@ -316,6 +316,43 @@ ServerEvents.recipes(allthemods => {
             B: 'minecraft:coal'
         }
     ).id('kjs/allthemods/coal_block')
+
+    // Glass trapdoor recipe fix
+    allthemods.remove({id: 'connectedglass:tinted_borderless_glass1'})
+    allthemods.shaped('8x connectedglass:tinted_borderless_glass', [
+        'AAA',
+        'A A',
+        'AAA'], {
+            A: 'minecraft:tinted_glass'
+        }
+    ).id('kjs/allthemods/tinted_borderless_glass')
+
+    allthemods.remove({id: 'connectedglass:borderless_glass1'})
+    allthemods.shaped('8x connectedglass:borderless_glass', [
+        'AAA',
+        'A A',
+        'AAA'], {
+            A: 'minecraft:glass'
+        }
+    ).id('kjs/allthemods/borderless_glass')
+
+    const colours = [
+        'white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black'
+    ];
+    function borderlessColoredGlass(color) {
+
+        allthemods.remove({id: `connectedglass:borderless_glass_${color}1`})
+        allthemods.shaped(`8x connectedglass:borderless_glass_${color}`, [
+            'AAA',
+            'A A',
+            'AAA'], {
+                A: `minecraft:${color}_stained_glass`
+            }
+        ).id(`kjs/allthemods/borderless_glass_${color}`)
+    }
+    colours.forEach(colour => {
+        borderlessColoredGlass(colour)
+    })
 })
 
 
