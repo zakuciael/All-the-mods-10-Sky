@@ -39,7 +39,6 @@
 		"Can also be obtained from Wild Evokers"
 		"{image:atm:textures/questpics/basicarmor/armor_vex.png width:100 height:150 align:center}"
 	]
-	quest.1245126B4338C019.quest_subtitle: "Woodland Mansion"
 	quest.1245126B4338C019.title: "Vex Armor Trim"
 	quest.13517D17E6BF015F.quest_desc: ["With &bDiamond Armor&r and a few &aInferium Items&r we can craft &aInferium Armor&r! \\n\\nThey can also be upgraded with Tinkering!"]
 	quest.13517D17E6BF015F.quest_subtitle: "21"
@@ -305,4 +304,3 @@
 	task.597120AD20EEBF1D.title: "Diving Boots"
 	task.73142F195D9B100C.title: "Exo Chestpieces"
 }
-
