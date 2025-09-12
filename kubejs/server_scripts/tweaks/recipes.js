@@ -336,9 +336,6 @@ ServerEvents.recipes(allthemods => {
         }
     ).id('kjs/allthemods/borderless_glass')
 
-    const colours = [
-        'white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black'
-    ];
     function borderlessColoredGlass(color) {
 
         allthemods.remove({id: `connectedglass:borderless_glass_${color}1`})
@@ -350,8 +347,8 @@ ServerEvents.recipes(allthemods => {
             }
         ).id(`kjs/allthemods/borderless_glass_${color}`)
     }
-    colours.forEach(colour => {
-        borderlessColoredGlass(colour)
+    colors.forEach(color => {
+        borderlessColoredGlass(color)
     })
 })
 
