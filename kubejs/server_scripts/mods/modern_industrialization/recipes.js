@@ -3,7 +3,7 @@
 
 ServerEvents.recipes(allthemods => {
     allthemods.remove({ id: 'modern_industrialization:electric_age/machine/assembler/replicator' })
-
+    
     // Anvil dupe recipe
     allthemods.remove({id: 'modern_industrialization:vanilla_recipes/steel_anvil_asbl'})
 })
