@@ -305,6 +305,51 @@ ServerEvents.recipes(allthemods => {
         C: 'megacells:cell_component_256m',
         D: 'minecraft:diamond'
     })
+	// Uru Metal Bee Recipe. If desired, move over to its own file in server_scripts/mods. I didn't feel like doing so for a one off recipe for the mod.
+	allthemods.custom({
+  "neoforge:conditions": [
+    {
+      "type": "productivelib:lazy",
+      "value": {
+        "type": "productivebees:bee_exists",
+        "bee": "productivebees:uru_metal"
+      }
+    },
+	{
+      "type": "productivelib:lazy",
+      "value": {
+        "type": "productivebees:bee_exists",
+        "bee": "productivebees:unobtainium"
+      }
+    },
+  ],
+  "type": "productivemetalworks:item_casting",
+  "cast": {
+    "type": "productivebees:component",
+    "components": {
+      "minecraft:entity_data": {
+        "type": "productivebees:unobtainium",
+        "id": "productivebees:configurable_bee"
+      }
+    },
+    "items": "productivebees:spawn_egg_configurable_bee"
+  },
+  "consume_cast": true,
+  "fluid": {
+    "amount": 800,
+    "tag": "c:molten_uru_metal"
+  },
+  "result": {
+    "components": {
+      "minecraft:entity_data": {
+        "type": "productivebees:uru_metal",
+        "id": "productivebees:configurable_bee"
+      }
+    },
+    "count": 1,
+    "id": "productivebees:spawn_egg_configurable_bee"
+  }
+}).id("sgearmetalworks:casting/uru/bee_spawn_egg_from_bee")
 })
 
 
