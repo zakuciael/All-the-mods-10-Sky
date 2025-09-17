@@ -25,4 +25,12 @@ ServerEvents.recipes(event => {
         W: '#c:wools',
         s: 'minecraft:string'
     });
+	event.shaped(Item.of('silentgear:bort', 8), [
+        'CCC',
+        'CDC',
+		'CCC'
+    ], {
+        D: '#c:gems/diamond',
+		C: 'minecraft:clay_ball'
+    });
 })
