@@ -48,4 +48,7 @@ ServerEvents.recipes((allthemods) => {
       }
     })
     .id("allthemods:mekanism/crushing/coal_dust_from_shard")
+
+  // Fluorite dupe recipe fix
+  allthemods.remove({ id: "alltheores:processing/fluorite/dust/from_ore" })
 })
