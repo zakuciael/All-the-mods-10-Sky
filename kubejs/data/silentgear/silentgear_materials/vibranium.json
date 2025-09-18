@@ -3,10 +3,7 @@
   "parent": "silentgear:empty",
   "crafting": {
     "can_salvage": true,
-    "categories": [
-      "metal",
-      "endgame"
-    ],
+    "categories": ["metal", "endgame"],
     "gear_type_blacklist": [],
     "ingredient": {
       "item": "kubejs:silent_vibranium_plate"

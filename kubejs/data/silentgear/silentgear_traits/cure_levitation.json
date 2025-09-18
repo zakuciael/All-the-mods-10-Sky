@@ -6,9 +6,7 @@
   "effects": [
     {
       "type": "silentgear:cancel_effects",
-      "cleared_effects": [
-        "minecraft:levitation"
-      ]
+      "cleared_effects": ["minecraft:levitation"]
     }
   ],
   "max_level": 1,

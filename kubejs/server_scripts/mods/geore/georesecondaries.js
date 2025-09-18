@@ -1,5 +1,4 @@
 LootJS.modifiers((allthemods) => {
-
   const materials = [
     "coal",
     "lapis",
@@ -25,19 +24,11 @@ LootJS.modifiers((allthemods) => {
     "lead",
     "aluminum",
     "osmium"
+  ]
 
-  ];
-
-for (const resource of materials) {
-    allthemods
-      .addBlockModifier(`geore:small_${resource}_bud`)
-      .addLoot(LootEntry.of('exdeorum:stone_pebble'));
-    allthemods
-      .addBlockModifier(`geore:medium_${resource}_bud`)
-      .addLoot(LootEntry.of('exdeorum:stone_pebble'));
-    allthemods
-      .addBlockModifier(`geore:large_${resource}_bud`)
-      .addLoot(LootEntry.of('exdeorum:stone_pebble'));
+  for (const resource of materials) {
+    allthemods.addBlockModifier(`geore:small_${resource}_bud`).addLoot(LootEntry.of("exdeorum:stone_pebble"))
+    allthemods.addBlockModifier(`geore:medium_${resource}_bud`).addLoot(LootEntry.of("exdeorum:stone_pebble"))
+    allthemods.addBlockModifier(`geore:large_${resource}_bud`).addLoot(LootEntry.of("exdeorum:stone_pebble"))
   }
-
-});
+})

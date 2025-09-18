@@ -12,9 +12,7 @@
             "type": "piece_count",
             "duration": 38,
             "effect": "minecraft:water_breathing",
-            "levels": [
-              1
-            ]
+            "levels": [1]
           }
         ]
       }
