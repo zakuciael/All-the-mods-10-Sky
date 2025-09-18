@@ -200,51 +200,42 @@ ServerEvents.recipes((allthemods) => {
     D: "minecraft:diamond"
   })
 
-    //Charcoal and Coal
-    allthemods.remove({id: 'minecraft:coal_block'})
-    allthemods.shaped('minecraft:coal_block', [
-        'AAA',
-        'ABA',
-        'AAA'], {
-            A: '#minecraft:coals',
-            B: 'minecraft:coal'
-        }
-    ).id('allthemods:coal_block')
-
-    // Glass trapdoor recipe fix
-    allthemods.remove({id: 'connectedglass:tinted_borderless_glass1'})
-    allthemods.shaped('8x connectedglass:tinted_borderless_glass', [
-        'AAA',
-        'A A',
-        'AAA'], {
-            A: 'minecraft:tinted_glass'
-        }
-    ).id('allthemods:tinted_borderless_glass')
-
-    allthemods.remove({id: 'connectedglass:borderless_glass1'})
-    allthemods.shaped('8x connectedglass:borderless_glass', [
-        'AAA',
-        'A A',
-        'AAA'], {
-            A: 'minecraft:glass'
-        }
-    ).id('allthemods:borderless_glass')
-
-    function borderlessColoredGlass(color) {
-
-        allthemods.remove({id: `connectedglass:borderless_glass_${color}1`})
-        allthemods.shaped(`8x connectedglass:borderless_glass_${color}`, [
-            'AAA',
-            'A A',
-            'AAA'], {
-                A: `minecraft:${color}_stained_glass`
-            }
-        ).id(`kjs/allthemods/borderless_glass_${color}`)
-    }
-
-    colors.forEach(color => {
-        borderlessColoredGlass(color)
+  //Charcoal and Coal
+  allthemods.remove({ id: "minecraft:coal_block" })
+  allthemods
+    .shaped("minecraft:coal_block", ["AAA", "ABA", "AAA"], {
+      A: "#minecraft:coals",
+      B: "minecraft:coal"
     })
+    .id("allthemods:coal_block")
+
+  // Glass trapdoor recipe fix
+  allthemods.remove({ id: "connectedglass:tinted_borderless_glass1" })
+  allthemods
+    .shaped("8x connectedglass:tinted_borderless_glass", ["AAA", "A A", "AAA"], {
+      A: "minecraft:tinted_glass"
+    })
+    .id("allthemods:tinted_borderless_glass")
+
+  allthemods.remove({ id: "connectedglass:borderless_glass1" })
+  allthemods
+    .shaped("8x connectedglass:borderless_glass", ["AAA", "A A", "AAA"], {
+      A: "minecraft:glass"
+    })
+    .id("allthemods:borderless_glass")
+
+  function borderlessColoredGlass(color) {
+    allthemods.remove({ id: `connectedglass:borderless_glass_${color}1` })
+    allthemods
+      .shaped(`8x connectedglass:borderless_glass_${color}`, ["AAA", "A A", "AAA"], {
+        A: `minecraft:${color}_stained_glass`
+      })
+      .id(`kjs/allthemods/borderless_glass_${color}`)
+  }
+
+  colors.forEach((color) => {
+    borderlessColoredGlass(color)
+  })
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
