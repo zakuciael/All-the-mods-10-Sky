@@ -119,7 +119,6 @@ ServerEvents.recipes((allthemods) => {
     { mesh: Meshes.GOLD, amount: 1, chance: 0.15 },
     { mesh: Meshes.NETHERITE, amount: 2, chance: 0.12 }
   ])
-
   ;["blue", "red", "green", "light", "dark"].forEach((color) => {
     sieving(`xycraft_world:xychorium_gem_${color}`, Materials.Dust, [
       { mesh: Meshes.FLINT, chance: 0.04 },
@@ -144,7 +143,6 @@ ServerEvents.recipes((allthemods) => {
     { mesh: Meshes.DIAMOND, amount: 1, chance: 0.11 },
     { mesh: Meshes.NETHERITE, amount: 2, chance: 0.11 }
   ])
-
   ;[
     "actuallyadditions:canola_seeds",
     "actuallyadditions:coffee_beans",
@@ -162,7 +160,6 @@ ServerEvents.recipes((allthemods) => {
   })
 
   // ===== Moss =====
-
   ;[
     "integrateddynamics:menril_sapling",
     "forbidden_arcanus:growing_edelwood",
