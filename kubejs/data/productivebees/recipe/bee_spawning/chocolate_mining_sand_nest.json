@@ -3,7 +3,5 @@
   "ingredient": {
     "item": "productivebees:sand_nest"
   },
-  "results": [
-    "productivebees:chocolate_mining_bee"
-  ]
+  "results": ["productivebees:chocolate_mining_bee"]
 }
