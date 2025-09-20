@@ -2,8 +2,7 @@ ServerEvents.recipes(event =>
     {
         // Map of block casting recipes
         const blockCastingItems = [
-            { name: 'coal', id: 'minecraft:coal_block', fluid: 'productivemetalworks:molten_carbon', amount: 810 },
-            { name: 'ancient_debris', id: 'minecraft:ancient_debris', fluid: 'productivemetalworks:molten_ancient_debris', amount: 200 },
+            { name: 'coal', id: 'minecraft:coal_block', fluid: 'productivemetalworks:molten_carbon', amount: 900 },
             { name: 'quartz', id: 'minecraft:quartz_block', fluid: 'productivemetalworks:molten_quartz', amount: 400 }
         ]
 
