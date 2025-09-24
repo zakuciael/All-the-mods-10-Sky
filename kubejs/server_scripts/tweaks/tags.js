@@ -65,9 +65,9 @@ ServerEvents.tags("item", (allthemods) => {
     "#c:dusts/unobtainium_vibranium_alloy",
     "#c:dusts/vibranium_allthemodium_alloy"
   ])
-  
+
   // For VAT recipes
-  allthemods.add('allthemods:tendrils/warden', 'apothic_enchanting:warden_tendril')
+  allthemods.add("allthemods:tendrils/warden", "apothic_enchanting:warden_tendril")
 
   allthemods.add("c:gems/benitoite", "bigreactors:benitoite_crystal")
 
