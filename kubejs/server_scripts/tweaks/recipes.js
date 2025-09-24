@@ -96,12 +96,6 @@ ServerEvents.recipes((allthemods) => {
   allthemods.remove({ id: "minecraft:book" })
   allthemods.shapeless(Item.of("minecraft:book"), ["3x #c:paper", "#c:leathers"]).id("minecraft:book")
 
-  allthemods.remove({ id: "enderio:wood_gear" })
-  allthemods.shaped(Item.of("enderio:wood_gear"), [" S ", "SNS", " S "], {
-    S: "#c:rods/wooden",
-    N: "#c:nuggets/iron"
-  })
-
   allthemods.remove({ id: "handcrafted:wood_plate" })
   allthemods.shaped(Item.of("handcrafted:wood_plate"), ["SSS", " S "], {
     S: "#minecraft:wooden_slabs"
