@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mi_digital"
-	group: "6700DB960E16A321"
+	group: "63C9361F0D859633"
 	icon: {
 		id: "modern_industrialization:blastproof_alloy_ingot"
 	}
@@ -15,7 +15,7 @@
 		x: 11.5d
 		y: -1.5d
 	}]
-	order_index: 2
+	order_index: 12
 	quest_links: [ ]
 	quests: [
 		{
@@ -96,7 +96,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4999C863E18CE093"
-				table_id: 8377954359350743582L
 				type: "loot"
 			}]
 			tasks: [{
@@ -188,7 +187,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "39755170F203BE61"
-				table_id: 8377954359350743582L
 				type: "loot"
 			}]
 			tasks: [{
@@ -210,7 +208,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3C9D31E738CE93EA"
-				table_id: 8377954359350743582L
 				type: "loot"
 			}]
 			tasks: [{
@@ -470,7 +467,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "01307D79D12D9DD1"
-				table_id: 8377954359350743582L
 				type: "loot"
 			}]
 			tasks: [{
@@ -613,7 +609,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "43FDCA0A70037F43"
-					table_id: 8377954359350743582L
 					type: "loot"
 				}
 			]
@@ -650,7 +645,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2BE7BD68EB92E22F"
-				table_id: 8377954359350743582L
 				type: "loot"
 			}]
 			shape: "hexagon"
@@ -842,7 +836,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "070883BE3CB5936B"
-					table_id: 8377954359350743582L
 					type: "loot"
 				}
 			]
@@ -1134,7 +1127,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1F1DCC275D3B3795"
-				table_id: 8377954359350743582L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1151,7 +1143,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "101A8151DDCF9A60"
-				table_id: 8377954359350743582L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1168,7 +1159,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "437A0F6CECAF4FB0"
-				table_id: 8377954359350743582L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1189,7 +1179,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "79E1DA9FE6F45569"
-				table_id: 8377954359350743582L
 				type: "loot"
 			}]
 			shape: "diamond"
