@@ -267,11 +267,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "5316DF321B45D2CA"
-			rewards: [{
-				id: "042DA96F1C15434A"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "308234BCE03E284F"
+					item: {
+						count: 1
+						id: "occultism:datura_seeds"
+					}
+					type: "item"
+				}
+				{
+					id: "042DA96F1C15434A"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
@@ -2009,3 +2020,4 @@
 		}
 	]
 }
+
