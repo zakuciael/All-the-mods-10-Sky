@@ -9,7 +9,6 @@
 	quest.00FD36C207845895.title: "Draconic Bee"
 	quest.010A970FC91BD617.quest_subtitle: "Made in Alloy Smelter"
 	quest.010A970FC91BD617.title: "Soularium Bee"
-	quest.012287E678B226D4.quest_desc: [ ]
 	quest.012287E678B226D4.quest_subtitle: "Chaotic Fusion Crafting"
 	quest.012287E678B226D4.title: "Chaos Bee"
 	quest.01F7F3589EBD8872.quest_subtitle: "Feed a Shroombee a Brown Mushroom"
@@ -36,7 +35,7 @@
 	quest.05428EA120583BD0.title: "Nitro Crystal Bee"
 	quest.05F8458AB4A6950B.quest_subtitle: "Feed Voidshimmer Goo to Diamond Bee"
 	quest.05F8458AB4A6950B.title: "Celestigem Bee"
-	quest.06044B4452A6B720.quest_desc: ["When placed in a Desert biome, the Sand Nest will attract either the Chocolate or Ashy Mining Bee."]
+	quest.06044B4452A6B720.quest_desc: ["When placed in any overworld biome, the Sand Nest will attract either the Chocolate or Ashy Mining Bee."]
 	quest.06044B4452A6B720.quest_subtitle: "Can be used in any Overworld biome"
 	quest.065196033249A0AA.quest_subtitle: "Alloy Raw Biopolymer with an Iron Bee Egg"
 	quest.065196033249A0AA.title: "Biosteel Bee"
@@ -57,7 +56,7 @@
 	quest.094D28B7A0170039.title: "Collector Bee"
 	quest.097DE7038A746847.quest_subtitle: "Spawns from a Reed Nest"
 	quest.09FD3D0B9BCAEB5A.quest_desc: [
-		"The Gravel Nest will lure bees in either a River biome or Beach biome."
+		"The Gravel Nest will lure bees in any overworld biome."
 		""
 		"It lures in the Ashy Mining Bee, Chocolate Mining Bee, and the Digger Bee."
 	]
@@ -163,7 +162,6 @@
 		"{image:atm:textures/questpics/bees/feeder.png width:175 height:100 align:center fit:true}"
 	]
 	quest.196E55B64667AE35.quest_subtitle: "Slapping down a Slab"
-	quest.196E55B64667AE35.title: ""
 	quest.198EDBAC1D6E2339.quest_desc: ["You'll need these for Ender Bees."]
 	quest.198EDBAC1D6E2339.quest_subtitle: "Prevents Bees from Teleporting in a Hive"
 	quest.1A0672C7509271B3.quest_subtitle: "Feed Fluorite to a Diamond Bee"
@@ -211,7 +209,7 @@
 	quest.24888CAD50B32B04.quest_subtitle: "Spawned using a Stone Nest"
 	quest.24B147D251D0CFFF.quest_subtitle: "Feed Blazebloom Goo to Gold Bee"
 	quest.24B147D251D0CFFF.title: "Blazegold Bee"
-	quest.264BFB8C5F79616F.quest_desc: ["Placing a Snow Nest in a snowy biome will lure in a Sweat Bee."]
+	quest.264BFB8C5F79616F.quest_desc: ["Placing a Snow Nest in any overworld biome will lure in a Sweat Bee."]
 	quest.264BFB8C5F79616F.quest_subtitle: "Lures the Sweat Bee in any Overworld Biome"
 	quest.26B3AE1E77A84BCB.quest_desc: ["If you throw an &9Osmium Bee Spawn Egg&r, &bCharged Certus Quartz&r and &8Sky Stone&r into Lava, you will create a &eSky Osmium Bee Spawn Egg"]
 	quest.26B3AE1E77A84BCB.title: "Sky Osmium Bee"
@@ -340,7 +338,6 @@
 	quest.41FD145B911BD625.title: "Iesnium Bee"
 	quest.437DB2CE10D33A08.quest_desc: ["You'll need to grab yourself a &6Glowstone Nest&r and head to the Nether to capture this bee!"]
 	quest.437DB2CE10D33A08.title: "Glowing Bee"
-	quest.439B5FDAC84271A2.quest_desc: [ ]
 	quest.439B5FDAC84271A2.quest_subtitle: "Diamond + Iron"
 	quest.439B5FDAC84271A2.title: "Titanium Bee"
 	quest.447CAC472A99835B.quest_subtitle: "Spawns from a Snow Nest"
@@ -438,7 +435,7 @@
 	quest.6875021F338116AF.quest_desc: [
 		"The Breeding Chamber can be used to breed two bees with each other, automatically. It is capable of self breeding, as well as breeding 2 types of bees to make a third type (Example: Ashy Mining + Crystalline -> Iron). If this would result in a conflict (Continuing off of the earlier example, Ashy Mining + Crystalline -> Aluminium), take out one of the bees, then put it back in."
 		""
-		"Provide flowers in each slot (or, in the case of Draconic Bees, 2 Draconic Dust) and some bee cages."
+		"Provide breeding items in each slot (usually flowers, hold SHIFT on a bee cage holding a certain bee type to see what breeding item it uses (Draconic Bees use 2 Draconic Dust for example)) and some bee cages."
 		""
 		"Just...don't do...whatever it takes to get the F.Bee.I. to go after you. I will ensure you get added to the Hall of Shame if they DO come after you."
 	]
@@ -515,7 +512,7 @@
 	quest.7941938014E97A30.title: "Bumble Bee"
 	quest.79CA2F401982C04F.quest_subtitle: "Feed an Arcanus Bee a Rune Block"
 	quest.79CA2F401982C04F.title: "Rune Bee"
-	quest.79D6A251FE3761B3.quest_desc: ["When placed in a swamp biome, the Slimy Nest will lure in Slimy Bees."]
+	quest.79D6A251FE3761B3.quest_desc: ["When placed in any overworld biome, the Slimy Nest will lure in Slimy Bees."]
 	quest.79D6A251FE3761B3.quest_subtitle: "Lures in a Slimy Bee in any Overworld Biome"
 	quest.7A2B26CF0EDAA724.quest_subtitle: "Made in Alloy Smelter"
 	quest.7A2B26CF0EDAA724.title: "End Steel Bee"
