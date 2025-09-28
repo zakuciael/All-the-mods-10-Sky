@@ -669,7 +669,8 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["29EE878BC8D3A742"]
+			dependencies: ["120BDCB70AD352AC"]
+			hide_dependency_lines: true
 			id: "68CE30097BADE20E"
 			optional: true
 			rewards: [
@@ -692,8 +693,8 @@
 				item: { count: 1, id: "productivebees:nest_locator" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.5d
+			x: -10.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
@@ -5471,6 +5472,129 @@
 			}]
 			x: 2.0d
 			y: 28.5d
+		}
+		{
+			dependencies: ["6F978C4D561F35EC"]
+			id: "35FCF2D4A89D55F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09AB954138744BE8"
+				table_id: 6438168168113377309L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1A360308415493F8"
+				item: { components: { "ftbfiltersystem:filter": "item(productivebees:gene)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["35FCF2D4A89D55F6"]
+			icon: {
+				id: "productivelib:upgrade_productivity_4"
+			}
+			id: "7F61CAC8922A3A2A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "181F5214249096CC"
+				table_id: 6438168168113377309L
+				type: "random"
+			}]
+			tasks: [{
+				id: "19B40C28B2509870"
+				item: { components: { "ftbfiltersystem:filter": "item(productivebees:gene)or(component(fuzzy:{\"productivebees:gene_group\":{attribute:\"productivity\",purity:100,value:\"productivity.very_high\"}})component(fuzzy:{\"productivebees:gene_group\":{attribute:\"productivity\",purity:100,value:\"productivity.high\"}})component(fuzzy:{\"productivebees:gene_group\":{attribute:\"productivity\",purity:100,value:\"productivity.medium\"}})component(fuzzy:{\"productivebees:gene_group\":{attribute:\"productivity\",purity:100,value:\"productivity.normal\"}}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["35FCF2D4A89D55F6"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/toggle_rain"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "36C06EB2F3B9E6B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BA37DB108323173"
+				table_id: 6438168168113377309L
+				type: "random"
+			}]
+			tasks: [{
+				id: "67570A7154F3C169"
+				item: { components: { "ftbfiltersystem:filter": "item(productivebees:gene)or(component(fuzzy:{\"productivebees:gene_group\":{attribute:\"weather_tolerance\",purity:100,value:\"weather_tolerance.any\"}})component(fuzzy:{\"productivebees:gene_group\":{attribute:\"weather_tolerance\",purity:100,value:\"weather_tolerance.rain\"}})component(fuzzy:{\"productivebees:gene_group\":{attribute:\"weather_tolerance\",purity:100,value:\"weather_tolerance.none\"}}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["35FCF2D4A89D55F6"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/toggle_day"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "069247036385D7CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C67560B2F2AF068"
+				table_id: 6438168168113377309L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4BB962DE86FAA5EF"
+				item: { components: { "ftbfiltersystem:filter": "item(productivebees:gene)or(component(fuzzy:{\"productivebees:gene_group\":{attribute:\"behavior\",purity:100,value:\"behavior.metaturnal\"}})component(fuzzy:{\"productivebees:gene_group\":{attribute:\"behavior\",purity:100,value:\"behavior.diurnal\"}})component(fuzzy:{\"productivebees:gene_group\":{attribute:\"behavior\",purity:100,value:\"behavior.nocturnal\"}}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["35FCF2D4A89D55F6"]
+			icon: {
+				id: "ars_elemental:glyph_bubble_shield"
+			}
+			id: "6FD944282C44BCE1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1517FCF2F552A667"
+				table_id: 6438168168113377309L
+				type: "random"
+			}]
+			tasks: [{
+				id: "472B7AEC5AC41673"
+				item: { components: { "ftbfiltersystem:filter": "item(productivebees:gene)or(component(fuzzy:{\"productivebees:gene_group\":{attribute:\"endurance\",purity:100,value:\"endurance.strong\"}})component(fuzzy:{\"productivebees:gene_group\":{attribute:\"endurance\",purity:100,value:\"endurance.weak\"}})component(fuzzy:{\"productivebees:gene_group\":{attribute:\"endurance\",purity:100,value:\"endurance.normal\"}})component(fuzzy:{\"productivebees:gene_group\":{attribute:\"endurance\",purity:100,value:\"endurance.medium\"}}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["35FCF2D4A89D55F6"]
+			icon: {
+				id: "chipped:angry_redstone_block"
+			}
+			id: "1B135C28E29F249F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "542127667C8EC0D1"
+				table_id: 6438168168113377309L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5CC4449D18A75688"
+				item: { components: { "ftbfiltersystem:filter": "item(productivebees:gene)or(component(fuzzy:{\"productivebees:gene_group\":{attribute:\"temper\",purity:100,value:\"temper.passive\"}})component(fuzzy:{\"productivebees:gene_group\":{attribute:\"temper\",purity:100,value:\"temper.normal\"}})component(fuzzy:{\"productivebees:gene_group\":{attribute:\"temper\",purity:100,value:\"temper.hostile\"}})component(fuzzy:{\"productivebees:gene_group\":{attribute:\"temper\",purity:100,value:\"temper.aggressive\"}}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
 		}
 	]
 }
