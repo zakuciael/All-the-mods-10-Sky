@@ -71,7 +71,20 @@ ServerEvents.recipes((allthemods) => {
     "mekanism:crusher",
     "extendedae:infinity_cobblestone_cell"
   )
-  cell("kubejs:sand_cell", "allthecompressed:sand_6x", "mekanism:crusher", "mekanism:crusher", "kubejs:gravel_cell")
+  cell(
+    "kubejs:sand_cell",
+    "allthecompressed:sand_6x",
+    "mekanism:crusher",
+    "mekanism:crusher",
+    "kubejs:gravel_cell"
+  )
+  cell(
+    "kubejs:dust_cell",
+    "allthecompressed:dust_6x",
+    "mekanism:crusher",
+    "mekanism:crusher",
+    "kubejs:sand_cell"
+  )
   cell(
     "kubejs:red_sand_cell",
     "allthecompressed:red_sand_5x",
