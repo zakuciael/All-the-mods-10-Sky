@@ -41,6 +41,9 @@
 	quest.065196033249A0AA.title: "Biosteel Bee"
 	quest.0691BDE968724213.quest_subtitle: "Made in Alloy Smelter"
 	quest.0691BDE968724213.title: "Vibrant Alloy Bee"
+	quest.069247036385D7CF.quest_desc: ["Affects the time of day a bee can work. There are 3 levels of this: &aDiurnal&r, &dNocturnal&r, &cMetaturnal&r. &aDiurnal&r bees can only work during daytime, &dNocturnal&r bees can only work during nighttime, &cMetaturnal&r bees can work at any time of the day. &cMetaturnal&r is what we're after. BeeBee naturally has the &cMetaturnal&r trait, but, as mentioned earlier, is on vacation, so we'll need to look into some alternative measures. We will need to leash some bees to a fence during nighttime to make them &dNocturnal&r, then leaving those bees out on a fence during daytime to make them &cMetaturnal&r. We can skip one of these steps with a Ghostly Bee, which is naturally &dNocturnal&r."]
+	quest.069247036385D7CF.quest_subtitle: "Sleep is for the weak"
+	quest.069247036385D7CF.title: "&l&eBehavior"
 	quest.06B352AE90DD0D3E.quest_desc: ["A &8BlazBee&r pollinating an &4Obsidian Bee Spawn Egg&r will convert it into a &2Infinity Bee Spawn Egg&r."]
 	quest.06B352AE90DD0D3E.title: "Bee Of Infinity"
 	quest.08A3292277D2FDE2.quest_subtitle: "Crafted with Enchanting Apparatus"
@@ -170,6 +173,9 @@
 	quest.1A4FAE5705B53753.title: "Air Essence Bee"
 	quest.1ACB3EDBCB732514.quest_subtitle: "Feed a Block of Monazite to a Sulfur Bee"
 	quest.1ACB3EDBCB732514.title: "Monazite Bee"
+	quest.1B135C28E29F249F.quest_desc: ["Affects the bee's aggression and likeliness to sting you. This is one of the less important traits, though it is worth not having an Aggressive bee when you want to work with one in world. There are 4 levels of this: &aPassive&r, &9Normal&r, &cHostile&r, &dAggressive&r. I'll be honest I don't really know what each level of Temper does. All I know is that &dAggressive&r bees WILL sting you, even if otherwise unprovoked. Bees will become less aggressive if you feed them Honey Treats."]
+	quest.1B135C28E29F249F.quest_subtitle: "Stop stinging me already!"
+	quest.1B135C28E29F249F.title: "&l&4Temper"
 	quest.1C40B30823B2A254.quest_subtitle: "Just fish for it"
 	quest.1C40B30823B2A254.title: "Prismarine Bee"
 	quest.1C474B46AECCCFE9.quest_subtitle: "Spawned using a Gravel or Stone Nest"
@@ -280,12 +286,17 @@
 	quest.35E8F1CC0080E45E.title: "RuBee"
 	quest.35EAB77C195E594E.quest_subtitle: "Feed a Diamond Bee Amethyst"
 	quest.35EAB77C195E594E.title: "Amethyst Bee"
+	quest.35FCF2D4A89D55F6.quest_desc: ["Bees have varying traits that can affect how they work, when they work, their aggression, and their likelihood to lose their stinger when they attack you. In these quests I will be going over the way to get the best traits possible, as well as how to use them.\\n\\nTo get these Gene Samples, check out the Bottler quest, which is a dependency of this one. To actually apply these Gene Samples to your bees, you will need to combine them with a Honey Treat in a crafting grid. All traits, except for Type, you can apply to your bees by feeding them the Honey Treat. Type works differently, and must instead be used with the Incubator to make a Spawn Egg of the respective bee."]
+	quest.35FCF2D4A89D55F6.quest_subtitle: "To make the ultimate bee"
 	quest.35FE9C3395491433.quest_subtitle: "Pressurize the Iron Bee Spawn Egg"
 	quest.35FE9C3395491433.title: "Compressed Iron Bee"
 	quest.36541A2179A7E76B.quest_subtitle: "Feed Benitoite to BlazBee"
 	quest.36541A2179A7E76B.title: "Benitoite Bee"
 	quest.369D3AF332181DA8.quest_desc: ["The Stone Nest can be placed in any overworld biome to lure in a Mason Bee or Digger Bee."]
 	quest.369D3AF332181DA8.quest_subtitle: "Lures Bees in any Overworld Biome"
+	quest.36C06EB2F3B9E6B2.quest_desc: ["Affects the ability of a bee to work under harsh weather conditions. There are 3 levels of this: &aNone&r, &dRain&r, &cAny&r. &cAny&r is what we are after. You could leash the bee to a fence during a thunderstorm if you wanted to, but come on, that's just cruel. I offer you an easier solution. Fishing. That's right, you can fish for bees. Water or Prismarine Bees naturally come with the ability to tolerate any weather conditions. We can make use of this! They don't even have any biome requirements here!"]
+	quest.36C06EB2F3B9E6B2.quest_subtitle: "The least big one of the big ones"
+	quest.36C06EB2F3B9E6B2.title: "&9&lWeather Tolerance"
 	quest.37045B986619A03D.quest_subtitle: "Yellow + Green Carpenter Bee"
 	quest.371E09ED2A3F6BDC.quest_subtitle: "Spawns in empty Advanced Beehives in Dark Places"
 	quest.371E09ED2A3F6BDC.title: "ZomBee"
@@ -328,7 +339,7 @@
 	quest.40E4F1172A164DD1.title: "Sugarbag Bee"
 	quest.40F8A44DF4D8DBD6.quest_subtitle: "Magmatic + Nomad"
 	quest.40F8A44DF4D8DBD6.title: "BlazBee"
-	quest.419DD6FE84B91749.quest_desc: ["When collecting genes, you'll get a percentage of a trait. You can combine them in a crafting table to add them together, or place them in a Gene Indexer to auto-combine."]
+	quest.419DD6FE84B91749.quest_desc: ["When collecting genes, you'll get a percentage of a trait. You can combine them in a crafting table to add them together, or place them in a Gene Indexer to auto-combine. Does not require a redstone signal."]
 	quest.419DD6FE84B91749.quest_subtitle: "The Gene Combiner and Chest"
 	quest.41CF7CAEE4F60CCD.quest_desc: ["When placed in the Nether and given Glowstone, the Glowstone Nest will lure in a Glowing Bee."]
 	quest.41CF7CAEE4F60CCD.quest_subtitle: "Lures a Glowing Bee in the Nether"
@@ -440,7 +451,8 @@
 		"Just...don't do...whatever it takes to get the F.Bee.I. to go after you. I will ensure you get added to the Hall of Shame if they DO come after you."
 	]
 	quest.6875021F338116AF.quest_subtitle: "Making Babies 2: Electric Beegaloo"
-	quest.68CE30097BADE20E.quest_desc: ["Right-clicking on a Nest of the type you are looking for will point you in the direction of another!"]
+	quest.68CE30097BADE20E.quest_desc: ["Right-clicking on a Nest of the type you are looking for will point you in the direction of another! Is this even useful?"]
+	quest.68CE30097BADE20E.quest_subtitle: "Where are you going to find them anyhow?"
 	quest.68CE30097BADE20E.title: "Searching for Nests"
 	quest.692BC8AADCBF76C3.quest_subtitle: "Made in Alloy Smelter"
 	quest.692BC8AADCBF76C3.title: "Energetic Alloy Bee"
@@ -475,6 +487,9 @@
 		"{image:atm:textures/questpics/bees/bottler.png width:100 height:150 align:1}"
 	]
 	quest.6F978C4D561F35EC.quest_subtitle: "Honey I Squished The Bees"
+	quest.6FD944282C44BCE1.quest_desc: ["Affects the bee's likelihood of losing its stinger whenever it attacks something. This trait is less important compared to the first 3 I mentioned, but I will talk about it anyway. There are 4 levels of this: &aWeak&r, &9Normal&r, &dMedium&r, &cStrong&r. &cStrong&r is the one I will focus on. Certain Bees, like Draconic, Obsidian, and some other bees I may not have mentioned naturally have strong Endurance, allowing them to keep their stinger."]
+	quest.6FD944282C44BCE1.quest_subtitle: "One of the less important ones"
+	quest.6FD944282C44BCE1.title: "&l&bEndurance"
 	quest.70C878DB6AE413B2.quest_subtitle: "Magmatic + Coal"
 	quest.70C878DB6AE413B2.title: "Sulfur Bee"
 	quest.70FB4088084018D3.quest_desc: [""]
@@ -537,6 +552,9 @@
 	quest.7E57964F6AD5B060.title: "Tea Bee"
 	quest.7EAFF64FFE8B5378.quest_subtitle: "Iron + Sweat"
 	quest.7EAFF64FFE8B5378.title: "Zinc Bee"
+	quest.7F61CAC8922A3A2A.quest_desc: ["Affects the amount of combs you receive whenever a bee produces honeycombs. There are 4 levels of this: &aNormal&r, &9Medium&r, &dHigh&r, &cVery High&r. &cVery High&r is what we are after. It is found on KamikazBee and BeeBee. BeeBee is currently on vacation down below, though, so KamikazBee is our only option. To get a KamikazBee, you need a Bee Nest Helmet. Get attacked by mobs (or shoot yourself with an arrow) while wearing the helmet for a 30% chance of having a KamikazBee emerge. It is quite fast, and will sting the aggressor (unless it's you), so better catch it quickly or use the Catcher."]
+	quest.7F61CAC8922A3A2A.quest_subtitle: "The big one"
+	quest.7F61CAC8922A3A2A.title: "&a&lProductivity"
 	task.065E5450AC87F1D5.title: "Ancient Comb"
 	task.0A77407CE9055F04.title: "Sweat Bee"
 	task.0CDFF60D581118E3.title: "Neon Cuckoo Bee"
@@ -547,6 +565,7 @@
 	task.17B0E19125FCFA1A.title: "Glowing Comb"
 	task.17C7DC04BC22C0D7.title: "Tin Comb"
 	task.181135E3A83C5B9E.title: "Zinc Comb"
+	task.1A360308415493F8.title: "Gene Samples"
 	task.212BB84583FE4B8B.title: "Farmer Bee"
 	task.2153473228DA4678.title: "Breeding and Converting Bees"
 	task.263F0E416A8E1110.title: "Copper Comb"
