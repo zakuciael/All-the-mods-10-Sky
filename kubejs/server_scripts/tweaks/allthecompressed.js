@@ -91,6 +91,8 @@ ServerEvents.recipes((allthemods) => {
       `allthecompressed:sand_${i}x`,
       "1000x exdeorum:witch_water"
     )
+
+    allthemods.recipes.actuallyadditions.laser(`allthecompressed:soul_sand_${i}x`, `allthecompressed:sand_${i}x`, 20000)
   }
 })
 

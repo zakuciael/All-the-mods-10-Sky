@@ -27,11 +27,7 @@
 	chapter.29EFE8220836C79A.title: "&aCapítulo 2&r: &6A Estrela ATM"
 	chapter.2A6EBEEBAB882679.title: "&fPowah"
 	chapter.2FB24A5A597459FC.title: "&fRailCraft"
-	chapter.306DBE1EBB85D02E.title: "&fA Era Elétrica"
-	chapter.37BC0E99F564D560.title: "&fEra do Vapor"
-	chapter.399A4F6D9CF8E1C9.title: "&fA Era Nuclear"
 	chapter.3B0302DB5E77C3A2.title: "&fCapítulo 1: Começando"
-	chapter.3B1C95642D1861F7.title: "&fSentindo-se Elétrico"
 	chapter.3C78926E5D301BA0.title: "&fExtreme Reactors"
 	chapter.3DEB33F78398EAD6.chapter_subtitle: ["LaserIO"]
 	chapter.3DEB33F78398EAD6.title: "&fLogística Básica"
@@ -40,6 +36,8 @@
 	chapter.48DB721214AA88E0.title: "&fPoder da Implosão"
 	chapter.4B9D26E0087CD163.title: "&fFerramentas Básicas"
 	chapter.4C507C004144BFEE.title: "&fOccultism"
+	chapter.4D13E185C0A57681.chapter_subtitle: [ ]
+	chapter.4D13E185C0A57681.title: "&fBBL Routers"
 	chapter.4EAAE0CEB26378A6.title: "&fJust Dire Things"
 	chapter.4EBB2171D5A3AAAC.chapter_subtitle: [ ]
 	chapter.4EBB2171D5A3AAAC.title: "&fForbidden and Arcanus"
@@ -52,13 +50,11 @@
 	chapter.5D045EF1AB73DF70.title: "&fEnergia Básica"
 	chapter.5E31DF282998B992.title: "&fPneumaticCraft"
 	chapter.69299302373C4CBC.title: "&fIntegrated Dynamics"
+	chapter.69787DE8D64CBDF0.title: "&fProductive Farming"
 	chapter.6AEDA2F9BEB57759.chapter_subtitle: [ ]
 	chapter.6AEDA2F9BEB57759.title: "&fArs Nouveau"
-	chapter.6B13AF321AC831D1.title: "&fEra do Óleo e Chapas à Prova de Explosão"
 	chapter.6F08373A5277EF1C.title: "&fBaubley Heart Canisters"
 	chapter.73180B829B960E63.title: "&fIron Furnaces"
 	chapter.76DF5FAA7961E5E7.title: "&fIron's Spells 'n Spellbooks"
 	chapter.7A5C327771634A7D.title: "&fDicas de Construção"
-
 }
-

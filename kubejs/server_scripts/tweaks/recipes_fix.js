@@ -61,6 +61,8 @@ KubeJSTweaks.beforeRecipes((event) => {
 
   //old recipe
   event.disable("supplementaries:botany_flax")
+  event.disable("oritech:compat/enderio/firecrafting/sculk")
+  event.disable("oritech:compat/enderio/firecrafting/endstone")
 
   // Scans items on result and add them back as conditions, izi fix
   event.getEntry(/^farmingforblockheads:market\//).forEach((entry) => {
