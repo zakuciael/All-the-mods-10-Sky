@@ -28,8 +28,6 @@ ServerEvents.recipes((allthemods) => {
     "exdeorum:mechanical_hammer",
     /georenouveau:.*_dowsing_rod/,
     "actuallyadditions:crafter_on_a_stick",
-    "mysticalagriculture:compressed_iron_seeds",
-    "mysticalagriculture:draconium_seeds",
     "allthemodium:teleport_pad",
     "ae2:spatial_anchor",
     "mekanism:dimensional_stabilizer",
@@ -183,7 +181,11 @@ ServerEvents.recipes((allthemods) => {
     "mysticalagriculture:niotic_crystal_seeds",
     "mysticalagriculture:spirited_crystal_seeds",
     "mysticalagriculture:uraninite_seeds",
-    "mysticalagriculture:nitro_crystal_seeds"
+    "mysticalagriculture:nitro_crystal_seeds",
+    "mysticalagriculture:compressed_iron_seeds",
+    "mysticalagriculture:compressed_iron_essence",
+    "mysticalagriculture:draconium_seeds",
+    "mysticalagriculture:draconium_essence"
   ]
 
   removals.forEach((entry) => {
