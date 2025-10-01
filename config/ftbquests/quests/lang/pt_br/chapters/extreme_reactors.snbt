@@ -66,7 +66,7 @@
 	quest.5914D015D8543875.title: "Modos Operacionais"
 	quest.5A615BB74A5CD332.quest_desc: ["Usando o &aReprocessador&r, podemos combinar tudo o que fizemos até agora para criar algumas novas barras.\\n\\nNota: Você pode precisar de um &9Fluidificador&r para completar esta etapa!"]
 	quest.5A615BB74A5CD332.title: "Ludicrita \\& Ridiculita"
-	quest.5AD80D3242DD3F60.quest_desc: ["Um dos materiais mais difíceis de obter no mod!\\n\\nIsso também é usado para criar a &6ATM Star&r!"]
+	quest.5AD80D3242DD3F60.quest_desc: ["Um dos materiais mais difíceis de se conseguir no mod!\n\nEste também é a Bobina de Turbina mais poderosa disponível!"]
 	quest.5AD80D3242DD3F60.title: "&dBloco de Insanita"
 	quest.67AFCBCE7AAC3089.quest_desc: [
 		"Para fazer uma Turbina girar, precisaremos destes componentes &cobrigatórios&r:\\n\\n- &9Mancais de Rotor&r são colocados em uma extremidade do eixo da turbina. Isso pode ser em qualquer face, mas dita de onde o eixo se projeta. Normalmente, é colocado no centro da face inferior.\\n\\n- &eEixos de Rotor&r se estendem de um Mancal de Rotor até o lado oposto da turbina, até um único bloco de Carcaça de Turbina, criando o eixo para a Turbina.\\n\\n- &9Pás de Rotor&r fazem o rotor girar. Elas são colocadas nos Eixos de Rotor e podem ter vários blocos de comprimento. Cada Pá pode lidar com uma certa quantidade de vapor e determina quantas são necessárias com base nas taxas de produção do seu reator.\\n\\nAqui está um exemplo de uma configuração de Eixo Vertical para uma Turbina, com a Bobina de Turbina de Chumbo no topo.\\n"
