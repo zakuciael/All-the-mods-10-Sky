@@ -15,6 +15,12 @@ ServerEvents.tags("block", (allthemods) => {
     "@waystones"
   ])
 
+  allthemods.add("c:ingots", [
+    'allthemodium:unobtainium_allthemodium_alloy_ingot',
+    'allthemodium:unobtainium_vibranium_alloy_ingot',
+    'allthemodium:vibranium_allthemodium_alloy_ingot'
+  ])
+
   allthemods.remove("c:relocation_not_supported", [
     "geore:budding_diamond",
     "geore:budding_gold",
