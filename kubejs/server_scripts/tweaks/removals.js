@@ -216,6 +216,9 @@ ServerEvents.recipes((allthemods) => {
     allthemods.remove({ id: `create:crushing/deepslate_zinc_ore` })
     allthemods.remove({ id: `create:crushing/deepslate_iron_ore` })
     allthemods.remove({ id: `create:crushing/tuff_recycling` })
+    allthemods.remove({ id: "productivetrees:sawdust_to_paper_water_bottle" })
+    allthemods.remove({ id: "productivetrees:sawdust_to_paper" })
+    allthemods.remove({ id: "immersiveengineering:crafting/paper_from_sawdust" })
   })
 })
 
