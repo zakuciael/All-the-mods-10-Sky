@@ -12,7 +12,8 @@
     "ae2",
     "enderio",
     "utilitarian",
-    "actuallyadditions"
+    "actuallyadditions",
+    "oritech"
   ],
   "priority_overrides": {},
   "stone_variants": [
@@ -26,6 +27,7 @@
     "ancient"
   ],
   "tags": [
+    "c:tiny_dusts/{material}",
     "c:dusts/{material}",
     "c:gears/{material}",
     "c:gems/{material}",
