@@ -54,12 +54,11 @@ ServerEvents.tags("item", (allthemods) => {
 
   // Coal tag fix
   allthemods.add("c:coal", [
-    'minecraft:coal',
-    'minecraft:charcoal',
-    'geore:coal_shard',
-    'modern_industrialization:lignite_coal',
-    'immersiveengineering:coal_coke'
-
+    "minecraft:coal",
+    "minecraft:charcoal",
+    "geore:coal_shard",
+    "modern_industrialization:lignite_coal",
+    "immersiveengineering:coal_coke"
   ])
 
   // Tiny Coal
