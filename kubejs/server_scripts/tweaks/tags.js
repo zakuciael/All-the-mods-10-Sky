@@ -242,6 +242,8 @@ ServerEvents.tags("item", (allthemods) => {
     "mysticalagriculture:draconium_essence",
     "mysticalagriculture:marble_seeds",
     "mysticalagriculture:marble_essence",
+    "mysticalagriculture:basalt_seeds",
+    "mysticalagriculture:basalt_essence",
     "exmachinis:netherite_upgrade",
     /geore:.*tungsten.*/,
     /geore:.*monazite.*/,

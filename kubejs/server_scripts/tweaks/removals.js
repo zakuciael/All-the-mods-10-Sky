@@ -185,7 +185,9 @@ ServerEvents.recipes((allthemods) => {
     "mysticalagriculture:compressed_iron_seeds",
     "mysticalagriculture:compressed_iron_essence",
     "mysticalagriculture:draconium_seeds",
-    "mysticalagriculture:draconium_essence"
+    "mysticalagriculture:draconium_essence",
+    "mysticalagriculture:basalt_seeds",
+    "mysticalagriculture:basalt_essence"
   ]
 
   removals.forEach((entry) => {
