@@ -52,6 +52,15 @@ ServerEvents.tags("item", (allthemods) => {
   // lava buckets
   allthemods.add("c:buckets/lava", "exdeorum:porcelain_lava_bucket")
 
+  // Coal tag fix
+  allthemods.add("c:coal", [
+    "minecraft:coal",
+    "minecraft:charcoal",
+    "geore:coal_shard",
+    "modern_industrialization:lignite_coal",
+    "immersiveengineering:coal_coke"
+  ])
+
   // Tiny Coal
   allthemods.add("atm10:tiny_coals", ["utilitarian:tiny_coal", "actuallyadditions:tiny_coal"])
   allthemods.add("atm10:tiny_charcoals", ["utilitarian:tiny_charcoal", "actuallyadditions:tiny_charcoal"])
