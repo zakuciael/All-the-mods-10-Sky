@@ -61,6 +61,72 @@ ServerEvents.recipes((allthemods) => {
     allthemods.custom(recipe).id(`kubejs:dissolution_chamber/${id}`)
   }
 
+  dissolution_chamber(
+    { item: "industrialforegoingsouls:soul_laser_base" },
+    [
+      { tag: "c:plastics" },
+      { item: "minecraft:sculk_shrieker" },
+      { tag: "c:plastics" },
+      { tag: "industrialforegoing:machine_frame/supreme" },
+      { tag: "industrialforegoing:machine_frame/supreme" },
+      { tag: "c:gears/netherite" },
+      { item: "minecraft:sculk_catalyst" },
+      { tag: "c:gears/netherite" }
+    ],
+    {
+      fluid: "justdirethings:unstable_portal_fluid_source",
+      amount: 1000
+    },
+    200,
+    "soul_laser_base"
+  )
+
+  dissolution_chamber(
+    {
+      item: "industrialforegoingsouls:soul_surge",
+      count: 4
+    },
+    [
+      { tag: "c:plastics" },
+      { item: "minecraft:sculk_shrieker" },
+      { tag: "c:plastics" },
+      { item: "minecraft:echo_shard" },
+      { item: "minecraft:echo_shard" },
+      { tag: "industrialforegoing:machine_frame/simple" },
+      { item: "minecraft:echo_shard" },
+      { tag: "industrialforegoing:machine_frame/simple" }
+    ],
+    {
+      fluid: "justdirethings:unstable_portal_fluid_source",
+      amount: 20
+    },
+    50,
+    "soul_surge"
+  )
+
+  dissolution_chamber(
+    {
+      item: "industrialforegoingsouls:soul_network_pipe",
+      count: 32
+    },
+    [
+      { tag: "c:plastics" },
+      { tag: "c:gears/iron" },
+      { tag: "c:plastics" },
+      { item: "minecraft:echo_shard" },
+      { item: "minecraft:echo_shard" },
+      { tag: "c:plastics" },
+      { tag: "c:gears/iron" },
+      { tag: "c:plastics" }
+    ],
+    {
+      fluid: "industrialforegoing:pink_slime",
+      amount: 20
+    },
+    20,
+    "soul_network_pipe"
+  )
+
   allthemods.remove({ id: "industrialforegoing:dissolution_chamber/xp_bottles" })
   dissolution_chamber_fluidtag(
     { item: "minecraft:experience_bottle" },
