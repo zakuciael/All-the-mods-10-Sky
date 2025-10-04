@@ -10,3 +10,9 @@ config/ftbquests/quests/lang/**/*.snbt_merged
 
 # ignore .direnv folder
 .direnv/*
+
+# ignore pakku directories
+build/*
+mods/*
+resourcepacks/*
+shaderpacks/*
