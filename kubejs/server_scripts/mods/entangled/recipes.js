@@ -9,7 +9,7 @@ ServerEvents.recipes((allthemods) => {
     E: "generatorgalore:ender_generator_8x",
     F: "alltheores:enderium_block",
     G: "allthecompressed:ender_pearl_block_2x",
-    H: 'productivebees:configurable_comb[productivebees:bee_type="productivebees:enderium"]',
+    H: "generatorgalore:ender_generator_8x", // 'productivebees:configurable_comb[productivebees:bee_type="productivebees:enderium"]',
     C: "mekanism:quantum_entangloporter"
   })
   allthemods.shaped("entangled:item", [" EC", " UE", "U  "], {
