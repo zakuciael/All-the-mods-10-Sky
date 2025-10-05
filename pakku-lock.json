@@ -6712,6 +6712,49 @@
             ]
         },
         {
+            "pakku_id": "2kZAGcFt7w951bYi",
+            "pakku_links": [
+                "M04nKONxuOS7Y08H",
+                "HTPsdSVGOobSu0cW"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "just-enough-mekanism-multiblocks"
+            },
+            "name": {
+                "curseforge": "Just Enough Mekanism Multiblocks"
+            },
+            "id": {
+                "curseforge": "898746"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "JustEnoughMekanismMultiblocks-1.21.1-7.11.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7045/737/JustEnoughMekanismMultiblocks-1.21.1-7.11.jar",
+                    "id": "7045737",
+                    "parent_id": "898746",
+                    "hashes": {
+                        "sha1": "5a5c41681656894b39c5bde56bbe18bdd614c590",
+                        "md5": "c299c67501c37c27614ca41cbb5b4608"
+                    },
+                    "required_dependencies": [
+                        "268560",
+                        "238222"
+                    ],
+                    "size": 162216,
+                    "date_published": "2025-09-29T13:43:22.193Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "QqDAOabymK8bvqTO",
             "type": "MOD",
             "slug": {
