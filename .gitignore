@@ -11,6 +11,10 @@ config/ftbquests/quests/lang/**/*.snbt_merged
 # ignore .direnv folder
 .direnv/*
 
+# ignore editor config folders
+.idea/*
+.vscode/*
+
 # ignore pakku directories
 build/*
 mods/*
