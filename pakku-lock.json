@@ -5649,7 +5649,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "GeOre-1.21.1-6.2.0.jar",
+                    "file_name": "GeOre-1.21.1-6.2.1.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5657,16 +5657,16 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7006/641/GeOre-1.21.1-6.2.0.jar",
-                    "id": "7006641",
+                    "url": "https://edge.forgecdn.net/files/7075/69/GeOre-1.21.1-6.2.1.jar",
+                    "id": "7075069",
                     "parent_id": "530544",
                     "hashes": {
-                        "sha1": "c7f47efa3308b97f853864f4ddd6326545f2fea5",
-                        "md5": "c94999988b2652a988757b96a078ece6"
+                        "sha1": "f413c17c0a9f6425fcc9bc6a20020d3038897e1f",
+                        "md5": "0d1d4b2ee0f48a844a01d7f1733381df"
                     },
                     "required_dependencies": [],
-                    "size": 825078,
-                    "date_published": "2025-09-17T18:06:05.950Z"
+                    "size": 824937,
+                    "date_published": "2025-10-06T20:44:05.827Z"
                 }
             ]
         },
