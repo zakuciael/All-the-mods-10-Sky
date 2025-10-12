@@ -6523,6 +6523,42 @@
             ]
         },
         {
+            "pakku_id": "quWcPDXC4HlcZUIU",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "itemlocks"
+            },
+            "name": {
+                "curseforge": "ItemLocks"
+            },
+            "id": {
+                "curseforge": "304487"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ItemLocks-NeoForged-1.21.1-1.3.11.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6602/989/ItemLocks-NeoForged-1.21.1-1.3.11.jar",
+                    "id": "6602989",
+                    "parent_id": "304487",
+                    "hashes": {
+                        "sha1": "6d48aa1e4093ee3fb8aac5820e9aa5af011d004c",
+                        "md5": "c3f2a046bbec7b766fedd0ef3f3d0eca"
+                    },
+                    "required_dependencies": [],
+                    "size": 81581,
+                    "date_published": "2025-05-31T21:02:14.540Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "yFiaYxeIuyLD14bZ",
             "type": "MOD",
             "slug": {
