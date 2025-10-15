@@ -185,7 +185,9 @@ ServerEvents.recipes((allthemods) => {
     "mysticalagriculture:compressed_iron_seeds",
     "mysticalagriculture:compressed_iron_essence",
     "mysticalagriculture:draconium_seeds",
-    "mysticalagriculture:draconium_essence"
+    "mysticalagriculture:draconium_essence",
+    "mysticalagriculture:basalt_seeds",
+    "mysticalagriculture:basalt_essence"
   ]
 
   removals.forEach((entry) => {
@@ -201,11 +203,11 @@ ServerEvents.recipes((allthemods) => {
 
   allthemods.remove({ output: /exdeorum:.*_compressed_sieve/ })
   allthemods.remove({ output: /generatorgalore:.*_upgrade/ })
-  allthemods.remove({ id: `create:crushing/nether_gold_ore` })
-  allthemods.remove({ id: `create:crushing/deepslate_gold_ore` })
-  allthemods.remove({ id: `create:crushing/netherrack` })
-  allthemods.remove({ id: `create:crushing/ochrum_recycling` })
-  allthemods.remove({ id: `mekanism:sulfur_dye` })
+  allthemods.remove({ id: "create:crushing/nether_gold_ore" })
+  allthemods.remove({ id: "create:crushing/deepslate_gold_ore" })
+  allthemods.remove({ id: "create:crushing/netherrack" })
+  allthemods.remove({ id: "create:crushing/ochrum_recycling" })
+  allthemods.remove({ id: "mekanism:sulfur_dye" })
   allthemods.remove({ id: "alltheores:alloysmelter/brass/ingot" })
   allthemods.remove({ id: "soulshards:vile_dust_from_soul_sand" })
   allthemods.remove({ id: "oritech:crafting/alloy/steel" })

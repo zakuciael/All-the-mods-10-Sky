@@ -16,6 +16,12 @@ ServerEvents.tags("block", (allthemods) => {
     "@waystones"
   ])
 
+  allthemods.add("c:ingots", [
+    "allthemodium:unobtainium_allthemodium_alloy_ingot",
+    "allthemodium:unobtainium_vibranium_alloy_ingot",
+    "allthemodium:vibranium_allthemodium_alloy_ingot"
+  ])
+
   allthemods.remove("c:relocation_not_supported", [
     "geore:budding_diamond",
     "geore:budding_gold",
@@ -247,6 +253,8 @@ ServerEvents.tags("item", (allthemods) => {
     "mysticalagriculture:draconium_essence",
     "mysticalagriculture:marble_seeds",
     "mysticalagriculture:marble_essence",
+    "mysticalagriculture:basalt_seeds",
+    "mysticalagriculture:basalt_essence",
     "exmachinis:netherite_upgrade",
     /geore:.*tungsten.*/,
     /geore:.*monazite.*/,
