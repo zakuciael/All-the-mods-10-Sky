@@ -3,7 +3,7 @@
 
 ServerEvents.recipes((allthemods) => {
   /**
-   * @param {{tag: string, count: number}} output
+   * @param {{item: string, count: number}|{tag: string, count: number}} output
    * @param {string} catalyst
    * @param {number} depthMin
    * @param {number} depthMax
@@ -13,10 +13,7 @@ ServerEvents.recipes((allthemods) => {
     allthemods
       .custom({
         type: "industrialforegoing:laser_drill_ore",
-        output: {
-          tag: output.tag,
-          count: output.count || 1
-        },
+        output: output,
         rarity: [
           {
             biome_filter: {
@@ -40,7 +37,7 @@ ServerEvents.recipes((allthemods) => {
   }
 
   /**
-   * @param {{fluid: string, amount: number}} output
+   * @param {{fluid: string, amount: number}|{tag: string, amount: number}} output
    * @param {string} entity
    * @param {string} catalyst
    * @param {number} depthMin
@@ -51,10 +48,7 @@ ServerEvents.recipes((allthemods) => {
     allthemods
       .custom({
         type: "industrialforegoing:laser_drill_fluid",
-        output: {
-          id: output.fluid,
-          amount: output.amount || 1
-        },
+        output: output,
         entity: entity || "minecraft:empty",
         rarity: [
           {
