@@ -75,13 +75,13 @@ ServerEvents.recipes((allthemods) => {
       .custom({
         type: "industrialforegoing:laser_drill_fluid",
         output: output,
-		entity_data: {
-			data: {},
-			display: "",
-			entity: {
-			type: entity
-			}
-		},
+        entity_data: {
+          data: {},
+          display: "",
+          entity: {
+            type: entity
+          }
+        },
         rarity: [
           {
             biome_filter: {
@@ -115,13 +115,7 @@ ServerEvents.recipes((allthemods) => {
     3
   )
 
-  laserDrillFluid(
-    { fluid: "pneumaticcraft:oil", amount: 50 },
-    "industrialforegoing:black_laser_lens",
-    20,
-    60,
-    3
-  )
+  laserDrillFluid({ fluid: "pneumaticcraft:oil", amount: 50 }, "industrialforegoing:black_laser_lens", 20, 60, 3)
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10: To the Sky.
