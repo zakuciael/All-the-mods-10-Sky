@@ -36,9 +36,9 @@ ServerEvents.tags("block", (allthemods) => {
     "geore:budding_sapphire",
     "geore:budding_zinc",
     "geore:budding_topaz",
-	"geore:budding_allthemodium",
-	"geore:budding_vibranium",
-	"geore:budding_unobtainium"
+    "geore:budding_allthemodium",
+    "geore:budding_vibranium",
+    "geore:budding_unobtainium"
   ])
 
   //Entangled
