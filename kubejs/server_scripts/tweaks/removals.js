@@ -220,6 +220,7 @@ ServerEvents.recipes((allthemods) => {
   allthemods.remove({ id: `create:crushing/deepslate_iron_ore` })
   allthemods.remove({ id: `create:crushing/tuff_recycling` })
   allthemods.remove({ id: `modern_industrialization:materials/plutonium/craft/block_from_ingot` })
+  allthemods.remove({ id: `industrialforegoing:laser_drill_fluid/oil` })
 })
 
 ServerEvents.generateData("after_mods", (allthemods) => {
