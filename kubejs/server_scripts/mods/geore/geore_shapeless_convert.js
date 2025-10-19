@@ -25,9 +25,9 @@ ServerEvents.recipes((event) => {
     "silver",
     "tin",
     "uranium",
-	"allthemodium",
-	"vibranium",
-	"unobtainium"
+    "allthemodium",
+    "vibranium",
+    "unobtainium"
   ]
 
   geoOres.forEach((name) => {

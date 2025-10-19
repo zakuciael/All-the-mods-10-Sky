@@ -24,9 +24,9 @@ ServerEvents.generateData("after_mods", (allthemods) => {
     "topaz",
     "uraninite",
     "black_quartz",
-	"allthemodium",
-	"vibranium",
-	"unobtainium"
+    "allthemodium",
+    "vibranium",
+    "unobtainium"
   ]) {
     allthemods.json(`geore:loot_table/blocks/budding_${id}.json`, {
       type: "minecraft:block",

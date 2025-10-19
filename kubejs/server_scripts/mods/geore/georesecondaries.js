@@ -24,9 +24,9 @@ LootJS.modifiers((allthemods) => {
     "lead",
     "aluminum",
     "osmium",
-	"allthemodium",
-	"vibranium",
-	"unobtainium"
+    "allthemodium",
+    "vibranium",
+    "unobtainium"
   ]
 
   for (const resource of materials) {
